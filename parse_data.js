@@ -7,28 +7,43 @@ const content = fs.readFileSync(mdPath, 'utf8');
 const lines = content.split('\n');
 
 const data = [];
+let currentSection = '';
+
 lines.forEach(line => {
     line = line.trim();
+    if (line.startsWith('## ')) {
+        currentSection = line.substring(3).trim();
+    }
+    
     if (!line.startsWith('|') || line.includes('---') || line.includes('漢字') || line.includes('中文意思')) {
         return;
     }
+    
     const parts = line.split('|').slice(1, -1).map(s => s.trim());
-    if (parts.length >= 3) {
-        let kanji = parts[0];
-        let reading = "";
-        const match = kanji.match(/(.+)（(.+)）/);
-        if (match) {
-            kanji = match[1].trim();
-            reading = match[2].trim();
-        }
-        
+    let kanji = parts[0];
+    let reading = "";
+    
+    const match = kanji.match(/(.+)[（(](.+)[）)]/);
+    if (match) {
+        kanji = match[1].trim();
+        reading = match[2].trim();
+    }
+    
+    if (currentSection === '單字' && parts.length >= 3) {
         data.push({
             id: 'word_' + (data.length + 1),
             kanji: kanji,
             reading: reading,
-            pos: parts[1],
-            meaning: parts[2],
-            source: parts[3] ? parts[3] : ''
+            pos: parts[1] || '',
+            meaning: parts[2] || ''
+        });
+    } else if (currentSection === '慣用語' && parts.length >= 2) {
+        data.push({
+            id: 'word_' + (data.length + 1),
+            kanji: kanji,
+            reading: reading,
+            pos: '慣用語',
+            meaning: parts[1] || ''
         });
     }
 });

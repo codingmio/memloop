@@ -50,6 +50,34 @@ function loadData() {
     const stored = localStorage.getItem('n3_vocab_deck');
     if (stored) {
         deck = JSON.parse(stored);
+        
+        let isUpdated = false;
+        initialDeck.forEach(word => {
+            const existingIdx = deck.findIndex(c => c.id === word.id);
+            if (existingIdx === -1) {
+                deck.push({
+                    ...word,
+                    status: 'New',
+                    interval: 0,
+                    lapses: 0,
+                    isLeech: false, 
+                    playCount: 0,
+                    nextReviewDate: null
+                });
+                isUpdated = true;
+            } else {
+                const exist = deck[existingIdx];
+                if (exist.kanji !== word.kanji || exist.meaning !== word.meaning || exist.reading !== word.reading || exist.pos !== word.pos) {
+                    exist.kanji = word.kanji;
+                    exist.reading = word.reading;
+                    exist.meaning = word.meaning;
+                    exist.pos = word.pos;
+                    isUpdated = true;
+                }
+            }
+        });
+        
+        if (isUpdated) saveData();
     } else {
         // 如果沒有，從 initialDeck (data.js 匯入) 建立
         deck = initialDeck.map(word => ({
