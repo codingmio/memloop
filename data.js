@@ -1689,6 +1689,14 @@ const initialDeck = [
   },
   {
     "id": "word_212",
+    "kanji": "経済",
+    "reading": "けいざい",
+    "pos": "名詞 / な形容詞",
+    "meaning": "經濟",
+    "source": "`W3D3-293`"
+  },
+  {
+    "id": "word_213",
     "kanji": "嫌う",
     "reading": "きらう",
     "pos": "第一類動詞 (五段)",
@@ -1696,7 +1704,7 @@ const initialDeck = [
     "source": "`W3D3-294`"
   },
   {
-    "id": "word_213",
+    "id": "word_214",
     "kanji": "嫌がる",
     "reading": "いやがる",
     "pos": "第一類動詞 (五段)",
@@ -1704,7 +1712,7 @@ const initialDeck = [
     "source": "`W3D3-294`"
   },
   {
-    "id": "word_214",
+    "id": "word_215",
     "kanji": "付き合う",
     "reading": "つきあう",
     "pos": "第一類動詞 (五段)",
@@ -1712,7 +1720,7 @@ const initialDeck = [
     "source": "`W3D3-294`"
   },
   {
-    "id": "word_215",
+    "id": "word_216",
     "kanji": "稼ぐ",
     "reading": "かせぐ",
     "pos": "第一類動詞 (五段)",
@@ -1720,7 +1728,7 @@ const initialDeck = [
     "source": "`W3D6-327`"
   },
   {
-    "id": "word_216",
+    "id": "word_217",
     "kanji": "もうかる",
     "reading": "",
     "pos": "第一類動詞 (五段/自動)",
@@ -1728,7 +1736,7 @@ const initialDeck = [
     "source": "`W3D6-327`"
   },
   {
-    "id": "word_217",
+    "id": "word_218",
     "kanji": "おごる",
     "reading": "",
     "pos": "第一類動詞 (五段)",
@@ -1736,7 +1744,7 @@ const initialDeck = [
     "source": "`W3D6-327`"
   },
   {
-    "id": "word_218",
+    "id": "word_219",
     "kanji": "震える",
     "reading": "ふるえる",
     "pos": "第二類動詞 (下一段)",
@@ -1744,7 +1752,7 @@ const initialDeck = [
     "source": "`W3D6-333`"
   },
   {
-    "id": "word_219",
+    "id": "word_220",
     "kanji": "揺れる",
     "reading": "ゆれる",
     "pos": "第二類動詞 (下一段)",
@@ -1752,7 +1760,7 @@ const initialDeck = [
     "source": "`W3D6-333`"
   },
   {
-    "id": "word_220",
+    "id": "word_221",
     "kanji": "撫でる",
     "reading": "なでる",
     "pos": "第二類動詞 (下一段)",
@@ -1760,7 +1768,7 @@ const initialDeck = [
     "source": "`W3D6-333`"
   },
   {
-    "id": "word_221",
+    "id": "word_222",
     "kanji": "舐める",
     "reading": "なめる",
     "pos": "第二類動詞 (下一段)",
@@ -1768,7 +1776,7 @@ const initialDeck = [
     "source": "`W3D6-333`"
   },
   {
-    "id": "word_222",
+    "id": "word_223",
     "kanji": "鳴く",
     "reading": "なく",
     "pos": "第一類動詞 (五段)",
@@ -1776,7 +1784,7 @@ const initialDeck = [
     "source": "`W3D6-335`"
   },
   {
-    "id": "word_223",
+    "id": "word_224",
     "kanji": "泣く",
     "reading": "なく",
     "pos": "第一類動詞 (五段)",
@@ -1784,7 +1792,7 @@ const initialDeck = [
     "source": "`W3D6-335`"
   },
   {
-    "id": "word_224",
+    "id": "word_225",
     "kanji": "擦る",
     "reading": "こする",
     "pos": "第一類動詞 (五段)",
@@ -1792,7 +1800,7 @@ const initialDeck = [
     "source": "`W3D6-336`"
   },
   {
-    "id": "word_225",
+    "id": "word_226",
     "kanji": "捻る",
     "reading": "ひねる",
     "pos": "第一類動詞 (五段)",
@@ -1800,7 +1808,7 @@ const initialDeck = [
     "source": "`W3D6-336`"
   },
   {
-    "id": "word_226",
+    "id": "word_227",
     "kanji": "解く",
     "reading": "ほどく",
     "pos": "第一類動詞 (五段)",
@@ -1808,7 +1816,7 @@ const initialDeck = [
     "source": "`W3D6-336`"
   },
   {
-    "id": "word_227",
+    "id": "word_228",
     "kanji": "厚い",
     "reading": "あつい",
     "pos": "い形容詞",
@@ -1816,7 +1824,7 @@ const initialDeck = [
     "source": "`W3D6-338`"
   },
   {
-    "id": "word_228",
+    "id": "word_229",
     "kanji": "深い",
     "reading": "ふかい",
     "pos": "い形容詞",
@@ -1824,7 +1832,7 @@ const initialDeck = [
     "source": "`W3D6-338`"
   },
   {
-    "id": "word_229",
+    "id": "word_230",
     "kanji": "もてる",
     "reading": "",
     "pos": "第二類動詞 (下一段)",
@@ -1832,7 +1840,7 @@ const initialDeck = [
     "source": "`W3D6-330`"
   },
   {
-    "id": "word_230",
+    "id": "word_231",
     "kanji": "ふる",
     "reading": "",
     "pos": "第一類動詞 (五段)",
@@ -1840,7 +1848,7 @@ const initialDeck = [
     "source": "`W3D6-330`"
   },
   {
-    "id": "word_231",
+    "id": "word_232",
     "kanji": "惜しい",
     "reading": "おしい",
     "pos": "い形容詞",
@@ -1848,7 +1856,7 @@ const initialDeck = [
     "source": "`W3D6-339`"
   },
   {
-    "id": "word_232",
+    "id": "word_233",
     "kanji": "いいかげんにしなさい",
     "reading": "",
     "pos": "適可而止、差不多一點！",
@@ -1856,7 +1864,7 @@ const initialDeck = [
     "source": ""
   },
   {
-    "id": "word_233",
+    "id": "word_234",
     "kanji": "頭にくる（あたまにくる） / 腹が立つ",
     "reading": "はらがたつ",
     "pos": "生氣、發怒",
@@ -1864,7 +1872,7 @@ const initialDeck = [
     "source": "同：怒（おこ）っている"
   },
   {
-    "id": "word_234",
+    "id": "word_235",
     "kanji": "大したことがない",
     "reading": "たいしたことがない",
     "pos": "沒什麼大礙、算不了什麼",
@@ -1872,7 +1880,7 @@ const initialDeck = [
     "source": ""
   },
   {
-    "id": "word_235",
+    "id": "word_236",
     "kanji": "いいかげんな",
     "reading": "",
     "pos": "敷衍的、適當的、馬馬虎虎的",
@@ -1880,7 +1888,7 @@ const initialDeck = [
     "source": ""
   },
   {
-    "id": "word_236",
+    "id": "word_237",
     "kanji": "気の毒",
     "reading": "きのどく",
     "pos": "可憐的",
@@ -1888,7 +1896,7 @@ const initialDeck = [
     "source": "お気の毒に：可憐或覺得遺憾，深感同情之意"
   },
   {
-    "id": "word_237",
+    "id": "word_238",
     "kanji": "口を利く",
     "reading": "くちをきく",
     "pos": "說話",
@@ -1896,7 +1904,7 @@ const initialDeck = [
     "source": "同：話す"
   },
   {
-    "id": "word_238",
+    "id": "word_239",
     "kanji": "口にする",
     "reading": "くちにする",
     "pos": "吃進嘴裡、說到",
@@ -1904,7 +1912,7 @@ const initialDeck = [
     "source": "同：食べる / 話をする"
   },
   {
-    "id": "word_239",
+    "id": "word_240",
     "kanji": "耳にする",
     "reading": "みみにする",
     "pos": "聽見",
@@ -1912,7 +1920,7 @@ const initialDeck = [
     "source": "同：聞く"
   },
   {
-    "id": "word_240",
+    "id": "word_241",
     "kanji": "耳が遠い",
     "reading": "みみがとおい",
     "pos": "重聽、聽力差",
@@ -1920,7 +1928,7 @@ const initialDeck = [
     "source": "同：耳がよく聞こえない"
   },
   {
-    "id": "word_241",
+    "id": "word_242",
     "kanji": "どういう意味",
     "reading": "いみ",
     "pos": "是什麼意思",
@@ -1928,7 +1936,7 @@ const initialDeck = [
     "source": ""
   },
   {
-    "id": "word_242",
+    "id": "word_243",
     "kanji": "都合",
     "reading": "つごう",
     "pos": "挪出時間、設法安排",
@@ -1936,7 +1944,7 @@ const initialDeck = [
     "source": ""
   },
   {
-    "id": "word_243",
+    "id": "word_244",
     "kanji": "気に入る",
     "reading": "きにいる",
     "pos": "中意、滿意、喜歡",
@@ -1944,7 +1952,7 @@ const initialDeck = [
     "source": ""
   },
   {
-    "id": "word_244",
+    "id": "word_245",
     "kanji": "気にする",
     "reading": "",
     "pos": "介意、擔心",
@@ -1952,7 +1960,7 @@ const initialDeck = [
     "source": ""
   },
   {
-    "id": "word_245",
+    "id": "word_246",
     "kanji": "気になる",
     "reading": "",
     "pos": "掛念、在意",
@@ -1960,7 +1968,7 @@ const initialDeck = [
     "source": ""
   },
   {
-    "id": "word_246",
+    "id": "word_247",
     "kanji": "気にかける",
     "reading": "",
     "pos": "關心",
@@ -1968,7 +1976,7 @@ const initialDeck = [
     "source": ""
   },
   {
-    "id": "word_247",
+    "id": "word_248",
     "kanji": "とんでもない",
     "reading": "",
     "pos": "哪裡的話、沒那回事、不敢當",
@@ -1976,7 +1984,7 @@ const initialDeck = [
     "source": ""
   },
   {
-    "id": "word_248",
+    "id": "word_249",
     "kanji": "しょうがない",
     "reading": "",
     "pos": "沒辦法",
@@ -1984,7 +1992,7 @@ const initialDeck = [
     "source": ""
   },
   {
-    "id": "word_249",
+    "id": "word_250",
     "kanji": "おかげさま",
     "reading": "",
     "pos": "託您的福",
@@ -1992,7 +2000,7 @@ const initialDeck = [
     "source": ""
   },
   {
-    "id": "word_250",
+    "id": "word_251",
     "kanji": "もうしわけない",
     "reading": "申し訳ない",
     "pos": "對不起、抱歉、過意不去",
@@ -2000,7 +2008,7 @@ const initialDeck = [
     "source": ""
   },
   {
-    "id": "word_251",
+    "id": "word_252",
     "kanji": "ご存知です / ご存知じゃありません",
     "reading": "",
     "pos": "(您) 知道 / (您) 不知道",
@@ -2008,7 +2016,7 @@ const initialDeck = [
     "source": ""
   },
   {
-    "id": "word_252",
+    "id": "word_253",
     "kanji": "存じております / 存じません",
     "reading": "",
     "pos": "(我) 知道 / (我) 不知道",
@@ -2016,7 +2024,7 @@ const initialDeck = [
     "source": ""
   },
   {
-    "id": "word_253",
+    "id": "word_254",
     "kanji": "どういう意味",
     "reading": "いみ",
     "pos": "是什麼意思",
@@ -2024,7 +2032,7 @@ const initialDeck = [
     "source": ""
   },
   {
-    "id": "word_254",
+    "id": "word_255",
     "kanji": "とんでもない",
     "reading": "",
     "pos": "哪裡的話、沒那回事",
@@ -2032,7 +2040,7 @@ const initialDeck = [
     "source": ""
   },
   {
-    "id": "word_255",
+    "id": "word_256",
     "kanji": "しょうがない",
     "reading": "",
     "pos": "沒辦法",
@@ -2040,7 +2048,7 @@ const initialDeck = [
     "source": ""
   },
   {
-    "id": "word_256",
+    "id": "word_257",
     "kanji": "おかげさま",
     "reading": "",
     "pos": "託您的福",
@@ -2048,7 +2056,7 @@ const initialDeck = [
     "source": ""
   },
   {
-    "id": "word_257",
+    "id": "word_258",
     "kanji": "申し訳ない",
     "reading": "",
     "pos": "對不起、過意不去",
@@ -2056,7 +2064,7 @@ const initialDeck = [
     "source": ""
   },
   {
-    "id": "word_258",
+    "id": "word_259",
     "kanji": "得をする",
     "reading": "とくをする",
     "pos": "得到、獲利",
@@ -2064,7 +2072,7 @@ const initialDeck = [
     "source": ""
   },
   {
-    "id": "word_259",
+    "id": "word_260",
     "kanji": "損をする",
     "reading": "そんをする",
     "pos": "虧損、受損",
@@ -2072,7 +2080,7 @@ const initialDeck = [
     "source": ""
   },
   {
-    "id": "word_260",
+    "id": "word_261",
     "kanji": "気がある",
     "reading": "きがある",
     "pos": "有興趣、有意思",
@@ -2080,7 +2088,7 @@ const initialDeck = [
     "source": ""
   },
   {
-    "id": "word_261",
+    "id": "word_262",
     "kanji": "ついている",
     "reading": "",
     "pos": "幸運、運氣好",
@@ -2088,7 +2096,7 @@ const initialDeck = [
     "source": ""
   },
   {
-    "id": "word_262",
+    "id": "word_263",
     "kanji": "ましになる",
     "reading": "",
     "pos": "好轉、變好一點",

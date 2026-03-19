@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 const mdPath = 'd:\\小儀工作區\\5.切版區\\5.小程式\\N3日文單字\\日文單字整理表 (新日檢完勝500題).md';
-const outPath = 'd:\\小儀工作區\\5.切版區\\5.小程式\\N3日文單字\\data.js';
+const outPath = 'd:\\小儀工作區\\5.切版區\\5.小程式\\N3日文單字\\code\\data.js';
 
 const content = fs.readFileSync(mdPath, 'utf8');
 const lines = content.split('\n');

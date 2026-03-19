@@ -58,6 +58,7 @@ function loadData() {
             interval: 0, // 在複習間隔中的天數
             lapses: 0, // 忘記次數
             isLeech: false, 
+            playCount: 0,
             nextReviewDate: null // null 表示尚未開始學習
         }));
         saveData();
@@ -70,29 +71,47 @@ function saveData() {
 
 // 產生今日複習佇列
 function generateTodayQueue() {
-    const today = new Date();
-    today.setHours(0, 0, 0, 0); // 取當天 00:00:00 比較
+    const todayStr = new Date().toDateString();
+    const queueDate = localStorage.getItem('n3_vocab_queueDate');
     
-    // 1. 先找出到期該複習的卡片 (Review/Learning 中且 nextReviewDate <= 今日)
-    let dueCards = deck.filter(card => {
-        if (!card.nextReviewDate) return false;
-        const reviewDate = new Date(card.nextReviewDate);
-        return reviewDate <= today;
-    });
-    
-    // 2. 找出全新的卡片
-    let newCards = deck.filter(card => card.status === 'New');
-    
-    // 3. 組合每日清單 (優先複習舊卡，再塞新卡，湊滿 MAX_DAILY_CARDS)
-    todayQueue = [...dueCards];
-    const newCardsNeed = Math.max(0, MAX_DAILY_CARDS - dueCards.length);
-    if (newCardsNeed > 0) {
-        todayQueue = [...todayQueue, ...newCards.slice(0, newCardsNeed)];
+    if (queueDate === todayStr) {
+        const storedQueue = localStorage.getItem('n3_vocab_todayQueue');
+        if (storedQueue) {
+            let queueIds = JSON.parse(storedQueue);
+            todayQueue = queueIds.map(id => deck.find(c => c.id === id)).filter(Boolean);
+        } else {
+            todayQueue = [];
+        }
+    } else {
+        const today = new Date();
+        today.setHours(0, 0, 0, 0);
+        
+        let dueCards = deck.filter(card => {
+            if (card.status === 'Completed') return false;
+            if (!card.nextReviewDate) return false;
+            const reviewDate = new Date(card.nextReviewDate);
+            return reviewDate <= today;
+        });
+        
+        let newCards = deck.filter(card => card.status === 'New');
+        
+        todayQueue = [...dueCards];
+        const newCardsNeed = Math.max(0, MAX_DAILY_CARDS - dueCards.length);
+        if (newCardsNeed > 0) {
+            todayQueue = [...todayQueue, ...newCards.slice(0, newCardsNeed)];
+        }
+        
+        todayQueue.sort(() => Math.random() - 0.5);
+        
+        localStorage.setItem('n3_vocab_queueDate', todayStr);
+        saveQueueData();
     }
-    
-    // 隨機打亂佇列
-    todayQueue.sort(() => Math.random() - 0.5);
     currentCardIndex = 0;
+}
+
+function saveQueueData() {
+    const queueIds = todayQueue.map(c => c.id);
+    localStorage.setItem('n3_vocab_todayQueue', JSON.stringify(queueIds));
 }
 
 // === 視圖切換與渲染 ===
@@ -110,7 +129,7 @@ function renderDashboard() {
     els.reviewCount.textContent = todayQueue.length;
     
     if (todayQueue.length === 0) {
-        els.startBtn.textContent = '今日任務已完成';
+        els.startBtn.textContent = '今日已完成，請明天再來';
         els.startBtn.disabled = true;
         els.startBtn.style.opacity = 0.5;
     } else {
@@ -174,22 +193,18 @@ function flipCard() {
 
 // 計算給定評分後的間隔天數（不儲存，純預覽）
 function calcInterval(card, rating) {
-    let intv = card.interval || 0;
-    if (card.status === 'New' || card.status === 'Learning') {
-        if (rating === 'Hard') return 1;
-        if (rating === 'Good') return 3;
-        if (rating === 'Easy') return 5;
-        return 1;
+    if (rating === 'Hard') return 1;
+    if (rating === 'Good') return 3;
+    if (rating === 'Easy') {
+        if ((card.playCount || 0) + 1 >= 8) return -1;
+        return 5;
     }
-    
-    if (rating === 'Hard') return Math.max(1, Math.round(intv * 1.2));
-    if (rating === 'Good') return Math.max(3, Math.round((intv || 1) * 2.5));
-    if (rating === 'Easy') return Math.max(5, Math.round((intv || 1) * 4));
     return 1;
 }
 
 // 格式化間隔顯示
 function formatInterval(days) {
+    if (days === -1) return '不再出現';
     if (days === 0) return '< 1分';
     if (days < 30) return `${days}天`;
     if (days < 365) return `${Math.floor(days/30)}月`;
@@ -209,17 +224,24 @@ function handleRating(rating) {
     const cardRef = todayQueue[0];
     const originalCard = deck.find(c => c.id === cardRef.id);
     
+    originalCard.playCount = (originalCard.playCount || 0) + 1;
     let nextIntv = calcInterval(originalCard, rating);
-    originalCard.status = 'Review';
     originalCard.interval = nextIntv;
     
-    const nextDate = new Date();
-    nextDate.setDate(nextDate.getDate() + (nextIntv || 0));
-    nextDate.setHours(0,0,0,0);
-    originalCard.nextReviewDate = nextDate.toISOString();
+    if (nextIntv === -1) {
+        originalCard.status = 'Completed';
+        originalCard.nextReviewDate = null;
+    } else {
+        originalCard.status = 'Review';
+        const nextDate = new Date();
+        nextDate.setDate(nextDate.getDate() + nextIntv);
+        nextDate.setHours(0,0,0,0);
+        originalCard.nextReviewDate = nextDate.toISOString();
+    }
     
     todayQueue.shift();
     saveData();
+    saveQueueData();
     
     // 3. 延遲執行下一題的渲染，等卡片確實翻回來之後再換字（動畫預設為 0.6s，但視角上 0.3s 出現正面）
     setTimeout(() => {
@@ -249,6 +271,8 @@ function setupEventListeners() {
 
     els.resetBtn.addEventListener('click', () => {
         if(confirm('確定要清除所有進度並重置回到全新狀態嗎？')) {
+            localStorage.removeItem('n3_vocab_queueDate');
+            localStorage.removeItem('n3_vocab_todayQueue');
             localStorage.removeItem('n3_vocab_deck');
             location.reload();
         }
