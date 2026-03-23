@@ -1,2228 +1,3378 @@
 const initialDeck = [
   {
     "id": "word_1",
-    "kanji": "出会う",
-    "reading": "であう",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "相遇、相逢"
+    "kanji": "声",
+    "reading": "こえ",
+    "pos": "名詞",
+    "meaning": "聲音",
+    "isImportant": false
   },
   {
     "id": "word_2",
-    "kanji": "届ける",
-    "reading": "とどける",
-    "pos": "第二類動詞 (下一段)",
-    "meaning": "送到、遞送或報案"
+    "kanji": "仕事",
+    "reading": "しごと",
+    "pos": "名詞",
+    "meaning": "工作",
+    "isImportant": true
   },
   {
     "id": "word_3",
-    "kanji": "向かう",
-    "reading": "むかう",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "朝向、前往、面對"
+    "kanji": "自動車",
+    "reading": "じどうしゃ",
+    "pos": "名詞",
+    "meaning": "汽車",
+    "isImportant": false
   },
   {
     "id": "word_4",
-    "kanji": "アイデア",
-    "reading": "",
+    "kanji": "家族",
+    "reading": "かぞく",
     "pos": "名詞",
-    "meaning": "主意、點子"
+    "meaning": "家人、家族",
+    "isImportant": true
   },
   {
     "id": "word_5",
-    "kanji": "チャンス",
-    "reading": "",
+    "kanji": "事故",
+    "reading": "じこ",
     "pos": "名詞",
-    "meaning": "機會"
+    "meaning": "事故、意外",
+    "isImportant": true
   },
   {
     "id": "word_6",
-    "kanji": "バランス",
-    "reading": "",
+    "kanji": "波",
+    "reading": "なみ",
     "pos": "名詞",
-    "meaning": "平衡"
+    "meaning": "波浪",
+    "isImportant": false
   },
   {
     "id": "word_7",
-    "kanji": "テーマ",
-    "reading": "",
+    "kanji": "雲",
+    "reading": "くも",
     "pos": "名詞",
-    "meaning": "主題"
+    "meaning": "雲",
+    "isImportant": false
   },
   {
     "id": "word_8",
-    "kanji": "ところどころ",
-    "reading": "",
-    "pos": "副詞 / 名詞",
-    "meaning": "處處、有些地方"
+    "kanji": "雷",
+    "reading": "かみなり",
+    "pos": "名詞",
+    "meaning": "雷、閃電",
+    "isImportant": false
   },
   {
     "id": "word_9",
-    "kanji": "すべて",
-    "reading": "",
-    "pos": "副詞 / 名詞",
-    "meaning": "全部、所有"
+    "kanji": "港",
+    "reading": "みなと",
+    "pos": "名詞",
+    "meaning": "港口",
+    "isImportant": false
   },
   {
     "id": "word_10",
-    "kanji": "まあまあ",
-    "reading": "",
-    "pos": "副詞 / な形容詞",
-    "meaning": "馬馬虎虎、還算可以"
+    "kanji": "池",
+    "reading": "いけ",
+    "pos": "名詞",
+    "meaning": "池塘",
+    "isImportant": false
   },
   {
     "id": "word_11",
-    "kanji": "次々",
-    "reading": "つぎつぎ",
-    "pos": "副詞",
-    "meaning": "接連不斷地、相繼"
+    "kanji": "湖",
+    "reading": "みずうみ",
+    "pos": "名詞",
+    "meaning": "湖泊",
+    "isImportant": false
   },
   {
     "id": "word_12",
-    "kanji": "要る",
-    "reading": "いる",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "要、需要"
+    "kanji": "地震",
+    "reading": "じしん",
+    "pos": "名詞",
+    "meaning": "地震",
+    "isImportant": true
   },
   {
     "id": "word_13",
-    "kanji": "得意",
-    "reading": "とくい",
-    "pos": "な形容詞",
-    "meaning": "擅長、拿手；得意"
+    "kanji": "恋人",
+    "reading": "こいびと",
+    "pos": "名詞",
+    "meaning": "戀人",
+    "isImportant": true
   },
   {
     "id": "word_14",
-    "kanji": "上手",
-    "reading": "じょうず",
-    "pos": "な形容詞",
-    "meaning": "高明的、擅長的"
+    "kanji": "本人",
+    "reading": "ほんにん",
+    "pos": "名詞",
+    "meaning": "本人",
+    "isImportant": false
   },
   {
     "id": "word_15",
-    "kanji": "空く",
-    "reading": "あく",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "空、空出、騰出"
+    "kanji": "友人",
+    "reading": "ゆうじん",
+    "pos": "名詞",
+    "meaning": "朋友",
+    "isImportant": false
   },
   {
     "id": "word_16",
-    "kanji": "残る",
-    "reading": "のこる",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "剩餘、殘留"
+    "kanji": "畑",
+    "reading": "はたけ",
+    "pos": "名詞",
+    "meaning": "旱田、農地",
+    "isImportant": false
   },
   {
     "id": "word_17",
-    "kanji": "すく",
-    "reading": "",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "空、稀疏"
+    "kanji": "漁師",
+    "reading": "りょうし",
+    "pos": "名詞",
+    "meaning": "漁夫",
+    "isImportant": false
   },
   {
     "id": "word_18",
-    "kanji": "余る",
-    "reading": "あまる",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "剩餘、過多"
+    "kanji": "合い鍵",
+    "reading": "あいかぎ",
+    "pos": "名詞",
+    "meaning": "備用鑰匙",
+    "isImportant": false
   },
   {
     "id": "word_19",
-    "kanji": "宿題",
-    "reading": "しゅくだい",
+    "kanji": "合図",
+    "reading": "あいず",
     "pos": "名詞",
-    "meaning": "作業、功課"
+    "meaning": "信號、暗號",
+    "isImportant": false
   },
   {
     "id": "word_20",
-    "kanji": "後ほど",
-    "reading": "のちほど",
-    "pos": "副詞",
-    "meaning": "過一會兒"
+    "kanji": "空き地",
+    "reading": "あきち",
+    "pos": "名詞",
+    "meaning": "空地",
+    "isImportant": false
   },
   {
     "id": "word_21",
-    "kanji": "間もなく",
-    "reading": "まもなく",
-    "pos": "副詞",
-    "meaning": "不久、很快"
+    "kanji": "名刺",
+    "reading": "めいし",
+    "pos": "名詞",
+    "meaning": "名片",
+    "isImportant": true
   },
   {
     "id": "word_22",
-    "kanji": "しばらく",
-    "reading": "",
-    "pos": "副詞",
-    "meaning": "一會兒、片刻"
+    "kanji": "欠点",
+    "reading": "けってん",
+    "pos": "名詞",
+    "meaning": "缺點",
+    "isImportant": true
   },
   {
     "id": "word_23",
-    "kanji": "先に",
-    "reading": "さきに",
-    "pos": "副詞 / 名詞",
-    "meaning": "先、之前"
+    "kanji": "短気",
+    "reading": "たんき",
+    "pos": "名詞 / な形容詞",
+    "meaning": "急躁、性急",
+    "isImportant": false
   },
   {
     "id": "word_24",
-    "kanji": "あちこち",
-    "reading": "",
-    "pos": "代名詞 / 副詞",
-    "meaning": "到處、各處"
+    "kanji": "留守",
+    "reading": "るす",
+    "pos": "名詞",
+    "meaning": "（外出）不在家",
+    "isImportant": true
   },
   {
     "id": "word_25",
-    "kanji": "卒業式",
-    "reading": "そつぎょうしき",
-    "pos": "名詞",
-    "meaning": "畢業典禮"
+    "kanji": "努力",
+    "reading": "どりょく",
+    "pos": "名詞 / (～する)",
+    "meaning": "努力",
+    "isImportant": true
   },
   {
     "id": "word_26",
-    "kanji": "落ち着く",
-    "reading": "おちつく",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "平靜、冷靜下來"
+    "kanji": "制服",
+    "reading": "せいふく",
+    "pos": "名詞",
+    "meaning": "制服",
+    "isImportant": false
   },
   {
     "id": "word_27",
-    "kanji": "思いつく",
-    "reading": "おもいつく",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "想出來、想起"
+    "kanji": "犯人",
+    "reading": "はんにん",
+    "pos": "名詞",
+    "meaning": "犯人",
+    "isImportant": false
   },
   {
     "id": "word_28",
-    "kanji": "張り切る",
-    "reading": "はりきる",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "幹勁十足"
+    "kanji": "交通",
+    "reading": "こうつう",
+    "pos": "名詞",
+    "meaning": "交通",
+    "isImportant": false
   },
   {
     "id": "word_29",
-    "kanji": "見直す",
-    "reading": "みなおす",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "重看、重新認識"
+    "kanji": "責任",
+    "reading": "せきにん",
+    "pos": "名詞",
+    "meaning": "責任",
+    "isImportant": true
   },
   {
     "id": "word_30",
-    "kanji": "飛び出す",
-    "reading": "とびだす",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "突然出現；衝出"
+    "kanji": "目的",
+    "reading": "もくてき",
+    "pos": "名詞",
+    "meaning": "目的",
+    "isImportant": true
   },
   {
     "id": "word_31",
-    "kanji": "詳しい",
-    "reading": "くわしい",
-    "pos": "い形容詞",
-    "meaning": "詳細的"
+    "kanji": "理由",
+    "reading": "りゆう",
+    "pos": "名詞",
+    "meaning": "理由",
+    "isImportant": true
   },
   {
     "id": "word_32",
-    "kanji": "險しい",
-    "reading": "けわしい",
-    "pos": "い形容詞",
-    "meaning": "險峻的"
+    "kanji": "解決",
+    "reading": "かいけつ",
+    "pos": "名詞 / (～する)",
+    "meaning": "解決",
+    "isImportant": true
   },
   {
     "id": "word_33",
-    "kanji": "授業",
-    "reading": "じゅぎょう",
+    "kanji": "感動",
+    "reading": "かんどう",
     "pos": "名詞 / (～する)",
-    "meaning": "授課、課業"
+    "meaning": "感動",
+    "isImportant": true
   },
   {
     "id": "word_34",
-    "kanji": "転ぶ",
-    "reading": "ころぶ",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "跌倒"
+    "kanji": "経験",
+    "reading": "けいけん",
+    "pos": "名詞 / (～する)",
+    "meaning": "經驗",
+    "isImportant": true
   },
   {
     "id": "word_35",
-    "kanji": "落ちる",
-    "reading": "おちる",
-    "pos": "第二類動詞 (下一段)",
-    "meaning": "落下、掉落"
+    "kanji": "失敗",
+    "reading": "しっぱい",
+    "pos": "名詞 / (～する)",
+    "meaning": "失敗",
+    "isImportant": true
   },
   {
     "id": "word_36",
-    "kanji": "倒れる",
-    "reading": "たおれる",
-    "pos": "第二類動詞 (下一段)",
-    "meaning": "倒塌、倒下"
+    "kanji": "成功",
+    "reading": "せいこう",
+    "pos": "名詞 / (～する)",
+    "meaning": "成功",
+    "isImportant": true
   },
   {
     "id": "word_37",
-    "kanji": "つぶれる",
-    "reading": "",
-    "pos": "第二類動詞 (下一段)",
-    "meaning": "壓壞、垮掉"
+    "kanji": "注意",
+    "reading": "ちゅうい",
+    "pos": "名詞 / (～する)",
+    "meaning": "注意、警告",
+    "isImportant": true
   },
   {
     "id": "word_38",
-    "kanji": "約束",
-    "reading": "やくそく",
+    "kanji": "遅刻",
+    "reading": "ちこく",
     "pos": "名詞 / (～する)",
-    "meaning": "約定、承諾"
+    "meaning": "遲到",
+    "isImportant": true
   },
   {
     "id": "word_39",
-    "kanji": "末っ子",
-    "reading": "すえっこ",
-    "pos": "名詞",
-    "meaning": "老么"
-  },
-  {
-    "id": "word_40",
-    "kanji": "生",
-    "reading": "なま",
-    "pos": "名詞",
-    "meaning": "生的、未加工的"
-  },
-  {
-    "id": "word_41",
-    "kanji": "むく",
-    "reading": "",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "剝、削（皮）"
-  },
-  {
-    "id": "word_42",
-    "kanji": "煮る",
-    "reading": "にる",
-    "pos": "第二類動詞 (上一段)",
-    "meaning": "煮、燉"
-  },
-  {
-    "id": "word_43",
-    "kanji": "ゆでる",
-    "reading": "",
-    "pos": "第二類動詞 (下一段)",
-    "meaning": "燙、水煮"
-  },
-  {
-    "id": "word_44",
-    "kanji": "スニーカー",
-    "reading": "",
-    "pos": "名詞",
-    "meaning": "運動鞋"
-  },
-  {
-    "id": "word_45",
-    "kanji": "結ぶ",
-    "reading": "むすぶ",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "繫、連結、打結"
-  },
-  {
-    "id": "word_46",
-    "kanji": "ほどける",
-    "reading": "",
-    "pos": "第二類動詞 (下一段)",
-    "meaning": "鬆開、解開"
-  },
-  {
-    "id": "word_47",
-    "kanji": "くっ付ける",
-    "reading": "くっつける",
-    "pos": "第二類動詞 (下一段)",
-    "meaning": "黏上、貼上"
-  },
-  {
-    "id": "word_48",
-    "kanji": "抜く",
-    "reading": "ぬく",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "拔、抽出；超越"
-  },
-  {
-    "id": "word_49",
-    "kanji": "縫う",
-    "reading": "ぬう",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "縫、縫紉"
-  },
-  {
-    "id": "word_50",
-    "kanji": "渡る",
-    "reading": "わたる",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "渡過、經過"
-  },
-  {
-    "id": "word_51",
-    "kanji": "散らかる",
-    "reading": "ちらかる",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "凌亂、亂七八糟"
-  },
-  {
-    "id": "word_52",
-    "kanji": "片付ける",
-    "reading": "かたづける",
-    "pos": "第二類動詞 (下一段)",
-    "meaning": "整頓、收拾"
-  },
-  {
-    "id": "word_53",
-    "kanji": "汚れる",
-    "reading": "よごれる",
-    "pos": "第二類動詞 (下一段)",
-    "meaning": "髒、污染"
-  },
-  {
-    "id": "word_54",
-    "kanji": "細かい",
-    "reading": "こまかい",
-    "pos": "い形容詞",
-    "meaning": "細小的、零碎的"
-  },
-  {
-    "id": "word_55",
-    "kanji": "細い",
-    "reading": "ほそい",
-    "pos": "い形容詞",
-    "meaning": "細的、纖細的"
-  },
-  {
-    "id": "word_56",
-    "kanji": "売り上げ",
-    "reading": "うりあげ",
-    "pos": "名詞",
-    "meaning": "營業額"
-  },
-  {
-    "id": "word_57",
-    "kanji": "売り場",
-    "reading": "うりば",
-    "pos": "名詞",
-    "meaning": "賣場、售票處"
-  },
-  {
-    "id": "word_58",
-    "kanji": "売り切れ",
-    "reading": "うりきれ",
-    "pos": "名詞",
-    "meaning": "售完、賣光"
-  },
-  {
-    "id": "word_59",
-    "kanji": "売り出し",
-    "reading": "うりだし",
-    "pos": "名詞",
-    "meaning": "出清、上市"
-  },
-  {
-    "id": "word_60",
-    "kanji": "ひげ",
-    "reading": "",
-    "pos": "名詞",
-    "meaning": "鬍鬚"
-  },
-  {
-    "id": "word_61",
-    "kanji": "ひじ",
-    "reading": "",
-    "pos": "名詞",
-    "meaning": "手肘"
-  },
-  {
-    "id": "word_62",
-    "kanji": "はげ",
-    "reading": "",
-    "pos": "名詞",
-    "meaning": "禿頭"
-  },
-  {
-    "id": "word_63",
-    "kanji": "かび",
-    "reading": "",
-    "pos": "名詞",
-    "meaning": "霉菌"
-  },
-  {
-    "id": "word_64",
-    "kanji": "再来週",
-    "reading": "さらいしゅう",
-    "pos": "名詞",
-    "meaning": "下下週"
-  },
-  {
-    "id": "word_65",
-    "kanji": "君",
-    "reading": "きみ",
-    "pos": "代名詞",
-    "meaning": "你、君"
-  },
-  {
-    "id": "word_66",
-    "kanji": "ほがらか",
-    "reading": "な",
-    "pos": "な形容詞",
-    "meaning": "爽朗的、舒暢的"
-  },
-  {
-    "id": "word_67",
-    "kanji": "あわただしい",
-    "reading": "",
-    "pos": "い形容詞",
-    "meaning": "匆忙的、慌張的"
-  },
-  {
-    "id": "word_68",
-    "kanji": "おとなしい",
-    "reading": "",
-    "pos": "い形容詞",
-    "meaning": "老實的、溫順的"
-  },
-  {
-    "id": "word_69",
-    "kanji": "まぶしい",
-    "reading": "",
-    "pos": "い形容詞",
-    "meaning": "耀眼的、刺眼的"
-  },
-  {
-    "id": "word_70",
-    "kanji": "券",
-    "reading": "けん",
-    "pos": "名詞",
-    "meaning": "券、票"
-  },
-  {
-    "id": "word_71",
-    "kanji": "賃",
-    "reading": "ちん",
-    "pos": "名詞 / 接尾詞",
-    "meaning": "費用、租金"
-  },
-  {
-    "id": "word_72",
-    "kanji": "方向",
-    "reading": "ほうこう",
-    "pos": "名詞",
-    "meaning": "方向"
-  },
-  {
-    "id": "word_73",
-    "kanji": "土地",
-    "reading": "とち",
-    "pos": "名詞",
-    "meaning": "土地"
-  },
-  {
-    "id": "word_74",
-    "kanji": "向き",
-    "reading": "むき",
-    "pos": "名詞 / 接尾詞",
-    "meaning": "方向、朝向；適合"
-  },
-  {
-    "id": "word_75",
-    "kanji": "地方",
-    "reading": "ちほう",
-    "pos": "名詞",
-    "meaning": "地方、地區"
-  },
-  {
-    "id": "word_76",
-    "kanji": "地域",
-    "reading": "ちいき",
-    "pos": "名詞",
-    "meaning": "地區、區域"
-  },
-  {
-    "id": "word_77",
-    "kanji": "遅れる",
-    "reading": "おくれる",
-    "pos": "第二類動詞 (下一段)",
-    "meaning": "遲、過時"
-  },
-  {
-    "id": "word_78",
-    "kanji": "あきらめる",
-    "reading": "",
-    "pos": "第二類動詞 (下一段)",
-    "meaning": "死心、放棄"
-  },
-  {
-    "id": "word_79",
-    "kanji": "あきれる",
-    "reading": "",
-    "pos": "第二類動詞 (下一段)",
-    "meaning": "吃驚、愣住、無言"
-  },
-  {
-    "id": "word_80",
-    "kanji": "あきる",
-    "reading": "",
-    "pos": "第二類動詞 (上一段)",
-    "meaning": "厭煩、膩了"
-  },
-  {
-    "id": "word_81",
-    "kanji": "三角",
-    "reading": "さんかく",
-    "pos": "名詞",
-    "meaning": "三角形"
-  },
-  {
-    "id": "word_82",
-    "kanji": "イメージ",
-    "reading": "",
-    "pos": "名詞",
-    "meaning": "形象 (Image)"
-  },
-  {
-    "id": "word_83",
-    "kanji": "レベル",
-    "reading": "",
-    "pos": "名詞",
-    "meaning": "層次、級別 (Level)"
-  },
-  {
-    "id": "word_84",
-    "kanji": "テンポ",
-    "reading": "",
-    "pos": "名詞",
-    "meaning": "節奏 (Tempo)"
-  },
-  {
-    "id": "word_85",
-    "kanji": "サイン",
-    "reading": "",
-    "pos": "名詞 / (～する)",
-    "meaning": "簽名 (Sign)"
-  },
-  {
-    "id": "word_86",
-    "kanji": "ぶらぶら",
-    "reading": "",
-    "pos": "副詞 / (～する)",
-    "meaning": "閒逛、無所事事"
-  },
-  {
-    "id": "word_87",
-    "kanji": "そろそろ",
-    "reading": "",
-    "pos": "副詞",
-    "meaning": "快要、就要"
-  },
-  {
-    "id": "word_88",
-    "kanji": "のろのろ",
-    "reading": "",
-    "pos": "副詞",
-    "meaning": "慢吞吞、緩慢地"
-  },
-  {
-    "id": "word_89",
-    "kanji": "どんどん",
-    "reading": "",
-    "pos": "副詞",
-    "meaning": "順利進行、接連不斷"
-  },
-  {
-    "id": "word_90",
-    "kanji": "ぺこぺこ",
-    "reading": "",
-    "pos": "な形容詞 / 副詞",
-    "meaning": "肚子餓；點頭哈腰"
-  },
-  {
-    "id": "word_91",
-    "kanji": "ふらふら",
-    "reading": "",
-    "pos": "副詞 / (～する)",
-    "meaning": "搖晃、頭暈"
-  },
-  {
-    "id": "word_92",
-    "kanji": "ぴかぴか",
-    "reading": "",
-    "pos": "副詞 / (～する)",
-    "meaning": "閃閃發亮"
-  },
-  {
-    "id": "word_93",
-    "kanji": "ぺらぺら",
-    "reading": "",
-    "pos": "副詞 / な形容詞",
-    "meaning": "流利地；薄的"
-  },
-  {
-    "id": "word_94",
-    "kanji": "物語",
-    "reading": "ものがたり",
-    "pos": "名詞",
-    "meaning": "故事、傳說"
-  },
-  {
-    "id": "word_95",
-    "kanji": "書物",
-    "reading": "しょもつ",
-    "pos": "名詞",
-    "meaning": "書籍"
-  },
-  {
-    "id": "word_96",
-    "kanji": "汚い",
-    "reading": "きたない",
-    "pos": "い形容詞",
-    "meaning": "骯髒的"
-  },
-  {
-    "id": "word_97",
-    "kanji": "汚す",
-    "reading": "よごす",
-    "pos": "第一類動詞 (他動詞)",
-    "meaning": "弄髒、玷汙"
-  },
-  {
-    "id": "word_98",
-    "kanji": "みにくい",
-    "reading": "",
-    "pos": "い形容詞",
-    "meaning": "難看的、醜陋的"
-  },
-  {
-    "id": "word_99",
-    "kanji": "つらい",
-    "reading": "",
-    "pos": "い形容詞",
-    "meaning": "痛苦的、難受的"
-  },
-  {
-    "id": "word_100",
-    "kanji": "苦い",
-    "reading": "にがい",
-    "pos": "い形容詞",
-    "meaning": "苦的"
-  },
-  {
-    "id": "word_101",
-    "kanji": "苦しむ",
-    "reading": "くるしむ",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "受苦、痛苦、煩惱"
-  },
-  {
-    "id": "word_102",
-    "kanji": "反對",
-    "reading": "はんたい",
-    "pos": "名詞 / (～する)",
-    "meaning": "相反、反對"
-  },
-  {
-    "id": "word_103",
-    "kanji": "量る",
-    "reading": "はかる",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "測量、稱重"
-  },
-  {
-    "id": "word_104",
-    "kanji": "落とす",
-    "reading": "おとす",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "弄丟、使掉落"
-  },
-  {
-    "id": "word_105",
-    "kanji": "もったいない",
-    "reading": "",
-    "pos": "い形容詞",
-    "meaning": "浪費的、可惜的"
-  },
-  {
-    "id": "word_106",
-    "kanji": "贅沢",
-    "reading": "ぜいたく",
-    "pos": "な形容詞",
-    "meaning": "奢侈的、豪華的"
-  },
-  {
-    "id": "word_107",
-    "kanji": "貧乏",
-    "reading": "びんぼう",
-    "pos": "な形容詞",
-    "meaning": "貧窮的"
-  },
-  {
-    "id": "word_108",
-    "kanji": "貝",
-    "reading": "かい",
-    "pos": "名詞",
-    "meaning": "貝、貝類、貝殼"
-  },
-  {
-    "id": "word_109",
-    "kanji": "だらしない",
-    "reading": "",
-    "pos": "い形容詞",
-    "meaning": "邋遢的、散漫的"
-  },
-  {
-    "id": "word_110",
-    "kanji": "くだらない",
-    "reading": "",
-    "pos": "い形容詞",
-    "meaning": "無聊的、無價值的"
-  },
-  {
-    "id": "word_111",
-    "kanji": "困る",
-    "reading": "こまる",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "困擾、為難"
-  },
-  {
-    "id": "word_112",
-    "kanji": "教わる",
-    "reading": "おそわる",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "向～學習、受教"
-  },
-  {
-    "id": "word_113",
-    "kanji": "襲う",
-    "reading": "おそう",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "襲擊、侵襲"
-  },
-  {
-    "id": "word_114",
-    "kanji": "學ぶ",
-    "reading": "まなぶ",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "學習"
-  },
-  {
-    "id": "word_115",
-    "kanji": "主な",
-    "reading": "おモな",
-    "pos": "連體詞",
-    "meaning": "主要的"
-  },
-  {
-    "id": "word_116",
-    "kanji": "大した",
-    "reading": "たいした",
-    "pos": "連體詞",
-    "meaning": "了不起的、大不了的"
-  },
-  {
-    "id": "word_117",
-    "kanji": "製品",
-    "reading": "せいひん",
-    "pos": "名詞",
-    "meaning": "製品、產品"
-  },
-  {
-    "id": "word_118",
-    "kanji": "行き",
-    "reading": "ゆき",
-    "pos": "名詞",
-    "meaning": "前往、開往"
-  },
-  {
-    "id": "word_119",
-    "kanji": "打ち合わせ",
-    "reading": "",
-    "pos": "名詞 / (～する)",
-    "meaning": "事前商議、商討"
-  },
-  {
-    "id": "word_120",
-    "kanji": "待ち合わせ",
-    "reading": "",
-    "pos": "名詞 / (～する)",
-    "meaning": "會合、集合、碰面"
-  },
-  {
-    "id": "word_121",
-    "kanji": "組み合わせ",
-    "reading": "",
-    "pos": "名詞 / (～する)",
-    "meaning": "組合、搭配"
-  },
-  {
-    "id": "word_122",
-    "kanji": "問い合わせ",
-    "reading": "",
-    "pos": "名詞 / (～する)",
-    "meaning": "詢問、查詢"
-  },
-  {
-    "id": "word_123",
-    "kanji": "とにかく",
-    "reading": "",
-    "pos": "副詞",
-    "meaning": "總之、無論如何"
-  },
-  {
-    "id": "word_124",
-    "kanji": "いきなり",
-    "reading": "",
-    "pos": "副詞",
-    "meaning": "突然地、冷不防地"
-  },
-  {
-    "id": "word_125",
-    "kanji": "せっかく",
-    "reading": "",
-    "pos": "副詞",
-    "meaning": "難得、好不容易"
-  },
-  {
-    "id": "word_126",
-    "kanji": "語り合う",
-    "reading": "",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "彼此交談、傾訴"
-  },
-  {
-    "id": "word_127",
-    "kanji": "しゃべる",
-    "reading": "",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "聊天、說話"
-  },
-  {
-    "id": "word_128",
-    "kanji": "言い合う",
-    "reading": "",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "爭論、爭吵"
-  },
-  {
-    "id": "word_129",
-    "kanji": "話しかける",
-    "reading": "",
-    "pos": "第二類動詞 (下一段)",
-    "meaning": "搭話、攀談"
-  },
-  {
-    "id": "word_130",
-    "kanji": "参った",
-    "reading": "まいった",
-    "pos": "動詞活用",
-    "meaning": "受不了、沒轍了"
-  },
-  {
-    "id": "word_131",
-    "kanji": "焦った",
-    "reading": "あせった",
-    "pos": "動詞活用",
-    "meaning": "焦急、慌張"
-  },
-  {
-    "id": "word_132",
-    "kanji": "詰まった",
-    "reading": "",
-    "pos": "動詞活用",
-    "meaning": "塞住、堵塞"
-  },
-  {
-    "id": "word_133",
-    "kanji": "様子",
-    "reading": "ようす",
-    "pos": "名詞",
-    "meaning": "情況、情形、樣子"
-  },
-  {
-    "id": "word_134",
-    "kanji": "態度",
-    "reading": "たいど",
-    "pos": "名詞",
-    "meaning": "態度"
-  },
-  {
-    "id": "word_135",
-    "kanji": "格好",
-    "reading": "かっこう",
-    "pos": "名詞",
-    "meaning": "打扮、樣子、適合"
-  },
-  {
-    "id": "word_136",
-    "kanji": "工夫",
-    "reading": "くふう",
-    "pos": "名詞 / (～する)",
-    "meaning": "鑽研、下功夫"
-  },
-  {
-    "id": "word_137",
-    "kanji": "ちっとも",
-    "reading": "",
-    "pos": "副詞",
-    "meaning": "一點也不（後接否定）"
-  },
-  {
-    "id": "word_138",
-    "kanji": "実現",
-    "reading": "じつげん",
-    "pos": "名詞 / (～する)",
-    "meaning": "實現、達成"
-  },
-  {
-    "id": "word_139",
-    "kanji": "現実",
-    "reading": "げんじつ",
-    "pos": "名詞",
-    "meaning": "現實、實際"
-  },
-  {
-    "id": "word_140",
-    "kanji": "実験",
-    "reading": "じっけん",
-    "pos": "名詞 / (～する)",
-    "meaning": "實驗、試驗"
-  },
-  {
-    "id": "word_141",
-    "kanji": "論文",
-    "reading": "ろんぶん",
-    "pos": "名詞",
-    "meaning": "論文"
-  },
-  {
-    "id": "word_142",
-    "kanji": "こう",
-    "reading": "",
-    "pos": "副詞",
-    "meaning": "這樣地、如此"
-  },
-  {
-    "id": "word_143",
-    "kanji": "メモ",
-    "reading": "",
-    "pos": "名詞 / (～する)",
-    "meaning": "筆記、紀錄"
-  },
-  {
-    "id": "word_144",
-    "kanji": "プリント",
-    "reading": "",
-    "pos": "名詞",
-    "meaning": "講義、印刷品"
-  },
-  {
-    "id": "word_145",
-    "kanji": "さわがしい",
-    "reading": "",
-    "pos": "い形容詞",
-    "meaning": "吵鬧的、喧鬧的"
-  },
-  {
-    "id": "word_146",
-    "kanji": "はげしい",
-    "reading": "",
-    "pos": "い形容詞",
-    "meaning": "激烈、猛烈"
-  },
-  {
-    "id": "word_147",
-    "kanji": "ずうずうしい",
-    "reading": "",
-    "pos": "い形容詞",
-    "meaning": "厚臉皮、厚顏無恥"
-  },
-  {
-    "id": "word_148",
-    "kanji": "雇う",
-    "reading": "やとう",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "雇用"
-  },
-  {
-    "id": "word_149",
-    "kanji": "勤める",
-    "reading": "つとめる",
-    "pos": "第二類動詞 (下一段)",
-    "meaning": "工作、任職"
-  },
-  {
-    "id": "word_150",
-    "kanji": "混ぜる",
-    "reading": "まぜる",
-    "pos": "第二類動詞 (下一段)",
-    "meaning": "混合、攪拌"
-  },
-  {
-    "id": "word_151",
-    "kanji": "預ける",
-    "reading": "あずける",
-    "pos": "第二類動詞 (下一段)",
-    "meaning": "寄放、委託"
-  },
-  {
-    "id": "word_152",
-    "kanji": "折る",
-    "reading": "おる",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "折疊、折斷"
-  },
-  {
-    "id": "word_153",
-    "kanji": "折り曲げる",
-    "reading": "",
-    "pos": "第二類動詞 (下一段)",
-    "meaning": "折彎、摺疊"
-  },
-  {
-    "id": "word_154",
-    "kanji": "祈り",
-    "reading": "いのり",
-    "pos": "名詞",
-    "meaning": "祈禱、祝願"
-  },
-  {
-    "id": "word_155",
-    "kanji": "税",
-    "reading": "ぜい",
-    "pos": "名詞",
-    "meaning": "稅、稅金"
-  },
-  {
-    "id": "word_156",
-    "kanji": "祝い",
-    "reading": "いわい",
-    "pos": "名詞",
-    "meaning": "慶祝、祝賀"
-  },
-  {
-    "id": "word_157",
-    "kanji": "表",
-    "reading": "おもて",
-    "pos": "名詞",
-    "meaning": "正面、表面"
-  },
-  {
-    "id": "word_158",
-    "kanji": "裏",
-    "reading": "うら",
-    "pos": "名詞",
-    "meaning": "反面、背面"
-  },
-  {
-    "id": "word_159",
-    "kanji": "まとめ",
-    "reading": "",
-    "pos": "名詞",
-    "meaning": "總結、整理、彙整"
-  },
-  {
-    "id": "word_160",
-    "kanji": "王子",
-    "reading": "おうじ",
-    "pos": "名詞",
-    "meaning": "王子"
-  },
-  {
-    "id": "word_161",
-    "kanji": "冷える",
-    "reading": "ひえる",
-    "pos": "第二類動詞 (自動)",
-    "meaning": "物體變冷、感覺冷"
-  },
-  {
-    "id": "word_162",
-    "kanji": "冷める",
-    "reading": "さめる",
-    "pos": "第二類動詞 (自動)",
-    "meaning": "變涼（熱的東西）"
-  },
-  {
-    "id": "word_163",
-    "kanji": "凍る",
-    "reading": "こおる",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "凍結、結冰"
-  },
-  {
-    "id": "word_164",
-    "kanji": "うっかり",
-    "reading": "",
-    "pos": "副詞 / (～する)",
-    "meaning": "不留神、不小心"
-  },
-  {
-    "id": "word_165",
-    "kanji": "がっかり",
-    "reading": "",
-    "pos": "副詞 / (～する)",
-    "meaning": "失望、沮喪"
-  },
-  {
-    "id": "word_166",
-    "kanji": "すっかり",
-    "reading": "",
-    "pos": "副詞",
-    "meaning": "完全、全部"
-  },
-  {
-    "id": "word_167",
-    "kanji": "しっかり",
-    "reading": "",
-    "pos": "副詞 / (～する)",
-    "meaning": "好好地、牢固地"
-  },
-  {
-    "id": "word_168",
-    "kanji": "重ねる",
-    "reading": "かさねる",
-    "pos": "第二類動詞 (下一段)",
-    "meaning": "堆疊"
-  },
-  {
-    "id": "word_169",
-    "kanji": "広げる",
-    "reading": "ひろげる",
-    "pos": "第二類動詞 (下一段)",
-    "meaning": "擴大、展開"
-  },
-  {
-    "id": "word_170",
-    "kanji": "たたむ",
-    "reading": "",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "疊、折"
-  },
-  {
-    "id": "word_171",
-    "kanji": "縮める",
-    "reading": "",
-    "pos": "第二類動詞 (下一段)",
-    "meaning": "縮短、縮小"
-  },
-  {
-    "id": "word_172",
     "kanji": "登山",
     "reading": "とざん",
     "pos": "名詞 / (～する)",
-    "meaning": "登山"
+    "meaning": "登山",
+    "isImportant": true
   },
   {
-    "id": "word_173",
-    "kanji": "都合",
-    "reading": "つごう",
-    "pos": "名詞",
-    "meaning": "方便、合適"
+    "id": "word_40",
+    "kanji": "工夫",
+    "reading": "くふう",
+    "pos": "名詞 / (～する)",
+    "meaning": "鑽研、下功夫",
+    "isImportant": true
   },
   {
-    "id": "word_174",
-    "kanji": "具合",
-    "reading": "ぐあい",
-    "pos": "名詞",
-    "meaning": "狀態、健康情況"
+    "id": "word_41",
+    "kanji": "授業",
+    "reading": "じゅぎょう",
+    "pos": "名詞 / (～する)",
+    "meaning": "授課、上課",
+    "isImportant": true
   },
   {
-    "id": "word_175",
-    "kanji": "症状",
-    "reading": "しょうじょう",
-    "pos": "名詞",
-    "meaning": "症狀"
+    "id": "word_42",
+    "kanji": "約束",
+    "reading": "やくそく",
+    "pos": "名詞 / (～する)",
+    "meaning": "約定、承諾",
+    "isImportant": true
   },
   {
-    "id": "word_176",
-    "kanji": "しつこい",
-    "reading": "",
-    "pos": "い形容詞",
-    "meaning": "執拗的；油膩的"
+    "id": "word_43",
+    "kanji": "反対",
+    "reading": "はんたい",
+    "pos": "名詞 / (～する)",
+    "meaning": "相反、反對",
+    "isImportant": true
   },
   {
-    "id": "word_177",
-    "kanji": "怪しい",
-    "reading": "あやしい",
-    "pos": "い形容詞",
-    "meaning": "可疑的、奇怪的"
-  },
-  {
-    "id": "word_178",
+    "id": "word_44",
     "kanji": "教育",
     "reading": "きょういく",
     "pos": "名詞 / (～する)",
-    "meaning": "教育"
+    "meaning": "教育",
+    "isImportant": false
   },
   {
-    "id": "word_179",
-    "kanji": "縮む",
-    "reading": "ちぢむ",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "縮小、收縮"
+    "id": "word_45",
+    "kanji": "広告",
+    "reading": "こうこく",
+    "pos": "名詞 / (～する)",
+    "meaning": "廣告",
+    "isImportant": false
   },
   {
-    "id": "word_180",
-    "kanji": "黙る",
-    "reading": "だまる",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "沉默、不說話"
+    "id": "word_46",
+    "kanji": "実現",
+    "reading": "じつげん",
+    "pos": "名詞 / (～する)",
+    "meaning": "實現、達成",
+    "isImportant": true
   },
   {
-    "id": "word_181",
-    "kanji": "交差点",
+    "id": "word_47",
+    "kanji": "実験",
+    "reading": "じっけん",
+    "pos": "名詞 / (～する)",
+    "meaning": "實驗、試驗",
+    "isImportant": false
+  },
+  {
+    "id": "word_48",
+    "kanji": "支度",
+    "reading": "したく",
+    "pos": "名詞 / (～する)",
+    "meaning": "準備（餐點或旅行）",
+    "isImportant": true
+  },
+  {
+    "id": "word_49",
+    "kanji": "片付け",
+    "reading": "かたづけ",
+    "pos": "名詞 / (～する)",
+    "meaning": "整理、打掃",
+    "isImportant": false
+  },
+  {
+    "id": "word_50",
+    "kanji": "メモ",
+    "reading": "",
+    "pos": "名詞 / (～する)",
+    "meaning": "筆記、記錄 (memo)",
+    "isImportant": false
+  },
+  {
+    "id": "word_51",
+    "kanji": "打ち合わせ",
+    "reading": "うちあわせ",
+    "pos": "名詞 / (～する)",
+    "meaning": "事前商議、協商",
+    "isImportant": true
+  },
+  {
+    "id": "word_52",
+    "kanji": "待ち合わせ",
+    "reading": "まちあわせ",
+    "pos": "名詞 / (～する)",
+    "meaning": "會合、碰面",
+    "isImportant": true
+  },
+  {
+    "id": "word_53",
+    "kanji": "組み合わせ",
+    "reading": "くみあわせ",
+    "pos": "名詞 / (～する)",
+    "meaning": "組合、搭配",
+    "isImportant": false
+  },
+  {
+    "id": "word_54",
+    "kanji": "問い合わせ",
+    "reading": "といあわせ",
+    "pos": "名詞 / (～する)",
+    "meaning": "詢問、查詢",
+    "isImportant": true
+  },
+  {
+    "id": "word_55",
+    "kanji": "纏め",
+    "reading": "まとめ",
+    "pos": "名詞",
+    "meaning": "總結、整理、彙整",
+    "isImportant": false
+  },
+  {
+    "id": "word_56",
+    "kanji": "末っ子",
+    "reading": "すえっこ",
+    "pos": "名詞",
+    "meaning": "老么",
+    "isImportant": false
+  },
+  {
+    "id": "word_57",
+    "kanji": "生",
+    "reading": "なま",
+    "pos": "名詞",
+    "meaning": "生的、未加工的；生啤酒",
+    "isImportant": false
+  },
+  {
+    "id": "word_58",
+    "kanji": "売り上げ",
+    "reading": "うりあげ",
+    "pos": "名詞",
+    "meaning": "營業額",
+    "isImportant": false
+  },
+  {
+    "id": "word_59",
+    "kanji": "売り場",
+    "reading": "うりば",
+    "pos": "名詞",
+    "meaning": "賣場、售票處",
+    "isImportant": false
+  },
+  {
+    "id": "word_60",
+    "kanji": "売り切れ",
+    "reading": "うりきれ",
+    "pos": "名詞",
+    "meaning": "售完、賣光",
+    "isImportant": true
+  },
+  {
+    "id": "word_61",
+    "kanji": "売り出し",
+    "reading": "うりだし",
+    "pos": "名詞",
+    "meaning": "出清、上市",
+    "isImportant": false
+  },
+  {
+    "id": "word_62",
+    "kanji": "髭",
+    "reading": "ひげ",
+    "pos": "名詞",
+    "meaning": "鬍鬚",
+    "isImportant": false
+  },
+  {
+    "id": "word_63",
+    "kanji": "肘",
+    "reading": "ひじ",
+    "pos": "名詞",
+    "meaning": "手肘",
+    "isImportant": false
+  },
+  {
+    "id": "word_64",
+    "kanji": "禿",
+    "reading": "はげ",
+    "pos": "名詞",
+    "meaning": "禿頭",
+    "isImportant": false
+  },
+  {
+    "id": "word_65",
+    "kanji": "黴",
+    "reading": "かび",
+    "pos": "名詞",
+    "meaning": "霉菌",
+    "isImportant": false
+  },
+  {
+    "id": "word_66",
+    "kanji": "再来週",
+    "reading": "さらいしゅう",
+    "pos": "名詞",
+    "meaning": "下下週",
+    "isImportant": false
+  },
+  {
+    "id": "word_67",
+    "kanji": "君",
+    "reading": "きみ",
+    "pos": "代名詞",
+    "meaning": "你、君（對下輩或親密者）",
+    "isImportant": false
+  },
+  {
+    "id": "word_68",
+    "kanji": "券",
+    "reading": "けん",
+    "pos": "名詞",
+    "meaning": "券、票",
+    "isImportant": false
+  },
+  {
+    "id": "word_69",
+    "kanji": "賃",
+    "reading": "ちん",
+    "pos": "名詞 / 接尾詞",
+    "meaning": "費用、租金（運賃、家賃等）",
+    "isImportant": true
+  },
+  {
+    "id": "word_70",
+    "kanji": "方向",
+    "reading": "ほうこう",
+    "pos": "名詞",
+    "meaning": "方向",
+    "isImportant": false
+  },
+  {
+    "id": "word_71",
+    "kanji": "土地",
+    "reading": "とち",
+    "pos": "名詞",
+    "meaning": "土地",
+    "isImportant": false
+  },
+  {
+    "id": "word_72",
+    "kanji": "向き",
+    "reading": "むき",
+    "pos": "名詞 / 接尾詞",
+    "meaning": "方向、朝向；適合～用途",
+    "isImportant": true
+  },
+  {
+    "id": "word_73",
+    "kanji": "地方",
+    "reading": "ちほう",
+    "pos": "名詞",
+    "meaning": "地方、地區（非都市的地方）",
+    "isImportant": true
+  },
+  {
+    "id": "word_74",
+    "kanji": "地域",
+    "reading": "ちいき",
+    "pos": "名詞",
+    "meaning": "地區、區域",
+    "isImportant": false
+  },
+  {
+    "id": "word_75",
+    "kanji": "三角",
+    "reading": "さんかく",
+    "pos": "名詞",
+    "meaning": "三角形",
+    "isImportant": false
+  },
+  {
+    "id": "word_76",
+    "kanji": "物語",
+    "reading": "ものがたり",
+    "pos": "名詞",
+    "meaning": "故事、傳說",
+    "isImportant": false
+  },
+  {
+    "id": "word_77",
+    "kanji": "書物",
+    "reading": "しょもつ",
+    "pos": "名詞",
+    "meaning": "書籍",
+    "isImportant": false
+  },
+  {
+    "id": "word_78",
+    "kanji": "貝",
+    "reading": "かい",
+    "pos": "名詞",
+    "meaning": "貝、貝類、貝殼",
+    "isImportant": false
+  },
+  {
+    "id": "word_79",
+    "kanji": "製品",
+    "reading": "せいひん",
+    "pos": "名詞",
+    "meaning": "製品、產品",
+    "isImportant": false
+  },
+  {
+    "id": "word_80",
+    "kanji": "行き",
+    "reading": "ゆき",
+    "pos": "名詞",
+    "meaning": "往～方向（行き先のゆき）",
+    "isImportant": false
+  },
+  {
+    "id": "word_81",
+    "kanji": "様子",
+    "reading": "ようす",
+    "pos": "名詞",
+    "meaning": "情況、情形、樣子",
+    "isImportant": true
+  },
+  {
+    "id": "word_82",
+    "kanji": "態度",
+    "reading": "たいど",
+    "pos": "名詞",
+    "meaning": "態度",
+    "isImportant": true
+  },
+  {
+    "id": "word_83",
+    "kanji": "格好",
+    "reading": "かっこう",
+    "pos": "名詞",
+    "meaning": "打扮、外表樣子；適合",
+    "isImportant": true
+  },
+  {
+    "id": "word_84",
+    "kanji": "プリント",
     "reading": "",
     "pos": "名詞",
-    "meaning": "交叉路口"
+    "meaning": "講義、印刷品 (print)",
+    "isImportant": false
   },
   {
-    "id": "word_182",
-    "kanji": "平気",
-    "reading": "へいき",
-    "pos": "な形容詞",
-    "meaning": "不在乎、沒事"
+    "id": "word_85",
+    "kanji": "現実",
+    "reading": "げんじつ",
+    "pos": "名詞",
+    "meaning": "現實、實際",
+    "isImportant": true
   },
   {
-    "id": "word_183",
+    "id": "word_86",
+    "kanji": "論文",
+    "reading": "ろんぶん",
+    "pos": "名詞",
+    "meaning": "論文",
+    "isImportant": false
+  },
+  {
+    "id": "word_87",
+    "kanji": "王子",
+    "reading": "おうじ",
+    "pos": "名詞",
+    "meaning": "王子",
+    "isImportant": false
+  },
+  {
+    "id": "word_88",
+    "kanji": "都合",
+    "reading": "つごう",
+    "pos": "名詞",
+    "meaning": "方便、合適；狀況安排",
+    "isImportant": true
+  },
+  {
+    "id": "word_89",
+    "kanji": "具合",
+    "reading": "ぐあい",
+    "pos": "名詞",
+    "meaning": "狀態、健康情況",
+    "isImportant": true
+  },
+  {
+    "id": "word_90",
+    "kanji": "表",
+    "reading": "おもて",
+    "pos": "名詞",
+    "meaning": "正面、表面",
+    "isImportant": false
+  },
+  {
+    "id": "word_91",
+    "kanji": "裏",
+    "reading": "うら",
+    "pos": "名詞",
+    "meaning": "反面、背面；內幕",
+    "isImportant": true
+  },
+  {
+    "id": "word_92",
+    "kanji": "祈り",
+    "reading": "いのり",
+    "pos": "名詞",
+    "meaning": "祈禱、祝願",
+    "isImportant": false
+  },
+  {
+    "id": "word_93",
+    "kanji": "税",
+    "reading": "ぜい",
+    "pos": "名詞",
+    "meaning": "稅、稅金",
+    "isImportant": false
+  },
+  {
+    "id": "word_94",
+    "kanji": "祝い",
+    "reading": "いわい",
+    "pos": "名詞",
+    "meaning": "慶祝、祝賀",
+    "isImportant": false
+  },
+  {
+    "id": "word_95",
+    "kanji": "症状",
+    "reading": "しょうじょう",
+    "pos": "名詞",
+    "meaning": "症狀",
+    "isImportant": false
+  },
+  {
+    "id": "word_96",
+    "kanji": "交差点",
+    "reading": "こうさてん",
+    "pos": "名詞",
+    "meaning": "交叉路口",
+    "isImportant": true
+  },
+  {
+    "id": "word_97",
     "kanji": "求人",
     "reading": "きゅうじん",
     "pos": "名詞",
-    "meaning": "徵人、招聘"
+    "meaning": "徵人、招聘",
+    "isImportant": false
   },
   {
-    "id": "word_184",
-    "kanji": "廣告",
-    "reading": "こうこく",
-    "pos": "名詞 / (～する)",
-    "meaning": "廣告"
-  },
-  {
-    "id": "word_185",
-    "kanji": "まとめる",
-    "reading": "",
-    "pos": "第二類動詞 (下一段)",
-    "meaning": "整理、彙總、歸納"
-  },
-  {
-    "id": "word_186",
-    "kanji": "あつめる",
-    "reading": "",
-    "pos": "第二類動詞 (下一段)",
-    "meaning": "集合、收集"
-  },
-  {
-    "id": "word_187",
-    "kanji": "うめる",
-    "reading": "",
-    "pos": "第二類動詞 (下一段)",
-    "meaning": "埋、填"
-  },
-  {
-    "id": "word_188",
-    "kanji": "ふくめる",
-    "reading": "",
-    "pos": "第二類動詞 (下一段)",
-    "meaning": "包含、包括"
-  },
-  {
-    "id": "word_189",
-    "kanji": "がらがら",
-    "reading": "",
-    "pos": "副詞 / な形容詞",
-    "meaning": "空蕩蕩的"
-  },
-  {
-    "id": "word_190",
-    "kanji": "うろうろ",
-    "reading": "",
-    "pos": "副詞 / (～する)",
-    "meaning": "徘徊、不知所措"
-  },
-  {
-    "id": "word_191",
-    "kanji": "断る",
-    "reading": "ことわる",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "拒絕、事先通知"
-  },
-  {
-    "id": "word_192",
-    "kanji": "たまに",
-    "reading": "",
-    "pos": "副詞",
-    "meaning": "偶爾、稀少"
-  },
-  {
-    "id": "word_193",
-    "kanji": "ついに",
-    "reading": "",
-    "pos": "副詞",
-    "meaning": "終於"
-  },
-  {
-    "id": "word_194",
-    "kanji": "わりに",
-    "reading": "",
-    "pos": "副詞",
-    "meaning": "比較地、相當"
-  },
-  {
-    "id": "word_195",
-    "kanji": "まず",
-    "reading": "",
-    "pos": "副詞",
-    "meaning": "首先"
-  },
-  {
-    "id": "word_196",
-    "kanji": "飛び込む",
-    "reading": "",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "跳入、跳進"
-  },
-  {
-    "id": "word_197",
-    "kanji": "通り過ぎる",
-    "reading": "とおりすぎる",
-    "pos": "第二類動詞 (下一段)",
-    "meaning": "走過、經過"
-  },
-  {
-    "id": "word_198",
-    "kanji": "通りかかる",
-    "reading": "とおりかかる",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "路過、碰巧經過"
-  },
-  {
-    "id": "word_199",
-    "kanji": "散る",
-    "reading": "ちる",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "凋謝、散落"
-  },
-  {
-    "id": "word_200",
-    "kanji": "枯れる",
-    "reading": "",
-    "pos": "第二類動詞 (下一段)",
-    "meaning": "枯萎"
-  },
-  {
-    "id": "word_201",
-    "kanji": "きちんと",
-    "reading": "",
-    "pos": "副詞 / (～する)",
-    "meaning": "整齊地、好好的、確實地"
-  },
-  {
-    "id": "word_202",
-    "kanji": "しいんと",
-    "reading": "",
-    "pos": "副詞 / (～する)",
-    "meaning": "靜悄悄地"
-  },
-  {
-    "id": "word_203",
-    "kanji": "わざと",
-    "reading": "",
-    "pos": "副詞",
-    "meaning": "故意地"
-  },
-  {
-    "id": "word_204",
-    "kanji": "そっと",
-    "reading": "",
-    "pos": "副詞 / (～する)",
-    "meaning": "輕輕地、悄悄地"
-  },
-  {
-    "id": "word_205",
-    "kanji": "詰める",
-    "reading": "つめる",
-    "pos": "第二類動詞 (下一段)",
-    "meaning": "塞、裝、填滿"
-  },
-  {
-    "id": "word_206",
-    "kanji": "包む",
-    "reading": "つつむ",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "包裹"
-  },
-  {
-    "id": "word_207",
-    "kanji": "積もる",
-    "reading": "つもる",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "堆積"
-  },
-  {
-    "id": "word_208",
-    "kanji": "生意氣",
-    "reading": "なまいき",
-    "pos": "な形容詞",
-    "meaning": "傲慢的、狂妄的、厚臉皮"
-  },
-  {
-    "id": "word_209",
-    "kanji": "意地悪",
-    "reading": "いじわる",
-    "pos": "な形容詞 / 名詞",
-    "meaning": "壞心腸"
-  },
-  {
-    "id": "word_210",
-    "kanji": "下品",
-    "reading": "げひん",
-    "pos": "な形容詞",
-    "meaning": "粗俗"
-  },
-  {
-    "id": "word_211",
-    "kanji": "呑氣",
-    "reading": "のんき",
-    "pos": "な形容詞",
-    "meaning": "無憂無慮、悠哉"
-  },
-  {
-    "id": "word_212",
-    "kanji": "嫌う",
-    "reading": "きらう",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "討厭、厭惡"
-  },
-  {
-    "id": "word_213",
-    "kanji": "嫌がる",
-    "reading": "いやがる",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "感到討厭"
-  },
-  {
-    "id": "word_214",
-    "kanji": "付き合う",
-    "reading": "つきあう",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "交往、陪伴"
-  },
-  {
-    "id": "word_215",
-    "kanji": "稼ぐ",
-    "reading": "かせぐ",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "賺取(勞動所得)"
-  },
-  {
-    "id": "word_216",
-    "kanji": "もうかる",
-    "reading": "",
-    "pos": "第一類動詞 (五段/自動)",
-    "meaning": "賺錢、得利"
-  },
-  {
-    "id": "word_217",
-    "kanji": "おごる",
-    "reading": "",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "請客"
-  },
-  {
-    "id": "word_218",
-    "kanji": "震える",
-    "reading": "ふるえる",
-    "pos": "第二類動詞 (下一段)",
-    "meaning": "震動、發抖"
-  },
-  {
-    "id": "word_219",
-    "kanji": "揺れる",
-    "reading": "ゆれる",
-    "pos": "第二類動詞 (下一段)",
-    "meaning": "擺動、搖動"
-  },
-  {
-    "id": "word_220",
-    "kanji": "撫でる",
-    "reading": "なでる",
-    "pos": "第二類動詞 (下一段)",
-    "meaning": "撫摸、輕撫"
-  },
-  {
-    "id": "word_221",
-    "kanji": "舐める",
-    "reading": "なめる",
-    "pos": "第二類動詞 (下一段)",
-    "meaning": "舔、舐"
-  },
-  {
-    "id": "word_222",
-    "kanji": "鳴く",
-    "reading": "なく",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "鳴叫(動物)"
-  },
-  {
-    "id": "word_223",
-    "kanji": "泣く",
-    "reading": "なく",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "哭泣(人類)"
-  },
-  {
-    "id": "word_224",
-    "kanji": "擦る",
-    "reading": "こする",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "摩擦、揉"
-  },
-  {
-    "id": "word_225",
-    "kanji": "捻る",
-    "reading": "ひねる",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "扭、轉"
-  },
-  {
-    "id": "word_226",
-    "kanji": "解く",
-    "reading": "ほどく",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "解開、解除"
-  },
-  {
-    "id": "word_227",
-    "kanji": "厚い",
-    "reading": "あつい",
-    "pos": "い形容詞",
-    "meaning": "厚的"
-  },
-  {
-    "id": "word_228",
-    "kanji": "深い",
-    "reading": "ふかい",
-    "pos": "い形容詞",
-    "meaning": "深的"
-  },
-  {
-    "id": "word_229",
-    "kanji": "もてる",
-    "reading": "",
-    "pos": "第二類動詞 (下一段)",
-    "meaning": "受歡迎(異性)"
-  },
-  {
-    "id": "word_230",
-    "kanji": "ふる",
-    "reading": "",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "(男女關係)拒絕、甩掉"
-  },
-  {
-    "id": "word_231",
-    "kanji": "惜しい",
-    "reading": "おしい",
-    "pos": "い形容詞",
-    "meaning": "可惜的、遺憾的"
-  },
-  {
-    "id": "word_232",
-    "kanji": "毛糸",
-    "reading": "けいと",
-    "pos": "名詞",
-    "meaning": "毛線"
-  },
-  {
-    "id": "word_233",
-    "kanji": "我儘",
-    "reading": "わがまま",
-    "pos": "な形容詞 / 名詞",
-    "meaning": "任性、自私、為所欲為"
-  },
-  {
-    "id": "word_234",
-    "kanji": "不平",
-    "reading": "ふへい",
-    "pos": "な形容詞 / 名詞",
-    "meaning": "不平、不滿"
-  },
-  {
-    "id": "word_235",
+    "id": "word_98",
     "kanji": "種",
     "reading": "たね",
     "pos": "名詞",
-    "meaning": "種、種子／原因、根源／素材、材料 ／新聞題材"
+    "meaning": "種子；原因、根源；素材、材料",
+    "isImportant": false
   },
   {
-    "id": "word_236",
+    "id": "word_99",
     "kanji": "草",
     "reading": "くさ",
     "pos": "名詞",
-    "meaning": "草"
+    "meaning": "草",
+    "isImportant": false
   },
   {
-    "id": "word_237",
+    "id": "word_100",
     "kanji": "根",
     "reading": "ね",
     "pos": "名詞",
-    "meaning": "根源、根本"
+    "meaning": "根源、根本",
+    "isImportant": false
   },
   {
-    "id": "word_238",
+    "id": "word_101",
     "kanji": "豆",
     "reading": "まめ",
     "pos": "名詞",
-    "meaning": "豆、豆子"
+    "meaning": "豆子",
+    "isImportant": false
   },
   {
-    "id": "word_239",
-    "kanji": "つながる",
-    "reading": "",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "指電話接通、聯繫上"
+    "id": "word_102",
+    "kanji": "毛糸",
+    "reading": "けいと",
+    "pos": "名詞",
+    "meaning": "毛線",
+    "isImportant": false
   },
   {
-    "id": "word_240",
-    "kanji": "届く",
-    "reading": "とどく",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "送到"
-  },
-  {
-    "id": "word_241",
-    "kanji": "戻る",
-    "reading": "もどる",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "返回"
-  },
-  {
-    "id": "word_242",
-    "kanji": "そろう",
-    "reading": "",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "齊全"
-  },
-  {
-    "id": "word_243",
-    "kanji": "戦う",
-    "reading": "たたかう",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "戰鬥、奮戰、鬥爭、對抗"
-  },
-  {
-    "id": "word_244",
-    "kanji": "さっぱり",
-    "reading": "",
-    "pos": "副詞",
-    "meaning": "完全、徹底／清爽、爽快"
-  },
-  {
-    "id": "word_245",
-    "kanji": "あっさり",
-    "reading": "",
-    "pos": "副詞",
-    "meaning": "清淡、簡單／個性乾脆、爽快"
-  },
-  {
-    "id": "word_246",
-    "kanji": "こっそり",
-    "reading": "",
-    "pos": "副詞",
-    "meaning": "悄悄、偷偷"
-  },
-  {
-    "id": "word_247",
-    "kanji": "求める",
-    "reading": "もとめる",
-    "pos": "第二類動詞 (下一段)",
-    "meaning": "追求、尋求、要求"
-  },
-  {
-    "id": "word_248",
-    "kanji": "済む",
-    "reading": "すむ",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "解決、結束"
-  },
-  {
-    "id": "word_249",
-    "kanji": "住む",
-    "reading": "すむ",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "居住"
-  },
-  {
-    "id": "word_250",
-    "kanji": "當たり前",
-    "reading": "あたりまえ",
-    "pos": "な形容詞",
-    "meaning": "理所當然"
-  },
-  {
-    "id": "word_251",
-    "kanji": "積もる",
-    "reading": "つもる",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "堆積"
-  },
-  {
-    "id": "word_252",
-    "kanji": "包む",
-    "reading": "つつむ",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "包裹"
-  },
-  {
-    "id": "word_253",
-    "kanji": "済む",
-    "reading": "すむ",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "結束、完成"
-  },
-  {
-    "id": "word_254",
-    "kanji": "済ませる",
-    "reading": "すませる",
-    "pos": "第二類動詞 (下一段)",
-    "meaning": "使～完成、做完（工作或雜事）"
-  },
-  {
-    "id": "word_255",
-    "kanji": "真っ暗な",
-    "reading": "まっくらな",
-    "pos": "な形容詞",
-    "meaning": "黑漆漆的"
-  },
-  {
-    "id": "word_256",
-    "kanji": "真っ黒な",
-    "reading": "まっくろな",
-    "pos": "な形容詞",
-    "meaning": "黝黑的"
-  },
-  {
-    "id": "word_257",
-    "kanji": "真っ青な",
-    "reading": "まっさおな",
-    "pos": "な形容詞",
-    "meaning": "深藍的、臉色鐵青"
-  },
-  {
-    "id": "word_258",
-    "kanji": "真っ赤な",
-    "reading": "まっかな",
-    "pos": "な形容詞",
-    "meaning": "鮮紅的"
-  },
-  {
-    "id": "word_259",
-    "kanji": "薄暗い",
-    "reading": "うすぐらい",
-    "pos": "い形容詞",
-    "meaning": "光線昏暗、陰暗"
-  },
-  {
-    "id": "word_260",
-    "kanji": "くり返す",
-    "reading": "くりかえす",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "反覆、重複"
-  },
-  {
-    "id": "word_261",
-    "kanji": "当たり前",
-    "reading": "あたりまえ",
-    "pos": "な形容詞",
-    "meaning": "理所當然"
-  },
-  {
-    "id": "word_262",
-    "kanji": "支度",
-    "reading": "したく",
-    "pos": "名詞 / する動詞",
-    "meaning": "準備(餐點或旅行)"
-  },
-  {
-    "id": "word_263",
+    "id": "word_103",
     "kanji": "仕上がり",
     "reading": "しあがり",
     "pos": "名詞",
-    "meaning": "完成、結束、成品狀態"
+    "meaning": "完成狀態、成品",
+    "isImportant": false
   },
   {
-    "id": "word_264",
-    "kanji": "片付け",
-    "reading": "かたづけ",
-    "pos": "名詞 / する動詞",
-    "meaning": "整理、打掃"
-  },
-  {
-    "id": "word_265",
+    "id": "word_104",
     "kanji": "用事",
     "reading": "ようじ",
     "pos": "名詞",
-    "meaning": "事情、任務"
+    "meaning": "事情、任務、要事",
+    "isImportant": true
+  },
+  {
+    "id": "word_105",
+    "kanji": "卒業式",
+    "reading": "そつぎょうしき",
+    "pos": "名詞",
+    "meaning": "畢業典禮",
+    "isImportant": false
+  },
+  {
+    "id": "word_106",
+    "kanji": "宿題",
+    "reading": "しゅくだい",
+    "pos": "名詞",
+    "meaning": "作業、功課",
+    "isImportant": false
+  },
+  {
+    "id": "word_107",
+    "kanji": "受ける",
+    "reading": "うける",
+    "pos": "第二類動詞 (下一段/他)",
+    "meaning": "接受、承受；應試",
+    "isImportant": true
+  },
+  {
+    "id": "word_108",
+    "kanji": "走る",
+    "reading": "はしる",
+    "pos": "第一類動詞 (五段/自)",
+    "meaning": "跑步、行駛",
+    "isImportant": true
+  },
+  {
+    "id": "word_109",
+    "kanji": "止まる",
+    "reading": "とまる",
+    "pos": "第一類動詞 (五段/自)",
+    "meaning": "停止、停下",
+    "isImportant": true
+  },
+  {
+    "id": "word_110",
+    "kanji": "閉まる",
+    "reading": "しまる",
+    "pos": "第一類動詞 (五段/自)",
+    "meaning": "（門、店）關閉（自動詞）",
+    "isImportant": true
+  },
+  {
+    "id": "word_111",
+    "kanji": "溜まる",
+    "reading": "たまる",
+    "pos": "第一類動詞 (五段/自)",
+    "meaning": "累積、堆積；積壓（壓力、帳單等）",
+    "isImportant": true
+  },
+  {
+    "id": "word_112",
+    "kanji": "決まる",
+    "reading": "きまる",
+    "pos": "第一類動詞 (五段/自)",
+    "meaning": "（事情）決定、定下來",
+    "isImportant": true
+  },
+  {
+    "id": "word_113",
+    "kanji": "乗る",
+    "reading": "のる",
+    "pos": "第一類動詞 (五段/自)",
+    "meaning": "乘坐、搭乘",
+    "isImportant": true
+  },
+  {
+    "id": "word_114",
+    "kanji": "迷う",
+    "reading": "まよう",
+    "pos": "第一類動詞 (五段/自)",
+    "meaning": "迷路、迷失；猶豫不決",
+    "isImportant": true
+  },
+  {
+    "id": "word_115",
+    "kanji": "増える",
+    "reading": "ふえる",
+    "pos": "第二類動詞 (下一段/自)",
+    "meaning": "增加",
+    "isImportant": true
+  },
+  {
+    "id": "word_116",
+    "kanji": "減る",
+    "reading": "へる",
+    "pos": "第一類動詞 (五段/自)",
+    "meaning": "減少",
+    "isImportant": true
+  },
+  {
+    "id": "word_117",
+    "kanji": "勝つ",
+    "reading": "かつ",
+    "pos": "第一類動詞 (五段/自)",
+    "meaning": "獲勝、贏",
+    "isImportant": false
+  },
+  {
+    "id": "word_118",
+    "kanji": "負ける",
+    "reading": "まける",
+    "pos": "第二類動詞 (下一段/自)",
+    "meaning": "輸、落敗",
+    "isImportant": false
+  },
+  {
+    "id": "word_119",
+    "kanji": "起きる",
+    "reading": "おきる",
+    "pos": "第二類動詞 (上一段/自)",
+    "meaning": "起床；發生（事件）",
+    "isImportant": true
+  },
+  {
+    "id": "word_120",
+    "kanji": "寝る",
+    "reading": "ねる",
+    "pos": "第二類動詞 (下一段/自)",
+    "meaning": "睡覺",
+    "isImportant": false
+  },
+  {
+    "id": "word_121",
+    "kanji": "付ける",
+    "reading": "つける",
+    "pos": "第二類動詞 (下一段/他)",
+    "meaning": "附加、裝上；塗抹；開（電器）",
+    "isImportant": true
+  },
+  {
+    "id": "word_122",
+    "kanji": "掛ける",
+    "reading": "かける",
+    "pos": "第二類動詞 (下一段/他)",
+    "meaning": "戴上、花費、撥打（電話）、懸掛、乘（法）、覆蓋、澆、撒、讓您過目（謙讓：お目にかける）、耗費（時間、金錢、勞力）",
+    "isImportant": true
+  },
+  {
+    "id": "word_123",
+    "kanji": "決める",
+    "reading": "きめる",
+    "pos": "第二類動詞 (下一段/他)",
+    "meaning": "決定、確定",
+    "isImportant": true
+  },
+  {
+    "id": "word_124",
+    "kanji": "上げる",
+    "reading": "あげる",
+    "pos": "第二類動詞 (下一段/他)",
+    "meaning": "提高、舉起；給（晚輩）",
+    "isImportant": true
+  },
+  {
+    "id": "word_125",
+    "kanji": "下げる",
+    "reading": "さげる",
+    "pos": "第二類動詞 (下一段/他)",
+    "meaning": "降低、放下",
+    "isImportant": true
+  },
+  {
+    "id": "word_126",
+    "kanji": "開ける",
+    "reading": "あける",
+    "pos": "第二類動詞 (下一段/他)",
+    "meaning": "打開（他動詞）",
+    "isImportant": true
+  },
+  {
+    "id": "word_127",
+    "kanji": "閉める",
+    "reading": "しめる",
+    "pos": "第二類動詞 (下一段/他)",
+    "meaning": "關閉（他動詞）",
+    "isImportant": true
+  },
+  {
+    "id": "word_128",
+    "kanji": "入れる",
+    "reading": "いれる",
+    "pos": "第二類動詞 (下一段/他)",
+    "meaning": "放入、裝入",
+    "isImportant": true
+  },
+  {
+    "id": "word_129",
+    "kanji": "出す",
+    "reading": "だす",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "拿出、交出；寄出；端上",
+    "isImportant": true
+  },
+  {
+    "id": "word_130",
+    "kanji": "覚える",
+    "reading": "おぼえる",
+    "pos": "第二類動詞 (下一段/他)",
+    "meaning": "記住、背誦；感覺到",
+    "isImportant": true
+  },
+  {
+    "id": "word_131",
+    "kanji": "忘れる",
+    "reading": "わすれる",
+    "pos": "第二類動詞 (下一段/他)",
+    "meaning": "忘記",
+    "isImportant": true
+  },
+  {
+    "id": "word_132",
+    "kanji": "断る",
+    "reading": "ことわる",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "拒絕；事先告知（無法出席等）",
+    "isImportant": true
+  },
+  {
+    "id": "word_133",
+    "kanji": "落ち着く",
+    "reading": "おちつく",
+    "pos": "第一類動詞 (五段/自)",
+    "meaning": "平靜、冷靜下來；穩定",
+    "isImportant": true
+  },
+  {
+    "id": "word_134",
+    "kanji": "防ぐ",
+    "reading": "ふせぐ",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "阻止、防禦、防止、預防",
+    "isImportant": true
+  },
+  {
+    "id": "word_135",
+    "kanji": "汚す",
+    "reading": "よごす",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "弄髒、玷汙",
+    "isImportant": true
+  },
+  {
+    "id": "word_136",
+    "kanji": "配る",
+    "reading": "くばる",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "分發、分配",
+    "isImportant": false
+  },
+  {
+    "id": "word_137",
+    "kanji": "届く",
+    "reading": "とどく",
+    "pos": "第一類動詞 (五段/自)",
+    "meaning": "送達、到達；（手、聲音）能及",
+    "isImportant": true
+  },
+  {
+    "id": "word_138",
+    "kanji": "伝える",
+    "reading": "つたえる",
+    "pos": "第二類動詞 (下一段/他)",
+    "meaning": "傳達、傳遞",
+    "isImportant": true
+  },
+  {
+    "id": "word_139",
+    "kanji": "役立つ",
+    "reading": "やくだつ",
+    "pos": "第一類動詞 (五段/自)",
+    "meaning": "有用、派上用場",
+    "isImportant": false
+  },
+  {
+    "id": "word_140",
+    "kanji": "近付く",
+    "reading": "ちかづく",
+    "pos": "第一類動詞 (五段/自)",
+    "meaning": "接近、靠近",
+    "isImportant": false
+  },
+  {
+    "id": "word_141",
+    "kanji": "着替える",
+    "reading": "きがえる",
+    "pos": "第二類動詞 (下一段/自)",
+    "meaning": "換衣服、更衣",
+    "isImportant": false
+  },
+  {
+    "id": "word_142",
+    "kanji": "渡る",
+    "reading": "わたる",
+    "pos": "第一類動詞 (五段/自)",
+    "meaning": "渡過、過（橋/馬路）；傳到",
+    "isImportant": true
+  },
+  {
+    "id": "word_143",
+    "kanji": "出会う",
+    "reading": "であう",
+    "pos": "第一類動詞 (五段/自)",
+    "meaning": "相遇、相逢",
+    "isImportant": false
+  },
+  {
+    "id": "word_144",
+    "kanji": "届ける",
+    "reading": "とどける",
+    "pos": "第二類動詞 (下一段/他)",
+    "meaning": "送到、遞送；（向警方）報案",
+    "isImportant": true
+  },
+  {
+    "id": "word_145",
+    "kanji": "向かう",
+    "reading": "むかう",
+    "pos": "第一類動詞 (五段/自)",
+    "meaning": "朝向、前往、面對",
+    "isImportant": true
+  },
+  {
+    "id": "word_146",
+    "kanji": "要る",
+    "reading": "いる",
+    "pos": "第一類動詞 (五段/自)",
+    "meaning": "要、需要",
+    "isImportant": true
+  },
+  {
+    "id": "word_147",
+    "kanji": "空く",
+    "reading": "あく",
+    "pos": "第一類動詞 (五段/自)",
+    "meaning": "空出、騰出；（肚子）餓",
+    "isImportant": true
+  },
+  {
+    "id": "word_148",
+    "kanji": "残る",
+    "reading": "のこる",
+    "pos": "第一類動詞 (五段/自)",
+    "meaning": "剩餘、殘留",
+    "isImportant": false
+  },
+  {
+    "id": "word_149",
+    "kanji": "透く",
+    "reading": "すく",
+    "pos": "第一類動詞 (五段/自)",
+    "meaning": "稀疏、人少",
+    "isImportant": false
+  },
+  {
+    "id": "word_150",
+    "kanji": "余る",
+    "reading": "あまる",
+    "pos": "第一類動詞 (五段/自)",
+    "meaning": "剩餘、過多",
+    "isImportant": false
+  },
+  {
+    "id": "word_151",
+    "kanji": "思いつく",
+    "reading": "おもいつく",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "想出來、想到（點子）",
+    "isImportant": true
+  },
+  {
+    "id": "word_152",
+    "kanji": "張り切る",
+    "reading": "はりきる",
+    "pos": "第一類動詞 (五段/自)",
+    "meaning": "幹勁十足、充滿鬥志",
+    "isImportant": false
+  },
+  {
+    "id": "word_153",
+    "kanji": "見直す",
+    "reading": "みなおす",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "重看、重新評估；改變看法",
+    "isImportant": false
+  },
+  {
+    "id": "word_154",
+    "kanji": "飛び出す",
+    "reading": "とびだす",
+    "pos": "第一類動詞 (五段/自)",
+    "meaning": "衝出、突然跳出",
+    "isImportant": false
+  },
+  {
+    "id": "word_155",
+    "kanji": "転ぶ",
+    "reading": "ころぶ",
+    "pos": "第一類動詞 (五段/自)",
+    "meaning": "跌倒",
+    "isImportant": false
+  },
+  {
+    "id": "word_156",
+    "kanji": "落ちる",
+    "reading": "おちる",
+    "pos": "第二類動詞 (上一段/自)",
+    "meaning": "落下、掉落；（考試）不合格",
+    "isImportant": true
+  },
+  {
+    "id": "word_157",
+    "kanji": "倒れる",
+    "reading": "たおれる",
+    "pos": "第二類動詞 (下一段/自)",
+    "meaning": "倒塌、倒下；病倒",
+    "isImportant": false
+  },
+  {
+    "id": "word_158",
+    "kanji": "潰れる",
+    "reading": "つぶれる",
+    "pos": "第二類動詞 (下一段/自)",
+    "meaning": "壓壞；（公司）倒閉",
+    "isImportant": false
+  },
+  {
+    "id": "word_159",
+    "kanji": "むく",
+    "reading": "剥く",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "剝皮、削皮",
+    "isImportant": false
+  },
+  {
+    "id": "word_160",
+    "kanji": "煮る",
+    "reading": "にる",
+    "pos": "第二類動詞 (上一段/他)",
+    "meaning": "煮、燉",
+    "isImportant": false
+  },
+  {
+    "id": "word_161",
+    "kanji": "茹でる",
+    "reading": "ゆでる",
+    "pos": "第二類動詞 (下一段/他)",
+    "meaning": "燙、水煮",
+    "isImportant": false
+  },
+  {
+    "id": "word_162",
+    "kanji": "結ぶ",
+    "reading": "むすぶ",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "繫、打結、連結",
+    "isImportant": true
+  },
+  {
+    "id": "word_163",
+    "kanji": "解ける",
+    "reading": "ほどける",
+    "pos": "第二類動詞 (下一段/自)",
+    "meaning": "鬆開、解開",
+    "isImportant": false
+  },
+  {
+    "id": "word_164",
+    "kanji": "くっ付ける",
+    "reading": "くっつける",
+    "pos": "第二類動詞 (下一段/他)",
+    "meaning": "黏上、貼上",
+    "isImportant": false
+  },
+  {
+    "id": "word_165",
+    "kanji": "抜く",
+    "reading": "ぬく",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "拔、抽出；超越",
+    "isImportant": false
+  },
+  {
+    "id": "word_166",
+    "kanji": "縫う",
+    "reading": "ぬう",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "縫、縫紉",
+    "isImportant": false
+  },
+  {
+    "id": "word_167",
+    "kanji": "散らかる",
+    "reading": "ちらかる",
+    "pos": "第一類動詞 (五段/自)",
+    "meaning": "凌亂、亂七八糟",
+    "isImportant": false
+  },
+  {
+    "id": "word_168",
+    "kanji": "片付ける",
+    "reading": "かたづける",
+    "pos": "第二類動詞 (下一段/他)",
+    "meaning": "整頓、收拾",
+    "isImportant": true
+  },
+  {
+    "id": "word_169",
+    "kanji": "汚れる",
+    "reading": "よごれる",
+    "pos": "第二類動詞 (下一段/自)",
+    "meaning": "變髒、被污染",
+    "isImportant": true
+  },
+  {
+    "id": "word_170",
+    "kanji": "遅れる",
+    "reading": "おくれる",
+    "pos": "第二類動詞 (下一段/自)",
+    "meaning": "遲到、落後",
+    "isImportant": true
+  },
+  {
+    "id": "word_171",
+    "kanji": "あきらめる",
+    "reading": "諦める",
+    "pos": "第二類動詞 (下一段/他)",
+    "meaning": "死心、放棄",
+    "isImportant": true
+  },
+  {
+    "id": "word_172",
+    "kanji": "あきれる",
+    "reading": "呆れる",
+    "pos": "第二類動詞 (下一段/自)",
+    "meaning": "吃驚、傻眼、無言",
+    "isImportant": false
+  },
+  {
+    "id": "word_173",
+    "kanji": "あきる",
+    "reading": "飽きる",
+    "pos": "第二類動詞 (上一段/自)",
+    "meaning": "厭煩、膩了",
+    "isImportant": true
+  },
+  {
+    "id": "word_174",
+    "kanji": "苦しむ",
+    "reading": "くるしむ",
+    "pos": "第一類動詞 (五段/自)",
+    "meaning": "受苦、痛苦、煩惱",
+    "isImportant": false
+  },
+  {
+    "id": "word_175",
+    "kanji": "量る",
+    "reading": "はかる",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "測量、稱重",
+    "isImportant": false
+  },
+  {
+    "id": "word_176",
+    "kanji": "落とす",
+    "reading": "おとす",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "弄丟、使掉落；去除（汙漬）",
+    "isImportant": true
+  },
+  {
+    "id": "word_177",
+    "kanji": "困る",
+    "reading": "こまる",
+    "pos": "第一類動詞 (五段/自)",
+    "meaning": "困擾、為難、傷腦筋",
+    "isImportant": true
+  },
+  {
+    "id": "word_178",
+    "kanji": "教わる",
+    "reading": "おそわる",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "向～學習、受教",
+    "isImportant": true
+  },
+  {
+    "id": "word_179",
+    "kanji": "襲う",
+    "reading": "おそう",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "襲擊、侵襲",
+    "isImportant": false
+  },
+  {
+    "id": "word_180",
+    "kanji": "学ぶ",
+    "reading": "まなぶ",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "學習",
+    "isImportant": true
+  },
+  {
+    "id": "word_181",
+    "kanji": "語り合う",
+    "reading": "かたりあう",
+    "pos": "第一類動詞 (五段/自)",
+    "meaning": "彼此交談、傾訴",
+    "isImportant": false
+  },
+  {
+    "id": "word_182",
+    "kanji": "喋る",
+    "reading": "しゃべる",
+    "pos": "第一類動詞 (五段/自)",
+    "meaning": "聊天、說話",
+    "isImportant": false
+  },
+  {
+    "id": "word_183",
+    "kanji": "言い合う",
+    "reading": "いいあう",
+    "pos": "第一類動詞 (五段/自)",
+    "meaning": "爭論、爭吵",
+    "isImportant": false
+  },
+  {
+    "id": "word_184",
+    "kanji": "話しかける",
+    "reading": "はなしかける",
+    "pos": "第二類動詞 (下一段/他)",
+    "meaning": "搭話、攀談",
+    "isImportant": true
+  },
+  {
+    "id": "word_185",
+    "kanji": "纏める",
+    "reading": "まとめる",
+    "pos": "第二類動詞 (下一段/他)",
+    "meaning": "整理、彙總、歸納",
+    "isImportant": true
+  },
+  {
+    "id": "word_186",
+    "kanji": "集める",
+    "reading": "あつめる",
+    "pos": "第二類動詞 (下一段/他)",
+    "meaning": "集合、收集",
+    "isImportant": false
+  },
+  {
+    "id": "word_187",
+    "kanji": "埋める",
+    "reading": "うめる",
+    "pos": "第二類動詞 (下一段/他)",
+    "meaning": "埋、填滿",
+    "isImportant": false
+  },
+  {
+    "id": "word_188",
+    "kanji": "含める",
+    "reading": "ふくめる",
+    "pos": "第二類動詞 (下一段/他)",
+    "meaning": "包含、包括",
+    "isImportant": false
+  },
+  {
+    "id": "word_189",
+    "kanji": "求める",
+    "reading": "もとめる",
+    "pos": "第二類動詞 (下一段/他)",
+    "meaning": "追求、尋求、要求",
+    "isImportant": true
+  },
+  {
+    "id": "word_190",
+    "kanji": "冷える",
+    "reading": "ひえる",
+    "pos": "第二類動詞 (下一段/自)",
+    "meaning": "物體變冷、感覺寒冷",
+    "isImportant": true
+  },
+  {
+    "id": "word_191",
+    "kanji": "冷める",
+    "reading": "さめる",
+    "pos": "第二類動詞 (下一段/自)",
+    "meaning": "變涼（熱的食物等）",
+    "isImportant": true
+  },
+  {
+    "id": "word_192",
+    "kanji": "凍る",
+    "reading": "こおる",
+    "pos": "第一類動詞 (五段/自)",
+    "meaning": "凍結、結冰",
+    "isImportant": false
+  },
+  {
+    "id": "word_193",
+    "kanji": "重ねる",
+    "reading": "かさねる",
+    "pos": "第二類動詞 (下一段/他)",
+    "meaning": "堆疊、重複累積",
+    "isImportant": false
+  },
+  {
+    "id": "word_194",
+    "kanji": "広げる",
+    "reading": "ひろげる",
+    "pos": "第二類動詞 (下一段/他)",
+    "meaning": "擴大、展開",
+    "isImportant": false
+  },
+  {
+    "id": "word_195",
+    "kanji": "たたむ",
+    "reading": "畳む",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "折疊、疊好",
+    "isImportant": false
+  },
+  {
+    "id": "word_196",
+    "kanji": "縮める",
+    "reading": "ちぢめる",
+    "pos": "第二類動詞 (下一段/他)",
+    "meaning": "縮短、縮小",
+    "isImportant": false
+  },
+  {
+    "id": "word_197",
+    "kanji": "雇う",
+    "reading": "やとう",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "雇用",
+    "isImportant": false
+  },
+  {
+    "id": "word_198",
+    "kanji": "勤める",
+    "reading": "つとめる",
+    "pos": "第二類動詞 (下一段/自)",
+    "meaning": "工作、任職於",
+    "isImportant": true
+  },
+  {
+    "id": "word_199",
+    "kanji": "混ぜる",
+    "reading": "まぜる",
+    "pos": "第二類動詞 (下一段/他)",
+    "meaning": "混合、攪拌",
+    "isImportant": false
+  },
+  {
+    "id": "word_200",
+    "kanji": "預ける",
+    "reading": "あずける",
+    "pos": "第二類動詞 (下一段/他)",
+    "meaning": "寄放、委託",
+    "isImportant": true
+  },
+  {
+    "id": "word_201",
+    "kanji": "折る",
+    "reading": "おる",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "折疊、折斷",
+    "isImportant": false
+  },
+  {
+    "id": "word_202",
+    "kanji": "折り曲げる",
+    "reading": "おりまげる",
+    "pos": "第二類動詞 (下一段/他)",
+    "meaning": "折彎、摺疊",
+    "isImportant": false
+  },
+  {
+    "id": "word_203",
+    "kanji": "縮む",
+    "reading": "ちぢむ",
+    "pos": "第一類動詞 (五段/自)",
+    "meaning": "縮小、收縮",
+    "isImportant": false
+  },
+  {
+    "id": "word_204",
+    "kanji": "黙る",
+    "reading": "だまる",
+    "pos": "第一類動詞 (五段/自)",
+    "meaning": "沉默、不說話",
+    "isImportant": true
+  },
+  {
+    "id": "word_205",
+    "kanji": "飛び込む",
+    "reading": "とびこむ",
+    "pos": "第一類動詞 (五段/自)",
+    "meaning": "跳入、跳進",
+    "isImportant": false
+  },
+  {
+    "id": "word_206",
+    "kanji": "通り過ぎる",
+    "reading": "とおりすぎる",
+    "pos": "第二類動詞 (上一段/自)",
+    "meaning": "走過、經過",
+    "isImportant": false
+  },
+  {
+    "id": "word_207",
+    "kanji": "通りかかる",
+    "reading": "とおりかかる",
+    "pos": "第一類動詞 (五段/自)",
+    "meaning": "路過、碰巧經過",
+    "isImportant": false
+  },
+  {
+    "id": "word_208",
+    "kanji": "散る",
+    "reading": "ちる",
+    "pos": "第一類動詞 (五段/自)",
+    "meaning": "凋謝、散落",
+    "isImportant": false
+  },
+  {
+    "id": "word_209",
+    "kanji": "枯れる",
+    "reading": "かれる",
+    "pos": "第二類動詞 (下一段/自)",
+    "meaning": "枯萎",
+    "isImportant": false
+  },
+  {
+    "id": "word_210",
+    "kanji": "詰める",
+    "reading": "つめる",
+    "pos": "第二類動詞 (下一段/他)",
+    "meaning": "塞、裝、填滿；縮短（距離）",
+    "isImportant": false
+  },
+  {
+    "id": "word_211",
+    "kanji": "包む",
+    "reading": "つつむ",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "包裹、包住",
+    "isImportant": false
+  },
+  {
+    "id": "word_212",
+    "kanji": "積もる",
+    "reading": "つもる",
+    "pos": "第一類動詞 (五段/自)",
+    "meaning": "堆積（雪等）",
+    "isImportant": false
+  },
+  {
+    "id": "word_213",
+    "kanji": "嫌う",
+    "reading": "きらう",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "討厭、厭惡",
+    "isImportant": false
+  },
+  {
+    "id": "word_214",
+    "kanji": "嫌がる",
+    "reading": "いやがる",
+    "pos": "第一類動詞 (五段/自)",
+    "meaning": "感到討厭、表現出不情願",
+    "isImportant": true
+  },
+  {
+    "id": "word_215",
+    "kanji": "付き合う",
+    "reading": "つきあう",
+    "pos": "第一類動詞 (五段/自)",
+    "meaning": "交往（男女）；陪伴",
+    "isImportant": true
+  },
+  {
+    "id": "word_216",
+    "kanji": "つながる",
+    "reading": "繋がる",
+    "pos": "第一類動詞 (五段/自)",
+    "meaning": "電話接通；連接上",
+    "isImportant": true
+  },
+  {
+    "id": "word_217",
+    "kanji": "戻る",
+    "reading": "もどる",
+    "pos": "第一類動詞 (五段/自)",
+    "meaning": "返回、回到",
+    "isImportant": true
+  },
+  {
+    "id": "word_218",
+    "kanji": "そろう",
+    "reading": "揃う",
+    "pos": "第一類動詞 (五段/自)",
+    "meaning": "齊全、聚齊",
+    "isImportant": false
+  },
+  {
+    "id": "word_219",
+    "kanji": "戦う",
+    "reading": "たたかう",
+    "pos": "第一類動詞 (五段/自)",
+    "meaning": "戰鬥、奮戰、對抗",
+    "isImportant": false
+  },
+  {
+    "id": "word_220",
+    "kanji": "くり返す",
+    "reading": "繰り返す",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "反覆、重複",
+    "isImportant": true
+  },
+  {
+    "id": "word_221",
+    "kanji": "刻む",
+    "reading": "きざむ",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "切碎；刻畫、雕刻",
+    "isImportant": false
+  },
+  {
+    "id": "word_222",
+    "kanji": "蒸す",
+    "reading": "むす",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "蒸、悶",
+    "isImportant": false
+  },
+  {
+    "id": "word_223",
+    "kanji": "炒める",
+    "reading": "いためる",
+    "pos": "第二類動詞 (下一段/他)",
+    "meaning": "炒",
+    "isImportant": false
+  },
+  {
+    "id": "word_224",
+    "kanji": "炊く",
+    "reading": "たく",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "炊（飯）、煮（飯）",
+    "isImportant": false
+  },
+  {
+    "id": "word_225",
+    "kanji": "沸かす",
+    "reading": "わかす",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "使水沸騰、燒開水",
+    "isImportant": false
+  },
+  {
+    "id": "word_226",
+    "kanji": "稼ぐ",
+    "reading": "かせぐ",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "賺取（勞動所得）",
+    "isImportant": false
+  },
+  {
+    "id": "word_227",
+    "kanji": "もうかる",
+    "reading": "儲かる",
+    "pos": "第一類動詞 (五段/自)",
+    "meaning": "賺錢、獲利",
+    "isImportant": false
+  },
+  {
+    "id": "word_228",
+    "kanji": "おごる",
+    "reading": "奢る",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "請客",
+    "isImportant": false
+  },
+  {
+    "id": "word_229",
+    "kanji": "震える",
+    "reading": "ふるえる",
+    "pos": "第二類動詞 (下一段/自)",
+    "meaning": "震動、發抖",
+    "isImportant": false
+  },
+  {
+    "id": "word_230",
+    "kanji": "揺れる",
+    "reading": "ゆれる",
+    "pos": "第二類動詞 (下一段/自)",
+    "meaning": "擺動、搖動",
+    "isImportant": false
+  },
+  {
+    "id": "word_231",
+    "kanji": "撫でる",
+    "reading": "なでる",
+    "pos": "第二類動詞 (下一段/他)",
+    "meaning": "撫摸、輕撫",
+    "isImportant": false
+  },
+  {
+    "id": "word_232",
+    "kanji": "舐める",
+    "reading": "なめる",
+    "pos": "第二類動詞 (下一段/他)",
+    "meaning": "舔",
+    "isImportant": false
+  },
+  {
+    "id": "word_233",
+    "kanji": "鳴く",
+    "reading": "なく",
+    "pos": "第一類動詞 (五段/自)",
+    "meaning": "鳴叫（動物、鳥類）",
+    "isImportant": true
+  },
+  {
+    "id": "word_234",
+    "kanji": "泣く",
+    "reading": "なく",
+    "pos": "第一類動詞 (五段/自)",
+    "meaning": "哭泣（人類）",
+    "isImportant": true
+  },
+  {
+    "id": "word_235",
+    "kanji": "擦る",
+    "reading": "こする",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "摩擦、揉",
+    "isImportant": false
+  },
+  {
+    "id": "word_236",
+    "kanji": "捻る",
+    "reading": "ひねる",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "扭轉",
+    "isImportant": false
+  },
+  {
+    "id": "word_237",
+    "kanji": "解く",
+    "reading": "ほどく",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "解開、解除",
+    "isImportant": false
+  },
+  {
+    "id": "word_238",
+    "kanji": "モテる",
+    "reading": "もてる",
+    "pos": "第二類動詞 (下一段/自)",
+    "meaning": "受（異性）歡迎",
+    "isImportant": false
+  },
+  {
+    "id": "word_239",
+    "kanji": "ふる",
+    "reading": "振る",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "甩掉（感情）、拒絕（告白）",
+    "isImportant": true
+  },
+  {
+    "id": "word_240",
+    "kanji": "済む",
+    "reading": "すむ",
+    "pos": "第一類動詞 (五段/自)",
+    "meaning": "完結、結束；（用～で）只需～即可",
+    "isImportant": true
+  },
+  {
+    "id": "word_241",
+    "kanji": "済ませる",
+    "reading": "すませる",
+    "pos": "第二類動詞 (下一段/他)",
+    "meaning": "做完、完成（雜事）",
+    "isImportant": true
+  },
+  {
+    "id": "word_242",
+    "kanji": "住む",
+    "reading": "すむ",
+    "pos": "第一類動詞 (五段/自)",
+    "meaning": "居住",
+    "isImportant": true
+  },
+  {
+    "id": "word_243",
+    "kanji": "譲る",
+    "reading": "ゆずる",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "禮讓、讓出；轉讓",
+    "isImportant": true
+  },
+  {
+    "id": "word_244",
+    "kanji": "渡す",
+    "reading": "わたす",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "傳給、交給；渡（船）",
+    "isImportant": true
+  },
+  {
+    "id": "word_245",
+    "kanji": "回す",
+    "reading": "まわす",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "轉動、傳遞",
+    "isImportant": false
+  },
+  {
+    "id": "word_246",
+    "kanji": "繋ぐ",
+    "reading": "つなぐ",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "連接、串起、牽住",
+    "isImportant": false
+  },
+  {
+    "id": "word_247",
+    "kanji": "浴びる",
+    "reading": "あびる",
+    "pos": "第二類動詞 (上一段/他)",
+    "meaning": "沖澡、淋；曝曬（日光浴）",
+    "isImportant": true
+  },
+  {
+    "id": "word_248",
+    "kanji": "退ける",
+    "reading": "どける",
+    "pos": "第二類動詞 (下一段/他)",
+    "meaning": "移開、挪開（他動詞）",
+    "isImportant": true
+  },
+  {
+    "id": "word_249",
+    "kanji": "退く",
+    "reading": "どく",
+    "pos": "第一類動詞 (五段/自)",
+    "meaning": "躲開、讓開（自動詞）",
+    "isImportant": true
+  },
+  {
+    "id": "word_250",
+    "kanji": "外す",
+    "reading": "はずす",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "取下、解開；避開；錯過",
+    "isImportant": true
+  },
+  {
+    "id": "word_251",
+    "kanji": "崩す",
+    "reading": "くずす",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "瓦解、打亂；換零錢",
+    "isImportant": false
+  },
+  {
+    "id": "word_252",
+    "kanji": "建てる",
+    "reading": "たてる",
+    "pos": "第二類動詞 (下一段/他)",
+    "meaning": "建築、蓋（房子）、豎立",
+    "isImportant": false
+  },
+  {
+    "id": "word_253",
+    "kanji": "切る",
+    "reading": "きる",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "切、斷開；做完（接尾詞）",
+    "isImportant": true
+  },
+  {
+    "id": "word_254",
+    "kanji": "終える",
+    "reading": "おえる",
+    "pos": "第二類動詞 (下一段/他)",
+    "meaning": "結束、完成",
+    "isImportant": false
+  },
+  {
+    "id": "word_255",
+    "kanji": "広い",
+    "reading": "ひろい",
+    "pos": "い形容詞",
+    "meaning": "廣闊、寬敞",
+    "isImportant": false
+  },
+  {
+    "id": "word_256",
+    "kanji": "強い",
+    "reading": "つよい",
+    "pos": "い形容詞",
+    "meaning": "強、堅強",
+    "isImportant": true
+  },
+  {
+    "id": "word_257",
+    "kanji": "親しい",
+    "reading": "したしい",
+    "pos": "い形容詞",
+    "meaning": "親密、親近",
+    "isImportant": true
+  },
+  {
+    "id": "word_258",
+    "kanji": "激しい",
+    "reading": "はげしい",
+    "pos": "い形容詞",
+    "meaning": "激烈、猛烈",
+    "isImportant": true
+  },
+  {
+    "id": "word_259",
+    "kanji": "遅い",
+    "reading": "おそい",
+    "pos": "い形容詞",
+    "meaning": "慢、遲；（時間）晚",
+    "isImportant": true
+  },
+  {
+    "id": "word_260",
+    "kanji": "眩しい",
+    "reading": "まぶしい",
+    "pos": "い形容詞",
+    "meaning": "耀眼的、炫目的、刺眼的",
+    "isImportant": true
+  },
+  {
+    "id": "word_261",
+    "kanji": "美味い",
+    "reading": "うまい",
+    "pos": "い形容詞",
+    "meaning": "好吃、美味；擅長的、高明的",
+    "isImportant": true
+  },
+  {
+    "id": "word_262",
+    "kanji": "弱い",
+    "reading": "よわい",
+    "pos": "い形容詞",
+    "meaning": "弱、虛弱",
+    "isImportant": false
+  },
+  {
+    "id": "word_263",
+    "kanji": "難しい",
+    "reading": "むずかしい",
+    "pos": "い形容詞",
+    "meaning": "困難、難解",
+    "isImportant": true
+  },
+  {
+    "id": "word_264",
+    "kanji": "蒸し暑い",
+    "reading": "むしあつい",
+    "pos": "い形容詞",
+    "meaning": "悶熱、又濕又熱",
+    "isImportant": false
+  },
+  {
+    "id": "word_265",
+    "kanji": "憎らしい",
+    "reading": "にくらしい",
+    "pos": "い形容詞",
+    "meaning": "可恨的、令人討厭的",
+    "isImportant": false
   },
   {
     "id": "word_266",
-    "kanji": "防ぐ",
-    "reading": "ふせぐ",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "阻止、防禦"
+    "kanji": "温い",
+    "reading": "ぬるい",
+    "pos": "い形容詞",
+    "meaning": "微溫、不夠熱；不夠嚴格（引申）",
+    "isImportant": false
   },
   {
     "id": "word_267",
-    "kanji": "刻む",
-    "reading": "きざむ",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "切碎、刻畫、雕刻"
+    "kanji": "詳しい",
+    "reading": "くわしい",
+    "pos": "い形容詞",
+    "meaning": "詳細的；（人）熟悉某領域",
+    "isImportant": true
   },
   {
     "id": "word_268",
-    "kanji": "剥く",
-    "reading": "むく",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "剝皮"
-  },
-  {
-    "id": "word_269",
-    "kanji": "蒸す",
-    "reading": "むす",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "蒸、悶"
-  },
-  {
-    "id": "word_270",
-    "kanji": "炒める",
-    "reading": "いためる",
-    "pos": "第二類動詞 (下一段)",
-    "meaning": "炒"
-  },
-  {
-    "id": "word_271",
-    "kanji": "炊く",
-    "reading": "たく",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "炊（飯）、煮（飯）"
-  },
-  {
-    "id": "word_272",
-    "kanji": "沸かす",
-    "reading": "わかす",
-    "pos": "第一類動詞 (五段)",
-    "meaning": "使（水）沸騰、燒（開水）"
-  },
-  {
-    "id": "word_273",
-    "kanji": "うるさい",
-    "reading": "",
-    "pos": "い形容詞",
-    "meaning": "吵雜的、煩人的、囉唆的"
-  },
-  {
-    "id": "word_274",
     "kanji": "険しい",
     "reading": "けわしい",
     "pos": "い形容詞",
-    "meaning": "山路險峻的、表情嚴肅(厲)"
+    "meaning": "山路險峻；表情嚴肅、嚴厲",
+    "isImportant": true
+  },
+  {
+    "id": "word_269",
+    "kanji": "細かい",
+    "reading": "こまかい",
+    "pos": "い形容詞",
+    "meaning": "細小的、零碎的；小額的；細心",
+    "isImportant": true
+  },
+  {
+    "id": "word_270",
+    "kanji": "細い",
+    "reading": "ほそい",
+    "pos": "い形容詞",
+    "meaning": "細的、纖細的",
+    "isImportant": false
+  },
+  {
+    "id": "word_271",
+    "kanji": "あわただしい",
+    "reading": "慌ただしい",
+    "pos": "い形容詞",
+    "meaning": "匆忙的、慌張的",
+    "isImportant": false
+  },
+  {
+    "id": "word_272",
+    "kanji": "おとなしい",
+    "reading": "大人しい",
+    "pos": "い形容詞",
+    "meaning": "老實的、溫順的",
+    "isImportant": true
+  },
+  {
+    "id": "word_273",
+    "kanji": "汚い",
+    "reading": "きたない",
+    "pos": "い形容詞",
+    "meaning": "骯髒的、不潔的",
+    "isImportant": false
+  },
+  {
+    "id": "word_274",
+    "kanji": "みにくい",
+    "reading": "醜い",
+    "pos": "い形容詞",
+    "meaning": "難看的、醜陋的",
+    "isImportant": false
   },
   {
     "id": "word_275",
-    "kanji": "馬鹿らしい",
-    "reading": "ばからしい",
+    "kanji": "つらい",
+    "reading": "辛い",
     "pos": "い形容詞",
-    "meaning": "愚蠢的、荒謬的、無聊的"
+    "meaning": "痛苦的、難受的；辛苦的",
+    "isImportant": true
   },
   {
     "id": "word_276",
-    "kanji": "いいかげんにしなさい",
-    "reading": "",
-    "pos": "慣用語",
-    "meaning": "適可而止、差不多一點！"
+    "kanji": "苦い",
+    "reading": "にがい",
+    "pos": "い形容詞",
+    "meaning": "苦的；（表情）苦澀難看",
+    "isImportant": false
   },
   {
     "id": "word_277",
-    "kanji": "頭にくる（あたまにくる） / 腹が立つ",
-    "reading": "はらがたつ",
-    "pos": "慣用語",
-    "meaning": "生氣、發怒"
+    "kanji": "もったいない",
+    "reading": "勿体ない",
+    "pos": "い形容詞",
+    "meaning": "浪費的、可惜的",
+    "isImportant": true
   },
   {
     "id": "word_278",
-    "kanji": "大したことがない",
-    "reading": "たいしたことがない",
-    "pos": "慣用語",
-    "meaning": "沒什麼大礙、算不了什麼"
+    "kanji": "だらしない",
+    "reading": "",
+    "pos": "い形容詞",
+    "meaning": "邋遢的、散漫的、鬆散的",
+    "isImportant": true
   },
   {
     "id": "word_279",
-    "kanji": "いいかげんな",
-    "reading": "",
-    "pos": "慣用語",
-    "meaning": "敷衍的、適當的、馬馬虎虎的"
+    "kanji": "下らない",
+    "reading": "くだらない",
+    "pos": "い形容詞",
+    "meaning": "無聊的、無價值的",
+    "isImportant": false
   },
   {
     "id": "word_280",
-    "kanji": "気の毒",
-    "reading": "きのどく",
-    "pos": "慣用語",
-    "meaning": "可憐的"
+    "kanji": "しつこい",
+    "reading": "",
+    "pos": "い形容詞",
+    "meaning": "執拗的、糾纏不休的；油膩的",
+    "isImportant": true
   },
   {
     "id": "word_281",
-    "kanji": "口を利く",
-    "reading": "くちをきく",
-    "pos": "慣用語",
-    "meaning": "說話"
+    "kanji": "怪しい",
+    "reading": "あやしい",
+    "pos": "い形容詞",
+    "meaning": "可疑的、奇怪的",
+    "isImportant": true
   },
   {
     "id": "word_282",
-    "kanji": "口にする",
-    "reading": "くちにする",
-    "pos": "慣用語",
-    "meaning": "吃進嘴裡、說到"
+    "kanji": "煩い",
+    "reading": "うるさい",
+    "pos": "い形容詞",
+    "meaning": "吵雜的；煩人的、囉唆的",
+    "isImportant": true
   },
   {
     "id": "word_283",
-    "kanji": "耳にする",
-    "reading": "みみにする",
-    "pos": "慣用語",
-    "meaning": "聽見"
+    "kanji": "馬鹿らしい",
+    "reading": "ばからしい",
+    "pos": "い形容詞",
+    "meaning": "愚蠢的、荒謬的、無聊的",
+    "isImportant": false
   },
   {
     "id": "word_284",
-    "kanji": "耳が遠い",
-    "reading": "みみがとおい",
-    "pos": "慣用語",
-    "meaning": "重聽、聽力差"
+    "kanji": "厚い",
+    "reading": "あつい",
+    "pos": "い形容詞",
+    "meaning": "厚的",
+    "isImportant": false
   },
   {
     "id": "word_285",
-    "kanji": "どういう意味",
-    "reading": "いみ",
-    "pos": "慣用語",
-    "meaning": "是什麼意思"
+    "kanji": "深い",
+    "reading": "ふかい",
+    "pos": "い形容詞",
+    "meaning": "深的",
+    "isImportant": false
   },
   {
     "id": "word_286",
-    "kanji": "都合",
-    "reading": "つごう",
-    "pos": "慣用語",
-    "meaning": "挪出時間、設法安排"
+    "kanji": "惜しい",
+    "reading": "おしい",
+    "pos": "い形容詞",
+    "meaning": "可惜的、遺憾的；差一點就～",
+    "isImportant": true
   },
   {
     "id": "word_287",
-    "kanji": "気に入る",
-    "reading": "きにいる",
-    "pos": "慣用語",
-    "meaning": "中意、滿意、喜歡"
+    "kanji": "きつい",
+    "reading": "",
+    "pos": "い形容詞",
+    "meaning": "辛苦的、吃力的；緊繃的；嚴厲的",
+    "isImportant": true
   },
   {
     "id": "word_288",
-    "kanji": "気にする",
-    "reading": "",
-    "pos": "慣用語",
-    "meaning": "介意、擔心"
+    "kanji": "さわがしい",
+    "reading": "騒がしい",
+    "pos": "い形容詞",
+    "meaning": "吵鬧的、喧鬧的",
+    "isImportant": false
   },
   {
     "id": "word_289",
-    "kanji": "気になる",
+    "kanji": "ずうずうしい",
     "reading": "",
-    "pos": "慣用語",
-    "meaning": "掛念、在意"
+    "pos": "い形容詞",
+    "meaning": "厚臉皮的、厚顏無恥的",
+    "isImportant": false
   },
   {
     "id": "word_290",
-    "kanji": "気にかける",
-    "reading": "",
-    "pos": "慣用語",
-    "meaning": "關心"
+    "kanji": "薄暗い",
+    "reading": "うすぐらい",
+    "pos": "い形容詞",
+    "meaning": "光線昏暗、陰暗",
+    "isImportant": false
   },
   {
     "id": "word_291",
-    "kanji": "とんでもない",
-    "reading": "",
-    "pos": "慣用語",
-    "meaning": "哪裡的話、沒那回事、不敢當"
+    "kanji": "簡単",
+    "reading": "かんたん",
+    "pos": "な形容詞",
+    "meaning": "簡單",
+    "isImportant": true
   },
   {
     "id": "word_292",
-    "kanji": "しょうがない",
-    "reading": "",
-    "pos": "慣用語",
-    "meaning": "沒辦法"
+    "kanji": "安全",
+    "reading": "あんぜん",
+    "pos": "名詞 / な形容詞",
+    "meaning": "安全",
+    "isImportant": true
   },
   {
     "id": "word_293",
-    "kanji": "おかげさま",
-    "reading": "",
-    "pos": "慣用語",
-    "meaning": "託您的福"
+    "kanji": "危険",
+    "reading": "きけん",
+    "pos": "名詞 / な形容詞",
+    "meaning": "危險",
+    "isImportant": true
   },
   {
     "id": "word_294",
-    "kanji": "もうしわけない",
-    "reading": "申し訳ない",
-    "pos": "慣用語",
-    "meaning": "對不起、抱歉、過意不去"
+    "kanji": "新鮮",
+    "reading": "しんせん",
+    "pos": "な形容詞",
+    "meaning": "新鮮",
+    "isImportant": false
   },
   {
     "id": "word_295",
-    "kanji": "ご存知です / ご存知じゃありません",
-    "reading": "",
-    "pos": "慣用語",
-    "meaning": "(您) 知道 / (您) 不知道"
+    "kanji": "豊か",
+    "reading": "ゆたか",
+    "pos": "な形容詞",
+    "meaning": "豐富、富裕",
+    "isImportant": false
   },
   {
     "id": "word_296",
-    "kanji": "存じております / 存じません",
-    "reading": "",
-    "pos": "慣用語",
-    "meaning": "(我) 知道 / (我) 不知道"
+    "kanji": "得意",
+    "reading": "とくい",
+    "pos": "な形容詞",
+    "meaning": "擅長、拿手；得意",
+    "isImportant": true
   },
   {
     "id": "word_297",
-    "kanji": "どういう意味",
-    "reading": "いみ",
-    "pos": "慣用語",
-    "meaning": "是什麼意思"
+    "kanji": "上手",
+    "reading": "じょうず",
+    "pos": "な形容詞",
+    "meaning": "高明的、擅長的",
+    "isImportant": true
   },
   {
     "id": "word_298",
-    "kanji": "とんでもない",
-    "reading": "",
-    "pos": "慣用語",
-    "meaning": "哪裡的話、沒那回事"
+    "kanji": "ほがらか",
+    "reading": "朗らか",
+    "pos": "な形容詞",
+    "meaning": "爽朗的、開朗的",
+    "isImportant": false
   },
   {
     "id": "word_299",
-    "kanji": "しょうがない",
-    "reading": "",
-    "pos": "慣用語",
-    "meaning": "沒辦法"
+    "kanji": "平気",
+    "reading": "へいき",
+    "pos": "な形容詞",
+    "meaning": "不在乎的、沒事的",
+    "isImportant": true
   },
   {
     "id": "word_300",
-    "kanji": "おかげさま",
+    "kanji": "まあまあ",
     "reading": "",
-    "pos": "慣用語",
-    "meaning": "託您的福"
+    "pos": "副詞 / な形容詞",
+    "meaning": "馬馬虎虎、還算可以（勉強合格）",
+    "isImportant": false
   },
   {
     "id": "word_301",
-    "kanji": "申し訳ない",
-    "reading": "",
-    "pos": "慣用語",
-    "meaning": "對不起、過意不去"
+    "kanji": "贅沢",
+    "reading": "ぜいたく",
+    "pos": "な形容詞",
+    "meaning": "奢侈的、豪華的",
+    "isImportant": false
   },
   {
     "id": "word_302",
-    "kanji": "得をする",
-    "reading": "とくをする",
-    "pos": "慣用語",
-    "meaning": "得到、獲利"
+    "kanji": "貧乏",
+    "reading": "びんぼう",
+    "pos": "な形容詞",
+    "meaning": "貧窮的",
+    "isImportant": false
   },
   {
     "id": "word_303",
-    "kanji": "損をする",
-    "reading": "そんをする",
-    "pos": "慣用語",
-    "meaning": "虧損、受損"
+    "kanji": "生意気",
+    "reading": "なまいき",
+    "pos": "な形容詞",
+    "meaning": "傲慢的、自以為是的、厚臉皮",
+    "isImportant": false
   },
   {
     "id": "word_304",
-    "kanji": "気がある",
-    "reading": "きがある",
-    "pos": "慣用語",
-    "meaning": "有興趣、有意思"
+    "kanji": "意地悪",
+    "reading": "いじわる",
+    "pos": "な形容詞 / 名詞",
+    "meaning": "壞心腸、故意刁難人",
+    "isImportant": true
   },
   {
     "id": "word_305",
-    "kanji": "ついている",
-    "reading": "",
-    "pos": "慣用語",
-    "meaning": "幸運、運氣好"
+    "kanji": "下品",
+    "reading": "げひん",
+    "pos": "な形容詞",
+    "meaning": "粗俗、低俗",
+    "isImportant": false
   },
   {
     "id": "word_306",
-    "kanji": "ましになる",
-    "reading": "",
-    "pos": "慣用語",
-    "meaning": "好轉、變好一點"
+    "kanji": "呑気",
+    "reading": "のんき",
+    "pos": "な形容詞",
+    "meaning": "無憂無慮、悠哉",
+    "isImportant": false
   },
   {
     "id": "word_307",
-    "kanji": "文句",
-    "reading": "もんく",
-    "pos": "慣用語",
-    "meaning": "抱怨、發牢騷"
+    "kanji": "我儘",
+    "reading": "わがまま",
+    "pos": "な形容詞 / 名詞",
+    "meaning": "任性、自私、為所欲為",
+    "isImportant": true
   },
   {
     "id": "word_308",
-    "kanji": "損",
-    "reading": "そん",
-    "pos": "慣用語",
-    "meaning": "受損、吃虧"
+    "kanji": "不平",
+    "reading": "ふへい",
+    "pos": "な形容詞 / 名詞",
+    "meaning": "不平、不滿、牢騷",
+    "isImportant": false
   },
   {
     "id": "word_309",
-    "kanji": "損",
-    "reading": "そん",
-    "pos": "慣用語",
-    "meaning": "受損、吃虧"
+    "kanji": "当たり前",
+    "reading": "あたりまえ",
+    "pos": "な形容詞",
+    "meaning": "理所當然",
+    "isImportant": true
   },
   {
     "id": "word_310",
-    "kanji": "文句",
-    "reading": "もんく",
-    "pos": "慣用語",
-    "meaning": "抱怨、發牢騷"
+    "kanji": "真っ暗",
+    "reading": "まっくら",
+    "pos": "な形容詞",
+    "meaning": "黑漆漆的",
+    "isImportant": false
   },
   {
     "id": "word_311",
-    "kanji": "損",
-    "reading": "そん",
-    "pos": "慣用語",
-    "meaning": "受損、吃虧"
+    "kanji": "真っ黒",
+    "reading": "まっくろ",
+    "pos": "な形容詞",
+    "meaning": "黝黑的",
+    "isImportant": false
   },
   {
     "id": "word_312",
-    "kanji": "損",
-    "reading": "そん",
-    "pos": "慣用語",
-    "meaning": "受損、吃虧"
+    "kanji": "真っ青",
+    "reading": "まっさお",
+    "pos": "な形容詞",
+    "meaning": "深藍的；（臉色）鐵青",
+    "isImportant": true
   },
   {
     "id": "word_313",
-    "kanji": "為になる",
-    "reading": "ためになる",
-    "pos": "慣用語",
-    "meaning": "有益、有幫助"
+    "kanji": "真っ赤",
+    "reading": "まっか",
+    "pos": "な形容詞",
+    "meaning": "鮮紅的；（完全的）謊言（真っ赤な嘘）",
+    "isImportant": true
   },
   {
     "id": "word_314",
-    "kanji": "役に立つ",
-    "reading": "やくにたつ",
-    "pos": "慣用語",
-    "meaning": "有用、派上用場"
+    "kanji": "スマート",
+    "reading": "",
+    "pos": "な形容詞",
+    "meaning": "聰明的、苗條的 (smart)",
+    "isImportant": false
   },
   {
     "id": "word_315",
-    "kanji": "癖になる",
-    "reading": "くせになる",
-    "pos": "慣用語",
-    "meaning": "變成習慣、上癮"
+    "kanji": "ハンサム",
+    "reading": "",
+    "pos": "な形容詞",
+    "meaning": "英俊、帥氣 (handsome)",
+    "isImportant": false
   },
   {
     "id": "word_316",
-    "kanji": "お構いなく",
-    "reading": "おかまいなく",
-    "pos": "慣用語",
-    "meaning": "請別費心、不用招待"
+    "kanji": "ユニーク",
+    "reading": "",
+    "pos": "な形容詞",
+    "meaning": "獨特的 (unique)",
+    "isImportant": false
   },
   {
     "id": "word_317",
-    "kanji": "うるさく言う",
-    "reading": "",
-    "pos": "慣用語",
-    "meaning": "嘮叨、囉唆個不停"
+    "kanji": "楽",
+    "reading": "らく",
+    "pos": "な形容詞",
+    "meaning": "輕鬆的、安樂的",
+    "isImportant": true
   },
   {
     "id": "word_318",
-    "kanji": "うるさい通り",
+    "kanji": "主な",
+    "reading": "おもな",
+    "pos": "連體詞",
+    "meaning": "主要的",
+    "isImportant": false
+  },
+  {
+    "id": "word_319",
+    "kanji": "大した",
+    "reading": "たいした",
+    "pos": "連體詞",
+    "meaning": "了不起的；（後接否定）沒什麼大不了的",
+    "isImportant": true
+  },
+  {
+    "id": "word_320",
+    "kanji": "必ず",
+    "reading": "かならず",
+    "pos": "副詞",
+    "meaning": "一定、必定（比きっと更強的肯定）",
+    "isImportant": true
+  },
+  {
+    "id": "word_321",
+    "kanji": "再三",
+    "reading": "さいさん",
+    "pos": "副詞",
+    "meaning": "再三、多次、反覆",
+    "isImportant": false
+  },
+  {
+    "id": "word_322",
+    "kanji": "忽ち",
+    "reading": "たちまち",
+    "pos": "副詞",
+    "meaning": "立刻、頓時、一下子就",
+    "isImportant": false
+  },
+  {
+    "id": "word_323",
+    "kanji": "のんびり",
+    "reading": "",
+    "pos": "副詞 / (～する)",
+    "meaning": "悠閒地、輕鬆地",
+    "isImportant": false
+  },
+  {
+    "id": "word_324",
+    "kanji": "所々",
+    "reading": "ところどころ",
+    "pos": "副詞 / 名詞",
+    "meaning": "處處、到處有些地方",
+    "isImportant": false
+  },
+  {
+    "id": "word_325",
+    "kanji": "全て",
+    "reading": "すべて",
+    "pos": "副詞 / 名詞",
+    "meaning": "全部、所有",
+    "isImportant": true
+  },
+  {
+    "id": "word_326",
+    "kanji": "次々",
+    "reading": "つぎつぎ",
+    "pos": "副詞",
+    "meaning": "接連不斷地、相繼",
+    "isImportant": false
+  },
+  {
+    "id": "word_327",
+    "kanji": "後ほど",
+    "reading": "のちほど",
+    "pos": "副詞",
+    "meaning": "過一會兒（比あとで正式）",
+    "isImportant": true
+  },
+  {
+    "id": "word_328",
+    "kanji": "間もなく",
+    "reading": "まもなく",
+    "pos": "副詞",
+    "meaning": "不久、很快",
+    "isImportant": true
+  },
+  {
+    "id": "word_329",
+    "kanji": "暫く",
+    "reading": "しばらく",
+    "pos": "副詞",
+    "meaning": "一會兒、暫時",
+    "isImportant": true
+  },
+  {
+    "id": "word_330",
+    "kanji": "先に",
+    "reading": "さきに",
+    "pos": "副詞 / 名詞",
+    "meaning": "先走；之前",
+    "isImportant": false
+  },
+  {
+    "id": "word_331",
+    "kanji": "あちこち",
+    "reading": "",
+    "pos": "代名詞 / 副詞",
+    "meaning": "到處、各處",
+    "isImportant": false
+  },
+  {
+    "id": "word_332",
+    "kanji": "ぶらぶら",
+    "reading": "",
+    "pos": "副詞 / (～する)",
+    "meaning": "閒逛、無所事事；搖晃",
+    "isImportant": false
+  },
+  {
+    "id": "word_333",
+    "kanji": "そろそろ",
+    "reading": "",
+    "pos": "副詞",
+    "meaning": "快要、就要、差不多該～",
+    "isImportant": true
+  },
+  {
+    "id": "word_334",
+    "kanji": "のろのろ",
+    "reading": "",
+    "pos": "副詞",
+    "meaning": "慢吞吞、緩慢地",
+    "isImportant": false
+  },
+  {
+    "id": "word_335",
+    "kanji": "どんどん",
+    "reading": "",
+    "pos": "副詞",
+    "meaning": "順利進行、接連不斷；越來越",
+    "isImportant": true
+  },
+  {
+    "id": "word_336",
+    "kanji": "ぺこぺこ",
+    "reading": "",
+    "pos": "な形容詞 / 副詞",
+    "meaning": "肚子餓；（對人）點頭哈腰",
+    "isImportant": false
+  },
+  {
+    "id": "word_337",
+    "kanji": "ふらふら",
+    "reading": "",
+    "pos": "副詞 / (～する)",
+    "meaning": "搖晃、頭暈；無所適從",
+    "isImportant": false
+  },
+  {
+    "id": "word_338",
+    "kanji": "ぴかぴか",
+    "reading": "",
+    "pos": "副詞 / (～する)",
+    "meaning": "閃閃發亮、光亮如新",
+    "isImportant": false
+  },
+  {
+    "id": "word_339",
+    "kanji": "ぺらぺら",
+    "reading": "",
+    "pos": "副詞 / な形容詞",
+    "meaning": "流利地；薄的；喋喋不休",
+    "isImportant": true
+  },
+  {
+    "id": "word_340",
+    "kanji": "兎に角",
+    "reading": "とにかく",
+    "pos": "副詞",
+    "meaning": "總之、無論如何",
+    "isImportant": true
+  },
+  {
+    "id": "word_341",
+    "kanji": "いきなり",
+    "reading": "",
+    "pos": "副詞",
+    "meaning": "突然地、冷不防地",
+    "isImportant": true
+  },
+  {
+    "id": "word_342",
+    "kanji": "折角",
+    "reading": "せっかく",
+    "pos": "副詞",
+    "meaning": "難得、好不容易（語氣帶惋惜或珍惜）",
+    "isImportant": true
+  },
+  {
+    "id": "word_343",
+    "kanji": "ちっとも",
+    "reading": "",
+    "pos": "副詞",
+    "meaning": "一點也不（後接否定）",
+    "isImportant": true
+  },
+  {
+    "id": "word_344",
+    "kanji": "こう",
+    "reading": "",
+    "pos": "副詞",
+    "meaning": "這樣地、如此",
+    "isImportant": false
+  },
+  {
+    "id": "word_345",
+    "kanji": "うっかり",
+    "reading": "",
+    "pos": "副詞 / (～する)",
+    "meaning": "不留神、不小心、一不注意",
+    "isImportant": true
+  },
+  {
+    "id": "word_346",
+    "kanji": "がっかり",
+    "reading": "",
+    "pos": "副詞 / (～する)",
+    "meaning": "失望、沮喪",
+    "isImportant": true
+  },
+  {
+    "id": "word_347",
+    "kanji": "すっかり",
+    "reading": "",
+    "pos": "副詞",
+    "meaning": "完全、全部（強調徹底）",
+    "isImportant": true
+  },
+  {
+    "id": "word_348",
+    "kanji": "しっかり",
+    "reading": "",
+    "pos": "副詞 / (～する)",
+    "meaning": "好好地、牢固地；紮實地",
+    "isImportant": true
+  },
+  {
+    "id": "word_349",
+    "kanji": "きちんと",
+    "reading": "",
+    "pos": "副詞 / (～する)",
+    "meaning": "整齊地、好好地、確實地",
+    "isImportant": true
+  },
+  {
+    "id": "word_350",
+    "kanji": "しいんと",
+    "reading": "",
+    "pos": "副詞 / (～する)",
+    "meaning": "靜悄悄地、一片寂靜",
+    "isImportant": false
+  },
+  {
+    "id": "word_351",
+    "kanji": "態と",
+    "reading": "わざと",
+    "pos": "副詞",
+    "meaning": "故意地",
+    "isImportant": true
+  },
+  {
+    "id": "word_352",
+    "kanji": "そっと",
+    "reading": "",
+    "pos": "副詞 / (～する)",
+    "meaning": "輕輕地、悄悄地",
+    "isImportant": true
+  },
+  {
+    "id": "word_353",
+    "kanji": "さっぱり",
+    "reading": "",
+    "pos": "副詞",
+    "meaning": "完全（後接否定）；清爽、爽快",
+    "isImportant": true
+  },
+  {
+    "id": "word_354",
+    "kanji": "あっさり",
+    "reading": "",
+    "pos": "副詞",
+    "meaning": "清淡、簡單；個性乾脆、爽快",
+    "isImportant": true
+  },
+  {
+    "id": "word_355",
+    "kanji": "こっそり",
+    "reading": "",
+    "pos": "副詞",
+    "meaning": "悄悄地、偷偷地",
+    "isImportant": false
+  },
+  {
+    "id": "word_356",
+    "kanji": "偶に",
+    "reading": "たまに",
+    "pos": "副詞",
+    "meaning": "偶爾、難得",
+    "isImportant": true
+  },
+  {
+    "id": "word_357",
+    "kanji": "遂に",
+    "reading": "ついに",
+    "pos": "副詞",
+    "meaning": "終於、最終",
+    "isImportant": true
+  },
+  {
+    "id": "word_358",
+    "kanji": "割に",
+    "reading": "わりに",
+    "pos": "副詞",
+    "meaning": "相當地、比預期～",
+    "isImportant": true
+  },
+  {
+    "id": "word_359",
+    "kanji": "先ず",
+    "reading": "まず",
+    "pos": "副詞",
+    "meaning": "首先、先",
+    "isImportant": true
+  },
+  {
+    "id": "word_360",
+    "kanji": "がらがら",
+    "reading": "",
+    "pos": "副詞 / な形容詞",
+    "meaning": "空蕩蕩的（人少、空位多）",
+    "isImportant": true
+  },
+  {
+    "id": "word_361",
+    "kanji": "うろうろ",
+    "reading": "",
+    "pos": "副詞 / (～する)",
+    "meaning": "徘徊、不知所措地到處走",
+    "isImportant": false
+  },
+  {
+    "id": "word_362",
+    "kanji": "苛々",
+    "reading": "いらいら",
+    "pos": "副詞 / (～する)",
+    "meaning": "煩躁、焦躁、急躁不安",
+    "isImportant": true
+  },
+  {
+    "id": "word_363",
+    "kanji": "どきどき",
+    "reading": "ドキドキ",
+    "pos": "副詞 / (～する)",
+    "meaning": "心動、緊張、心跳加速",
+    "isImportant": true
+  },
+  {
+    "id": "word_364",
+    "kanji": "ぎりぎり",
+    "reading": "ギリギリ",
+    "pos": "副詞 / な形容詞",
+    "meaning": "極限、勉強趕上、好不容易",
+    "isImportant": true
+  },
+  {
+    "id": "word_365",
+    "kanji": "アルバイト",
+    "reading": "",
+    "pos": "名詞",
+    "meaning": "打工 (Arbeit)",
+    "isImportant": true
+  },
+  {
+    "id": "word_366",
+    "kanji": "インタビュー",
+    "reading": "",
+    "pos": "名詞 / (～する)",
+    "meaning": "採訪、訪談 (interview)",
+    "isImportant": false
+  },
+  {
+    "id": "word_367",
+    "kanji": "エネルギー",
+    "reading": "",
+    "pos": "名詞",
+    "meaning": "能源、精力 (Energie)",
+    "isImportant": false
+  },
+  {
+    "id": "word_368",
+    "kanji": "オーバー",
+    "reading": "",
+    "pos": "名詞 / な形容詞",
+    "meaning": "超過、過度；大衣 (over)",
+    "isImportant": false
+  },
+  {
+    "id": "word_369",
+    "kanji": "カウンター",
+    "reading": "",
+    "pos": "名詞",
+    "meaning": "櫃台 (counter)",
+    "isImportant": false
+  },
+  {
+    "id": "word_370",
+    "kanji": "サイン",
+    "reading": "",
+    "pos": "名詞 / (～する)",
+    "meaning": "簽名 (sign)",
+    "isImportant": true
+  },
+  {
+    "id": "word_371",
+    "kanji": "スケジュール",
+    "reading": "",
+    "pos": "名詞",
+    "meaning": "行程、時程表 (schedule)",
+    "isImportant": true
+  },
+  {
+    "id": "word_372",
+    "kanji": "チャンス",
+    "reading": "",
+    "pos": "名詞",
+    "meaning": "機會 (chance)",
+    "isImportant": true
+  },
+  {
+    "id": "word_373",
+    "kanji": "デート",
+    "reading": "",
+    "pos": "名詞 / (～する)",
+    "meaning": "約會 (date)",
+    "isImportant": false
+  },
+  {
+    "id": "word_374",
+    "kanji": "レベル",
+    "reading": "",
+    "pos": "名詞",
+    "meaning": "程度、水準、等級 (level)",
+    "isImportant": true
+  },
+  {
+    "id": "word_375",
+    "kanji": "アイスクリーム",
+    "reading": "",
+    "pos": "名詞",
+    "meaning": "冰淇淋 (ice cream)",
+    "isImportant": false
+  },
+  {
+    "id": "word_376",
+    "kanji": "ジョギング",
+    "reading": "",
+    "pos": "名詞 / (～する)",
+    "meaning": "慢跑 (jogging)",
+    "isImportant": false
+  },
+  {
+    "id": "word_377",
+    "kanji": "ルームサービス",
+    "reading": "",
+    "pos": "名詞",
+    "meaning": "客房服務 (room service)",
+    "isImportant": false
+  },
+  {
+    "id": "word_378",
+    "kanji": "アイデア",
+    "reading": "",
+    "pos": "名詞",
+    "meaning": "主意、點子 (idea)",
+    "isImportant": true
+  },
+  {
+    "id": "word_379",
+    "kanji": "バランス",
+    "reading": "",
+    "pos": "名詞",
+    "meaning": "平衡 (balance)",
+    "isImportant": true
+  },
+  {
+    "id": "word_380",
+    "kanji": "テーマ",
+    "reading": "",
+    "pos": "名詞",
+    "meaning": "主題 (Thema)",
+    "isImportant": false
+  },
+  {
+    "id": "word_381",
+    "kanji": "スニーカー",
+    "reading": "",
+    "pos": "名詞",
+    "meaning": "運動鞋 (sneaker)",
+    "isImportant": false
+  },
+  {
+    "id": "word_382",
+    "kanji": "イメージ",
+    "reading": "",
+    "pos": "名詞 / (～する)",
+    "meaning": "形象、印象 (image)",
+    "isImportant": true
+  },
+  {
+    "id": "word_383",
+    "kanji": "テンポ",
+    "reading": "",
+    "pos": "名詞",
+    "meaning": "節奏、速度 (tempo)",
+    "isImportant": false
+  },
+  {
+    "id": "word_384",
+    "kanji": "プリント",
+    "reading": "",
+    "pos": "名詞",
+    "meaning": "講義、印刷品 (print)",
+    "isImportant": false
+  },
+  {
+    "id": "word_385",
+    "kanji": "ファッション",
+    "reading": "",
+    "pos": "名詞",
+    "meaning": "時尚、流行 (fashion)",
+    "isImportant": false
+  },
+  {
+    "id": "word_386",
+    "kanji": "いいかげんにしなさい",
     "reading": "",
     "pos": "慣用語",
-    "meaning": "吵雜的街道"
+    "meaning": "適可而止、差不多一點！",
+    "isImportant": true
+  },
+  {
+    "id": "word_387",
+    "kanji": "いいかげんな",
+    "reading": "",
+    "pos": "慣用語",
+    "meaning": "敷衍的、馬馬虎虎的；不認真的",
+    "isImportant": true
+  },
+  {
+    "id": "word_388",
+    "kanji": "大したことがない",
+    "reading": "たいしたことがない",
+    "pos": "慣用語",
+    "meaning": "沒什麼大礙、算不了什麼",
+    "isImportant": true
+  },
+  {
+    "id": "word_389",
+    "kanji": "気の毒",
+    "reading": "きのどく",
+    "pos": "慣用語",
+    "meaning": "可憐的、令人同情的",
+    "isImportant": true
+  },
+  {
+    "id": "word_390",
+    "kanji": "頭にくる",
+    "reading": "あたまにくる",
+    "pos": "慣用語",
+    "meaning": "生氣、惱火",
+    "isImportant": true
+  },
+  {
+    "id": "word_391",
+    "kanji": "腹が立つ",
+    "reading": "はらがたつ",
+    "pos": "慣用語",
+    "meaning": "生氣、發怒",
+    "isImportant": true
+  },
+  {
+    "id": "word_392",
+    "kanji": "口を利く",
+    "reading": "くちをきく",
+    "pos": "慣用語",
+    "meaning": "說話、開口說",
+    "isImportant": false
+  },
+  {
+    "id": "word_393",
+    "kanji": "口にする",
+    "reading": "くちにする",
+    "pos": "慣用語",
+    "meaning": "吃進嘴裡；說到、提及",
+    "isImportant": true
+  },
+  {
+    "id": "word_394",
+    "kanji": "耳にする",
+    "reading": "みみにする",
+    "pos": "慣用語",
+    "meaning": "聽見、耳聞",
+    "isImportant": true
+  },
+  {
+    "id": "word_395",
+    "kanji": "耳が遠い",
+    "reading": "みみがとおい",
+    "pos": "慣用語",
+    "meaning": "重聽、聽力差",
+    "isImportant": false
+  },
+  {
+    "id": "word_396",
+    "kanji": "気に入る",
+    "reading": "きにいる",
+    "pos": "慣用語",
+    "meaning": "中意、滿意、喜歡",
+    "isImportant": true
+  },
+  {
+    "id": "word_397",
+    "kanji": "気にする",
+    "reading": "きにする",
+    "pos": "慣用語",
+    "meaning": "介意、擔心",
+    "isImportant": true
+  },
+  {
+    "id": "word_398",
+    "kanji": "気になる",
+    "reading": "きになる",
+    "pos": "慣用語",
+    "meaning": "掛念、在意、引起興趣",
+    "isImportant": true
+  },
+  {
+    "id": "word_399",
+    "kanji": "気にかける",
+    "reading": "きにかける",
+    "pos": "慣用語",
+    "meaning": "關心、掛心",
+    "isImportant": true
+  },
+  {
+    "id": "word_400",
+    "kanji": "どういう意味",
+    "reading": "どういういみ",
+    "pos": "慣用語",
+    "meaning": "是什麼意思",
+    "isImportant": true
+  },
+  {
+    "id": "word_401",
+    "kanji": "都合をつける",
+    "reading": "つごうをつける",
+    "pos": "慣用語",
+    "meaning": "挪出時間、設法安排",
+    "isImportant": true
+  },
+  {
+    "id": "word_402",
+    "kanji": "ご存知です",
+    "reading": "ごぞんじです",
+    "pos": "慣用語",
+    "meaning": "（您）知道（尊敬語）",
+    "isImportant": true
+  },
+  {
+    "id": "word_403",
+    "kanji": "存じております",
+    "reading": "ぞんじております",
+    "pos": "慣用語",
+    "meaning": "（我）知道（謙讓語）",
+    "isImportant": true
+  },
+  {
+    "id": "word_404",
+    "kanji": "参った",
+    "reading": "まいった",
+    "pos": "慣用語",
+    "meaning": "受不了、沒轍了；認輸了",
+    "isImportant": true
+  },
+  {
+    "id": "word_405",
+    "kanji": "焦った",
+    "reading": "あせった",
+    "pos": "慣用語",
+    "meaning": "焦急、慌張",
+    "isImportant": false
+  },
+  {
+    "id": "word_406",
+    "kanji": "詰まった",
+    "reading": "つまった",
+    "pos": "慣用語",
+    "meaning": "塞住了；（比喻）陷入困境",
+    "isImportant": false
+  },
+  {
+    "id": "word_407",
+    "kanji": "とんでもない",
+    "reading": "",
+    "pos": "慣用語",
+    "meaning": "哪裡的話、沒那回事；不得了的",
+    "isImportant": true
+  },
+  {
+    "id": "word_408",
+    "kanji": "しょうがない",
+    "reading": "",
+    "pos": "慣用語",
+    "meaning": "沒辦法、無可奈何",
+    "isImportant": true
+  },
+  {
+    "id": "word_409",
+    "kanji": "おかげさま",
+    "reading": "",
+    "pos": "慣用語",
+    "meaning": "託您的福、多虧了您",
+    "isImportant": true
+  },
+  {
+    "id": "word_410",
+    "kanji": "申し訳ない",
+    "reading": "もうしわけない",
+    "pos": "慣用語",
+    "meaning": "對不起、過意不去、抱歉",
+    "isImportant": true
+  },
+  {
+    "id": "word_411",
+    "kanji": "得をする",
+    "reading": "とくをする",
+    "pos": "慣用語",
+    "meaning": "得到、獲利、佔到便宜",
+    "isImportant": false
+  },
+  {
+    "id": "word_412",
+    "kanji": "損をする",
+    "reading": "そんをする",
+    "pos": "慣用語",
+    "meaning": "虧損、受損、吃虧",
+    "isImportant": true
+  },
+  {
+    "id": "word_413",
+    "kanji": "損になる",
+    "reading": "そんになる",
+    "pos": "慣用語",
+    "meaning": "受損、吃虧",
+    "isImportant": false
+  },
+  {
+    "id": "word_414",
+    "kanji": "気がある",
+    "reading": "きがある",
+    "pos": "慣用語",
+    "meaning": "有興趣、有意思",
+    "isImportant": true
+  },
+  {
+    "id": "word_415",
+    "kanji": "ついている",
+    "reading": "",
+    "pos": "慣用語",
+    "meaning": "幸運、運氣好",
+    "isImportant": false
+  },
+  {
+    "id": "word_416",
+    "kanji": "ましになる",
+    "reading": "",
+    "pos": "慣用語",
+    "meaning": "好轉、變好一點",
+    "isImportant": false
+  },
+  {
+    "id": "word_417",
+    "kanji": "文句を言う",
+    "reading": "もんくをいう",
+    "pos": "慣用語",
+    "meaning": "抱怨、發牢騷",
+    "isImportant": true
+  },
+  {
+    "id": "word_418",
+    "kanji": "為になる",
+    "reading": "ためになる",
+    "pos": "慣用語",
+    "meaning": "有益、有幫助",
+    "isImportant": true
+  },
+  {
+    "id": "word_419",
+    "kanji": "役に立つ",
+    "reading": "やくにたつ",
+    "pos": "慣用語",
+    "meaning": "有用、派上用場",
+    "isImportant": true
+  },
+  {
+    "id": "word_420",
+    "kanji": "癖になる",
+    "reading": "くせになる",
+    "pos": "慣用語",
+    "meaning": "變成習慣、上癮",
+    "isImportant": true
+  },
+  {
+    "id": "word_421",
+    "kanji": "お構いなく",
+    "reading": "おかまいなく",
+    "pos": "慣用語",
+    "meaning": "請別費心、不用招待",
+    "isImportant": true
+  },
+  {
+    "id": "word_422",
+    "kanji": "うるさく言う",
+    "reading": "",
+    "pos": "慣用語",
+    "meaning": "嘮叨、囉唆個不停",
+    "isImportant": false
   }
 ];

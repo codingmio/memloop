@@ -30,20 +30,28 @@ lines.forEach(line => {
     }
     
     if (currentSection === '單字' && parts.length >= 3) {
+        let isImportant = false;
+        if (parts.length >= 5 && parts[4].includes('⭐')) isImportant = true;
+
         data.push({
             id: 'word_' + (data.length + 1),
             kanji: kanji,
             reading: reading,
             pos: parts[1] || '',
-            meaning: parts[2] || ''
+            meaning: parts[2] || '',
+            isImportant: isImportant
         });
     } else if (currentSection === '慣用語' && parts.length >= 2) {
+        let isImportant = false;
+        if (parts.length >= 5 && parts[4].includes('⭐')) isImportant = true;
+
         data.push({
             id: 'word_' + (data.length + 1),
             kanji: kanji,
             reading: reading,
             pos: '慣用語',
-            meaning: parts[1] || ''
+            meaning: parts[1] || '',
+            isImportant: isImportant
         });
     }
 });

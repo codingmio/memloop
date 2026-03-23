@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 <html lang="zh-Hant">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>N3 日文單字記憶</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <!-- 引入單字庫 -->
     <script src="data.js"></script>
 </head>
+
 <body>
     <div class="app-container">
         <!-- 頂部資訊列 -->
         <header class="header">
-            <h1 class="logo">N3 Vocabulary</h1>
+            <h1 class="logo">N3 單字</h1>
             <div class="stats" id="stats-display">
                 <div class="stat-item">
-                    <span class="stat-label">待複習:</span>
+                    <span class="stat-label">練習量:</span>
                     <span class="stat-value" id="stat-reviewCount">0</span>
                 </div>
             </div>
@@ -31,18 +35,26 @@
                     <div class="dashboard-stats">
                         <div class="d-stat">
                             <div class="d-val" id="d-total">0</div>
-                            <div class="d-label">總收集字數</div>
+                            <div class="d-label">單字總數量</div>
+                        </div>
+                        <div class="d-stat">
+                            <div class="d-val" id="d-completed">0</div>
+                            <div class="d-label">已背完</div>
                         </div>
                         <div class="d-stat highlight">
                             <div class="d-val" id="d-due">0</div>
-                            <div class="d-label">今日待複習</div>
+                            <div class="d-label">今日待練習</div>
                         </div>
                     </div>
-                    <button class="btn primary-btn" id="start-btn">開始複習</button>
-                    
+                    <button class="btn primary-btn" id="start-btn">開始練習</button>
 
 
-                    <button class="btn secondary-btn" id="reset-btn" style="margin-top: 10px; opacity: 0.5;">重置進度預覽</button>
+
+                    <button class="btn secondary-btn" id="reset-btn"
+                        style="margin-top: 10px; opacity: 0.5;">重置進度預覽</button>
+                    <div id="footer-new-count" style="margin-top: 15px; font-size: 12px; color: var(--text-muted);">
+                        未練習數量: 0
+                    </div>
                 </div>
             </section>
 
@@ -59,6 +71,7 @@
                         <!-- 正面 -->
                         <div class="card__face card__face--front">
                             <div class="card-content">
+                                <span class="important-star hidden" id="card-star-front">⭐</span>
                                 <h2 class="kanji" id="card-kanji-front">-</h2>
                                 <div class="click-hint">點擊翻轉查看解答</div>
                             </div>
@@ -66,6 +79,7 @@
                         <!-- 背面 -->
                         <div class="card__face card__face--back">
                             <div class="card-content">
+                                <span class="important-star hidden" id="card-star-back">⭐</span>
                                 <h2 class="kanji" id="card-kanji-back">-</h2>
                                 <p class="reading" id="card-reading">-</p>
                                 <div class="divider"></div>
@@ -107,4 +121,5 @@
 
     <script src="app.js"></script>
 </body>
+
 </html>
