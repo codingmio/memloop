@@ -130,7 +130,50 @@ function generateTodayQueue() {
             pendingQuota = 30;
         }
         if (diffDays > 0) {
-            pendingQuota += diffDays * 30;
+            // 找出今天必須複習的「前一次標為 Hard」的單字數量
+            const hardDueCount = deck.filter(c => 
+                c.interval === 1 && 
+                c.nextReviewDate && 
+                new Date(c.nextReviewDate) <= today && 
+                c.status !== 'Completed'
+            ).length;
+            
+            let penalty = 0;
+            if (diffDays > 1) penalty = 15;
+            
+            let theoreticalQuota = 30 + hardDueCount + penalty;
+            
+            if (theoreticalQuota > 60) {
+                let overflow = theoreticalQuota - 60;
+                
+                // 拉出今天由於一般到期而需要複習的單字（排除剛被標為 Hard 的）
+                let candidates = deck.filter(c => 
+                    c.status !== 'Completed' && 
+                    c.nextReviewDate && 
+                    new Date(c.nextReviewDate) <= today && 
+                    c.interval !== 1
+                );
+                
+                // 優先對 easyCount 最高的單字開刀，舊卡片改以其 playCount 作為基準
+                candidates.sort((a, b) => {
+                    let scoreA = a.easyCount !== undefined ? a.easyCount : (a.playCount || 0);
+                    let scoreB = b.easyCount !== undefined ? b.easyCount : (b.playCount || 0);
+                    return scoreB - scoreA;
+                });
+                
+                // 將超出的數量延後 1 天
+                for (let i = 0; i < candidates.length && i < overflow; i++) {
+                    let card = candidates[i];
+                    let nextDate = new Date(card.nextReviewDate);
+                    nextDate.setDate(nextDate.getDate() + 1);
+                    card.nextReviewDate = nextDate.toISOString();
+                }
+                
+                pendingQuota = 60;
+                saveData(); // 保存被修改日期的卡片
+            } else {
+                pendingQuota = theoreticalQuota;
+            }
         }
         localStorage.setItem('n3_vocab_pendingQuota', pendingQuota.toString());
 
@@ -149,7 +192,15 @@ function generateTodayQueue() {
             todayQueue = [...todayQueue, ...newCards.slice(0, newCardsNeed)];
         }
 
+        // 1. 先將新舊單字全部大亂鬥打亂，確保每天同群組內的測驗順序都不一樣
         todayQueue.sort(() => Math.random() - 0.5);
+        
+        // 2. 選項 A：強制將全新未背過 (playCount 預設為 0, status 為 'New') 的單字排到最前方
+        todayQueue.sort((a, b) => {
+            let isNewA = a.status === 'New' ? 1 : 0;
+            let isNewB = b.status === 'New' ? 1 : 0;
+            return isNewB - isNewA;
+        });
 
         localStorage.setItem('n3_vocab_queueDate', todayStr);
         localStorage.setItem('n3_vocab_initialQueueSize', todayQueue.length.toString());
@@ -267,7 +318,7 @@ function calcInterval(card, rating) {
     if (rating === 'Hard') return 1;
     if (rating === 'Good') return 3;
     if (rating === 'Easy') {
-        if ((card.playCount || 0) + 1 >= 8) return -1;
+        if ((card.playCount || 0) + 1 >= 6) return -1;
         return 5;
     }
     return 1;
@@ -294,6 +345,12 @@ function handleRating(rating) {
     // 2. 處理資料變更
     const cardRef = todayQueue[0];
     const originalCard = deck.find(c => c.id === cardRef.id);
+
+    if (rating === 'Easy') {
+        let currentEasy = originalCard.easyCount;
+        if (currentEasy === undefined) currentEasy = originalCard.playCount || 0;
+        originalCard.easyCount = currentEasy + 1;
+    }
 
     originalCard.playCount = (originalCard.playCount || 0) + 1;
     let nextIntv = calcInterval(originalCard, rating);

@@ -244,6 +244,7 @@ body {
 
     .click-hint {
         visibility: hidden;
+        display: none;
     }
 }
 
