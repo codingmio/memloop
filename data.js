@@ -636,7 +636,7 @@ const initialDeck = [
     "kanji": "行き",
     "reading": "ゆき",
     "pos": "名詞",
-    "meaning": "往～方向（行き先のゆき）",
+    "meaning": "往～方向、前往",
     "isImportant": false
   },
   {
@@ -664,7 +664,7 @@ const initialDeck = [
     "isImportant": true
   },
   {
-    "id": "word_84",
+    "id": "word_384",
     "kanji": "プリント",
     "reading": "",
     "pos": "名詞",
@@ -848,6 +848,62 @@ const initialDeck = [
     "isImportant": false
   },
   {
+    "id": "word_423",
+    "kanji": "布団",
+    "reading": "ふとん",
+    "pos": "名詞",
+    "meaning": "棉被",
+    "isImportant": false
+  },
+  {
+    "id": "word_424",
+    "kanji": "真似",
+    "reading": "まね",
+    "pos": "名詞",
+    "meaning": "模仿、效法、仿效",
+    "isImportant": false
+  },
+  {
+    "id": "word_425",
+    "kanji": "手入れ",
+    "reading": "ていれ",
+    "pos": "名詞",
+    "meaning": "修繕、修整、整理、修剪（樹木）、保養",
+    "isImportant": false
+  },
+  {
+    "id": "word_426",
+    "kanji": "自然",
+    "reading": "しぜん",
+    "pos": "名詞",
+    "meaning": "自然",
+    "isImportant": false
+  },
+  {
+    "id": "word_427",
+    "kanji": "快速",
+    "reading": "かいそく",
+    "pos": "名詞",
+    "meaning": "快速",
+    "isImportant": false
+  },
+  {
+    "id": "word_428",
+    "kanji": "習慣",
+    "reading": "しゅうかん",
+    "pos": "名詞",
+    "meaning": "習慣",
+    "isImportant": false
+  },
+  {
+    "id": "word_429",
+    "kanji": "週刊",
+    "reading": "しゅうかん",
+    "pos": "名詞",
+    "meaning": "週刊雜誌",
+    "isImportant": false
+  },
+  {
     "id": "word_107",
     "kanji": "受ける",
     "reading": "うける",
@@ -880,11 +936,11 @@ const initialDeck = [
     "isImportant": true
   },
   {
-    "id": "word_111",
-    "kanji": "溜まる",
+    "id": "word_430",
+    "kanji": "溜まる・貯まる",
     "reading": "たまる",
     "pos": "第一類動詞 (五段/自)",
-    "meaning": "累積、堆積；積壓（壓力、帳單等）",
+    "meaning": "累積、堆積；積壓（壓力、文件等/ 溜まる）；積存、累積、儲存(常用於金錢或資產/ 貯まる)",
     "isImportant": true
   },
   {
@@ -1372,7 +1428,7 @@ const initialDeck = [
     "kanji": "あきれる",
     "reading": "呆れる",
     "pos": "第二類動詞 (下一段/自)",
-    "meaning": "吃驚、傻眼、無言",
+    "meaning": "吃驚、傻眼、無言、愕然、目瞪口呆",
     "isImportant": false
   },
   {
@@ -1596,7 +1652,7 @@ const initialDeck = [
     "kanji": "預ける",
     "reading": "あずける",
     "pos": "第二類動詞 (下一段/他)",
-    "meaning": "寄放、委託",
+    "meaning": "寄放、寄放(委託他人看管)",
     "isImportant": true
   },
   {
@@ -1692,7 +1748,7 @@ const initialDeck = [
     "kanji": "積もる",
     "reading": "つもる",
     "pos": "第一類動詞 (五段/自)",
-    "meaning": "堆積（雪等）",
+    "meaning": "堆積（雪、灰塵等）",
     "isImportant": false
   },
   {
@@ -1884,7 +1940,7 @@ const initialDeck = [
     "kanji": "捻る",
     "reading": "ひねる",
     "pos": "第一類動詞 (五段/他)",
-    "meaning": "扭轉",
+    "meaning": "扭、捻、轉動",
     "isImportant": false
   },
   {
@@ -2032,6 +2088,406 @@ const initialDeck = [
     "isImportant": false
   },
   {
+    "id": "word_431",
+    "kanji": "任せる",
+    "reading": "まかせる",
+    "pos": "第二類動詞 (下一段/他)",
+    "meaning": "交付、託付、委託",
+    "isImportant": false
+  },
+  {
+    "id": "word_432",
+    "kanji": "効く",
+    "reading": "きく",
+    "pos": "第一類動詞 (五段/自)",
+    "meaning": "見效、奏效",
+    "isImportant": false
+  },
+  {
+    "id": "word_433",
+    "kanji": "甘やかす",
+    "reading": "あまやかす",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "溺愛、寵溺、驕縱",
+    "isImportant": false
+  },
+  {
+    "id": "word_434",
+    "kanji": "甘える",
+    "reading": "あまえる",
+    "pos": "第二類動詞 (下一段/自)",
+    "meaning": "撒嬌",
+    "isImportant": false
+  },
+  {
+    "id": "word_435",
+    "kanji": "可愛がる",
+    "reading": "かわいがる",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "疼愛、寵愛、愛護",
+    "isImportant": false
+  },
+  {
+    "id": "word_436",
+    "kanji": "躾ける",
+    "reading": "しつける",
+    "pos": "第二類動詞 (下一段/他)",
+    "meaning": "管教、教養、訓練",
+    "isImportant": false
+  },
+  {
+    "id": "word_437",
+    "kanji": "湿らせる",
+    "reading": "しめらせる",
+    "pos": "第二類動詞 (下一段/他)",
+    "meaning": "使潮濕、弄濕",
+    "isImportant": false
+  },
+  {
+    "id": "word_438",
+    "kanji": "湿る",
+    "reading": "しめる",
+    "pos": "第一類動詞 (五段/自)",
+    "meaning": "潮濕、受潮",
+    "isImportant": false
+  },
+  {
+    "id": "word_439",
+    "kanji": "濡らす",
+    "reading": "ぬらす",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "弄濕、浸濕、沾濕",
+    "isImportant": false
+  },
+  {
+    "id": "word_440",
+    "kanji": "ぬれる",
+    "reading": "",
+    "pos": "第二類動詞 (下一段/自)",
+    "meaning": "淋濕",
+    "isImportant": false
+  },
+  {
+    "id": "word_441",
+    "kanji": "乾かす",
+    "reading": "かわかす",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "弄乾、曬乾、使乾燥",
+    "isImportant": false
+  },
+  {
+    "id": "word_442",
+    "kanji": "乾く",
+    "reading": "かわく",
+    "pos": "第一類動詞 (五段/自)",
+    "meaning": "乾涸、口乾、乾燥、變乾",
+    "isImportant": false
+  },
+  {
+    "id": "word_443",
+    "kanji": "怠ける",
+    "reading": "なまける",
+    "pos": "第二類動詞 (下一段/自)",
+    "meaning": "懶惰、偷懶、懈怠、怠惰",
+    "isImportant": false
+  },
+  {
+    "id": "word_444",
+    "kanji": "サボる",
+    "reading": "",
+    "pos": "第一類動詞 (五段/自)",
+    "meaning": "怠工、曠工、翹班、偷懶",
+    "isImportant": false
+  },
+  {
+    "id": "word_445",
+    "kanji": "省く",
+    "reading": "はぶく",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "節省、省略、刪減",
+    "isImportant": false
+  },
+  {
+    "id": "word_446",
+    "kanji": "減らす",
+    "reading": "へらす",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "減少",
+    "isImportant": false
+  },
+  {
+    "id": "word_447",
+    "kanji": "吊す",
+    "reading": "つるす",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "懸掛、吊",
+    "isImportant": false
+  },
+  {
+    "id": "word_448",
+    "kanji": "固める",
+    "reading": "かためる",
+    "pos": "第二類動詞 (下一段/他)",
+    "meaning": "使～凝固、固定",
+    "isImportant": false
+  },
+  {
+    "id": "word_449",
+    "kanji": "溢れる",
+    "reading": "あふれる",
+    "pos": "第二類動詞 (下一段/自)",
+    "meaning": "溢出、滿溢、氾濫",
+    "isImportant": false
+  },
+  {
+    "id": "word_450",
+    "kanji": "零れる",
+    "reading": "こぼれる",
+    "pos": "第二類動詞 (下一段/自)",
+    "meaning": "液體灑出、流出、灑落",
+    "isImportant": false
+  },
+  {
+    "id": "word_451",
+    "kanji": "沸く",
+    "reading": "わく",
+    "pos": "第一類動詞 (五段/自)",
+    "meaning": "水燒開、沸騰",
+    "isImportant": false
+  },
+  {
+    "id": "word_452",
+    "kanji": "被せる",
+    "reading": "かぶせる",
+    "pos": "第二類動詞 (下一段/他)",
+    "meaning": "蓋上、覆蓋、罩上",
+    "isImportant": false
+  },
+  {
+    "id": "word_453",
+    "kanji": "干す",
+    "reading": "ほす",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "晾、曬",
+    "isImportant": false
+  },
+  {
+    "id": "word_454",
+    "kanji": "暴れる",
+    "reading": "あばれる",
+    "pos": "第二類動詞 (下一段/自)",
+    "meaning": "亂鬧、胡搞、撒野、鬧事、發狂、暴動",
+    "isImportant": false
+  },
+  {
+    "id": "word_455",
+    "kanji": "酔っ払う",
+    "reading": "よっぱらう",
+    "pos": "第一類動詞 (五段/自)",
+    "meaning": "喝醉、酒醉、醉倒",
+    "isImportant": false
+  },
+  {
+    "id": "word_456",
+    "kanji": "盛り上がる",
+    "reading": "もりあがる",
+    "pos": "第一類動詞 (五段/自)",
+    "meaning": "熱鬧起來、興奮起來、氣氛熱烈、情緒高漲",
+    "isImportant": false
+  },
+  {
+    "id": "word_457",
+    "kanji": "溶ける",
+    "reading": "とける",
+    "pos": "第二類動詞 (下一段/自)",
+    "meaning": "融化、溶解（自動詞）",
+    "isImportant": false
+  },
+  {
+    "id": "word_458",
+    "kanji": "溶く",
+    "reading": "とく",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "溶解、化開、攪散",
+    "isImportant": false
+  },
+  {
+    "id": "word_459",
+    "kanji": "崩れる",
+    "reading": "くずれる",
+    "pos": "第二類動詞 (下一段/自)",
+    "meaning": "崩塌、瓦解、倒塌",
+    "isImportant": false
+  },
+  {
+    "id": "word_460",
+    "kanji": "加える",
+    "reading": "くわえる",
+    "pos": "第二類動詞 (下一段/他)",
+    "meaning": "增加、加入、添加",
+    "isImportant": false
+  },
+  {
+    "id": "word_461",
+    "kanji": "貯まる",
+    "reading": "たまる",
+    "pos": "第一類動詞 (五段/自)",
+    "meaning": "積存、累積、儲存（常用於金錢或資產）",
+    "isImportant": false
+  },
+  {
+    "id": "word_462",
+    "kanji": "数える",
+    "reading": "かぞえる",
+    "pos": "第二類動詞 (下一段/他)",
+    "meaning": "計算、點數",
+    "isImportant": true
+  },
+  {
+    "id": "word_463",
+    "kanji": "捲る",
+    "reading": "めくる",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "掀起、翻轉（頁、月曆、牌）",
+    "isImportant": true
+  },
+  {
+    "id": "word_464",
+    "kanji": "捲る",
+    "reading": "まくる",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "向上捲起、收摺（袖子等）",
+    "isImportant": false
+  },
+  {
+    "id": "word_465",
+    "kanji": "潰す",
+    "reading": "つぶす",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "弄破、擠壓；浪費（時間）",
+    "isImportant": true
+  },
+  {
+    "id": "word_466",
+    "kanji": "梳かす・溶かす",
+    "reading": "とかす",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "梳理（梳かす）；使融化、溶解（溶かす）",
+    "isImportant": true
+  },
+  {
+    "id": "word_467",
+    "kanji": "絞る",
+    "reading": "しぼる",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "擰、絞；榨、擠；縮小、限定",
+    "isImportant": true
+  },
+  {
+    "id": "word_468",
+    "kanji": "流行る",
+    "reading": "はやる",
+    "pos": "第一類動詞 (五段/自)",
+    "meaning": "流行、盛行",
+    "isImportant": true
+  },
+  {
+    "id": "word_469",
+    "kanji": "集まる",
+    "reading": "あつまる",
+    "pos": "第一類動詞 (五段/自)",
+    "meaning": "集合、聚集",
+    "isImportant": true
+  },
+  {
+    "id": "word_470",
+    "kanji": "預かる",
+    "reading": "あずかる",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "代為保管、寄託、代為照顧",
+    "isImportant": true
+  },
+  {
+    "id": "word_471",
+    "kanji": "育てる",
+    "reading": "そだてる",
+    "pos": "第二類動詞 (下一段/他)",
+    "meaning": "養育、扶養、培育",
+    "isImportant": true
+  },
+  {
+    "id": "word_472",
+    "kanji": "与える",
+    "reading": "あたえる",
+    "pos": "第二類動詞 (下一段/他)",
+    "meaning": "給予、授予",
+    "isImportant": true
+  },
+  {
+    "id": "word_473",
+    "kanji": "捨てる",
+    "reading": "すてる",
+    "pos": "第二類動詞 (下一段/他)",
+    "meaning": "丟棄、拋棄",
+    "isImportant": true
+  },
+  {
+    "id": "word_474",
+    "kanji": "拾う",
+    "reading": "ひろう",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "撿起、收留",
+    "isImportant": true
+  },
+  {
+    "id": "word_475",
+    "kanji": "得る",
+    "reading": "える",
+    "pos": "第二類動詞 (下一段/他)",
+    "meaning": "得到、獲取",
+    "isImportant": true
+  },
+  {
+    "id": "word_476",
+    "kanji": "過ごす",
+    "reading": "すごす",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "過（日子）、度過",
+    "isImportant": true
+  },
+  {
+    "id": "word_477",
+    "kanji": "慣れる",
+    "reading": "なれる",
+    "pos": "第二類動詞 (下一段/自)",
+    "meaning": "習慣、熟悉",
+    "isImportant": true
+  },
+  {
+    "id": "word_478",
+    "kanji": "恋しい",
+    "reading": "こいしい",
+    "pos": "い形容詞",
+    "meaning": "懷念的、想念的（對人或地方）",
+    "isImportant": true
+  },
+  {
+    "id": "word_479",
+    "kanji": "そそっかしい",
+    "reading": "",
+    "pos": "い形容詞",
+    "meaning": "粗心的、冒失的、魯莽的",
+    "isImportant": true
+  },
+  {
+    "id": "word_480",
+    "kanji": "懐っこい",
+    "reading": "なつっこい",
+    "pos": "い形容詞",
+    "meaning": "親人的、黏人的、容易親近的",
+    "isImportant": false
+  },
+  {
     "id": "word_255",
     "kanji": "広い",
     "reading": "ひろい",
@@ -2160,19 +2616,19 @@ const initialDeck = [
     "isImportant": false
   },
   {
-    "id": "word_271",
-    "kanji": "あわただしい",
-    "reading": "慌ただしい",
+    "id": "word_481",
+    "kanji": "慌ただしい",
+    "reading": "あわただしい",
     "pos": "い形容詞",
     "meaning": "匆忙的、慌張的",
     "isImportant": false
   },
   {
-    "id": "word_272",
-    "kanji": "おとなしい",
-    "reading": "大人しい",
+    "id": "word_482",
+    "kanji": "大人しい",
+    "reading": "おとなしい",
     "pos": "い形容詞",
-    "meaning": "老實的、溫順的",
+    "meaning": "老實的、溫順的、穩重的、溫順的、文靜的、老實的",
     "isImportant": true
   },
   {
@@ -2320,73 +2776,73 @@ const initialDeck = [
     "isImportant": false
   },
   {
-    "id": "word_291",
-    "kanji": "簡単",
-    "reading": "かんたん",
+    "id": "word_483",
+    "kanji": "簡単（かんたん）な",
+    "reading": "",
     "pos": "な形容詞",
     "meaning": "簡單",
     "isImportant": true
   },
   {
-    "id": "word_292",
-    "kanji": "安全",
-    "reading": "あんぜん",
+    "id": "word_484",
+    "kanji": "安全（あんぜん）な",
+    "reading": "",
     "pos": "名詞 / な形容詞",
     "meaning": "安全",
     "isImportant": true
   },
   {
-    "id": "word_293",
-    "kanji": "危険",
-    "reading": "きけん",
+    "id": "word_485",
+    "kanji": "危険（きけん）な",
+    "reading": "",
     "pos": "名詞 / な形容詞",
     "meaning": "危險",
     "isImportant": true
   },
   {
-    "id": "word_294",
-    "kanji": "新鮮",
-    "reading": "しんせん",
+    "id": "word_486",
+    "kanji": "新鮮（しんせん）な",
+    "reading": "",
     "pos": "な形容詞",
     "meaning": "新鮮",
     "isImportant": false
   },
   {
-    "id": "word_295",
-    "kanji": "豊か",
-    "reading": "ゆたか",
+    "id": "word_487",
+    "kanji": "豊か（ゆたか）な",
+    "reading": "",
     "pos": "な形容詞",
     "meaning": "豐富、富裕",
     "isImportant": false
   },
   {
-    "id": "word_296",
-    "kanji": "得意",
-    "reading": "とくい",
+    "id": "word_488",
+    "kanji": "得意（とくい）な",
+    "reading": "",
     "pos": "な形容詞",
     "meaning": "擅長、拿手；得意",
     "isImportant": true
   },
   {
-    "id": "word_297",
-    "kanji": "上手",
-    "reading": "じょうず",
+    "id": "word_489",
+    "kanji": "上手（じょうず）な",
+    "reading": "",
     "pos": "な形容詞",
     "meaning": "高明的、擅長的",
     "isImportant": true
   },
   {
-    "id": "word_298",
-    "kanji": "ほがらか",
-    "reading": "朗らか",
+    "id": "word_490",
+    "kanji": "ほがらか（朗らか）な",
+    "reading": "",
     "pos": "な形容詞",
     "meaning": "爽朗的、開朗的",
     "isImportant": false
   },
   {
-    "id": "word_299",
-    "kanji": "平気",
-    "reading": "へいき",
+    "id": "word_491",
+    "kanji": "平気（へいき）な",
+    "reading": "",
     "pos": "な形容詞",
     "meaning": "不在乎的、沒事的",
     "isImportant": true
@@ -2396,109 +2852,109 @@ const initialDeck = [
     "kanji": "まあまあ",
     "reading": "",
     "pos": "副詞 / な形容詞",
-    "meaning": "馬馬虎虎、還算可以（勉強合格）",
+    "meaning": "馬馬虎虎、還算可以（勉強合格）、還好",
     "isImportant": false
   },
   {
-    "id": "word_301",
-    "kanji": "贅沢",
-    "reading": "ぜいたく",
+    "id": "word_492",
+    "kanji": "贅沢（ぜいたく）な",
+    "reading": "",
     "pos": "な形容詞",
     "meaning": "奢侈的、豪華的",
     "isImportant": false
   },
   {
-    "id": "word_302",
-    "kanji": "貧乏",
-    "reading": "びんぼう",
+    "id": "word_493",
+    "kanji": "貧乏（びんぼう）な",
+    "reading": "",
     "pos": "な形容詞",
     "meaning": "貧窮的",
     "isImportant": false
   },
   {
-    "id": "word_303",
-    "kanji": "生意気",
-    "reading": "なまいき",
+    "id": "word_494",
+    "kanji": "生意気（なまいき）な",
+    "reading": "",
     "pos": "な形容詞",
     "meaning": "傲慢的、自以為是的、厚臉皮",
     "isImportant": false
   },
   {
-    "id": "word_304",
-    "kanji": "意地悪",
-    "reading": "いじわる",
+    "id": "word_495",
+    "kanji": "意地悪（いじわる）な",
+    "reading": "",
     "pos": "な形容詞 / 名詞",
     "meaning": "壞心腸、故意刁難人",
     "isImportant": true
   },
   {
-    "id": "word_305",
-    "kanji": "下品",
-    "reading": "げひん",
+    "id": "word_496",
+    "kanji": "下品（げひん）な",
+    "reading": "",
     "pos": "な形容詞",
     "meaning": "粗俗、低俗",
     "isImportant": false
   },
   {
-    "id": "word_306",
-    "kanji": "呑気",
-    "reading": "のんき",
+    "id": "word_497",
+    "kanji": "呑気（のんき）な",
+    "reading": "",
     "pos": "な形容詞",
     "meaning": "無憂無慮、悠哉",
     "isImportant": false
   },
   {
-    "id": "word_307",
-    "kanji": "我儘",
-    "reading": "わがまま",
+    "id": "word_498",
+    "kanji": "我儘（わがまま）な",
+    "reading": "",
     "pos": "な形容詞 / 名詞",
     "meaning": "任性、自私、為所欲為",
     "isImportant": true
   },
   {
-    "id": "word_308",
-    "kanji": "不平",
-    "reading": "ふへい",
+    "id": "word_499",
+    "kanji": "不平（ふへい）な",
+    "reading": "",
     "pos": "な形容詞 / 名詞",
     "meaning": "不平、不滿、牢騷",
     "isImportant": false
   },
   {
-    "id": "word_309",
-    "kanji": "当たり前",
-    "reading": "あたりまえ",
+    "id": "word_500",
+    "kanji": "当たり前（あたりまえ）な",
+    "reading": "",
     "pos": "な形容詞",
     "meaning": "理所當然",
     "isImportant": true
   },
   {
-    "id": "word_310",
-    "kanji": "真っ暗",
-    "reading": "まっくら",
+    "id": "word_501",
+    "kanji": "真っ暗（まっくら）な",
+    "reading": "",
     "pos": "な形容詞",
     "meaning": "黑漆漆的",
     "isImportant": false
   },
   {
-    "id": "word_311",
-    "kanji": "真っ黒",
-    "reading": "まっくろ",
+    "id": "word_502",
+    "kanji": "真っ黒（まっくろ）な",
+    "reading": "",
     "pos": "な形容詞",
     "meaning": "黝黑的",
     "isImportant": false
   },
   {
-    "id": "word_312",
-    "kanji": "真っ青",
-    "reading": "まっさお",
+    "id": "word_503",
+    "kanji": "真っ青（まっさお）な",
+    "reading": "",
     "pos": "な形容詞",
     "meaning": "深藍的；（臉色）鐵青",
     "isImportant": true
   },
   {
-    "id": "word_313",
-    "kanji": "真っ赤",
-    "reading": "まっか",
+    "id": "word_504",
+    "kanji": "真っ赤（まっか）な",
+    "reading": "",
     "pos": "な形容詞",
     "meaning": "鮮紅的；（完全的）謊言（真っ赤な嘘）",
     "isImportant": true
@@ -2528,11 +2984,83 @@ const initialDeck = [
     "isImportant": false
   },
   {
-    "id": "word_317",
-    "kanji": "楽",
-    "reading": "らく",
+    "id": "word_505",
+    "kanji": "楽（らく）な",
+    "reading": "",
     "pos": "な形容詞",
     "meaning": "輕鬆的、安樂的",
+    "isImportant": true
+  },
+  {
+    "id": "word_506",
+    "kanji": "曖昧（あいまい）な",
+    "reading": "",
+    "pos": "な形容詞",
+    "meaning": "曖昧、含糊、模糊、不明確、模稜兩可",
+    "isImportant": false
+  },
+  {
+    "id": "word_507",
+    "kanji": "出鱈目",
+    "reading": "でたらめ",
+    "pos": "な形容詞 / 名詞",
+    "meaning": "胡說八道、隨便亂說、胡亂、馬虎、隨便",
+    "isImportant": false
+  },
+  {
+    "id": "word_508",
+    "kanji": "確か（たしか）な",
+    "reading": "",
+    "pos": "な形容詞",
+    "meaning": "的確、確實的",
+    "isImportant": false
+  },
+  {
+    "id": "word_509",
+    "kanji": "不安（ふあん）な",
+    "reading": "",
+    "pos": "な形容詞",
+    "meaning": "不安的、擔心的",
+    "isImportant": false
+  },
+  {
+    "id": "word_510",
+    "kanji": "利口な",
+    "reading": "りこうな",
+    "pos": "な形容詞",
+    "meaning": "聰明的、機靈的",
+    "isImportant": true
+  },
+  {
+    "id": "word_511",
+    "kanji": "正直な",
+    "reading": "しょうじきな",
+    "pos": "な形容詞",
+    "meaning": "正直的、坦白的、老實的",
+    "isImportant": true
+  },
+  {
+    "id": "word_512",
+    "kanji": "素直な",
+    "reading": "すなおな",
+    "pos": "な形容詞",
+    "meaning": "坦率的、不扭捏、直率的／順從的、聽話的",
+    "isImportant": true
+  },
+  {
+    "id": "word_513",
+    "kanji": "適当な",
+    "reading": "てきとうな",
+    "pos": "な形容詞",
+    "meaning": "適當的；（口語）隨便的、敷衍的",
+    "isImportant": true
+  },
+  {
+    "id": "word_514",
+    "kanji": "真面目な",
+    "reading": "まじめな",
+    "pos": "な形容詞",
+    "meaning": "認真的、嚴肅的、正派的",
     "isImportant": true
   },
   {
@@ -2600,9 +3128,9 @@ const initialDeck = [
     "isImportant": true
   },
   {
-    "id": "word_326",
-    "kanji": "次々",
-    "reading": "つぎつぎ",
+    "id": "word_515",
+    "kanji": "次々（つぎつぎ）に",
+    "reading": "",
     "pos": "副詞",
     "meaning": "接連不斷地、相繼",
     "isImportant": false
@@ -2804,7 +3332,7 @@ const initialDeck = [
     "kanji": "態と",
     "reading": "わざと",
     "pos": "副詞",
-    "meaning": "故意地",
+    "meaning": "故意地、有意地、刻意地",
     "isImportant": true
   },
   {
@@ -2910,6 +3438,150 @@ const initialDeck = [
     "pos": "副詞 / な形容詞",
     "meaning": "極限、勉強趕上、好不容易",
     "isImportant": true
+  },
+  {
+    "id": "word_516",
+    "kanji": "ぐっすり",
+    "reading": "",
+    "pos": "副詞",
+    "meaning": "熟睡地、睡得很沉",
+    "isImportant": true
+  },
+  {
+    "id": "word_517",
+    "kanji": "すっきり",
+    "reading": "",
+    "pos": "副詞 / (～する)",
+    "meaning": "清爽、舒暢、神清氣爽",
+    "isImportant": true
+  },
+  {
+    "id": "word_518",
+    "kanji": "びっしょり",
+    "reading": "",
+    "pos": "副詞 / (～する)",
+    "meaning": "濕透地、濕淋淋地",
+    "isImportant": true
+  },
+  {
+    "id": "word_519",
+    "kanji": "態々",
+    "reading": "わざわざ",
+    "pos": "副詞",
+    "meaning": "特地、特意",
+    "isImportant": true
+  },
+  {
+    "id": "word_520",
+    "kanji": "ぜひ",
+    "reading": "",
+    "pos": "副詞",
+    "meaning": "一定、務必（用於強調）",
+    "isImportant": false
+  },
+  {
+    "id": "word_521",
+    "kanji": "とたんに",
+    "reading": "",
+    "pos": "副詞",
+    "meaning": "正當～時，突然（＝急に）",
+    "isImportant": false
+  },
+  {
+    "id": "word_522",
+    "kanji": "じっと",
+    "reading": "",
+    "pos": "副詞 / (～する)",
+    "meaning": "安靜地、一動不動地忍耐、凝神地、隱忍地",
+    "isImportant": false
+  },
+  {
+    "id": "word_523",
+    "kanji": "ざっと",
+    "reading": "",
+    "pos": "副詞",
+    "meaning": "粗略地、大致地",
+    "isImportant": false
+  },
+  {
+    "id": "word_524",
+    "kanji": "きっと",
+    "reading": "",
+    "pos": "副詞",
+    "meaning": "一定、必定",
+    "isImportant": false
+  },
+  {
+    "id": "word_525",
+    "kanji": "ますます",
+    "reading": "",
+    "pos": "副詞",
+    "meaning": "更加、益發、越來越～",
+    "isImportant": false
+  },
+  {
+    "id": "word_526",
+    "kanji": "もう",
+    "reading": "",
+    "pos": "副詞",
+    "meaning": "已經／再（多用於數量）",
+    "isImportant": false
+  },
+  {
+    "id": "word_527",
+    "kanji": "さらに",
+    "reading": "",
+    "pos": "副詞",
+    "meaning": "更進一步（偏書面）",
+    "isImportant": false
+  },
+  {
+    "id": "word_528",
+    "kanji": "全く",
+    "reading": "まったく",
+    "pos": "副詞",
+    "meaning": "完全、全然（全く～ない：一點也不～）",
+    "isImportant": false
+  },
+  {
+    "id": "word_529",
+    "kanji": "決して",
+    "reading": "けっして",
+    "pos": "副詞",
+    "meaning": "絕對（不）（決して～ない：決不～）",
+    "isImportant": false
+  },
+  {
+    "id": "word_530",
+    "kanji": "滅多に",
+    "reading": "めったに",
+    "pos": "副詞",
+    "meaning": "很少、難得、不常（めったに～ない：不常～、很少～）",
+    "isImportant": false
+  },
+  {
+    "id": "word_531",
+    "kanji": "絶対に",
+    "reading": "ぜったいに",
+    "pos": "副詞",
+    "meaning": "絕對地（絶対に～ない：絕對不～）",
+    "isImportant": false
+  },
+  {
+    "id": "word_532",
+    "kanji": "とうとう",
+    "reading": "",
+    "pos": "副詞",
+    "meaning": "最後、終究（用於經過一段時間後，發生不好的結果）",
+    "isImportant": false
+  },
+  {
+    "id": "word_533",
+    "kanji": "やっと",
+    "reading": "",
+    "pos": "副詞",
+    "meaning": "終於（用於努力後達成正面的結果）",
+    "isImportant": false
   },
   {
     "id": "word_365",
@@ -3064,20 +3736,332 @@ const initialDeck = [
     "isImportant": false
   },
   {
-    "id": "word_384",
-    "kanji": "プリント",
-    "reading": "",
-    "pos": "名詞",
-    "meaning": "講義、印刷品 (print)",
-    "isImportant": false
-  },
-  {
     "id": "word_385",
     "kanji": "ファッション",
     "reading": "",
     "pos": "名詞",
     "meaning": "時尚、流行 (fashion)",
     "isImportant": false
+  },
+  {
+    "id": "word_534",
+    "kanji": "サボる",
+    "reading": "",
+    "pos": "第一類動詞 (五段/自)",
+    "meaning": "怠工、曠工、翹班、偷懶（外來語動詞）",
+    "isImportant": false
+  },
+  {
+    "id": "word_535",
+    "kanji": "掃除",
+    "reading": "そうじ",
+    "pos": "名詞 / (～する)",
+    "meaning": "打掃、清掃",
+    "isImportant": true
+  },
+  {
+    "id": "word_536",
+    "kanji": "清掃",
+    "reading": "せいそう",
+    "pos": "名詞 / (～する)",
+    "meaning": "清掃、打掃（較正式）",
+    "isImportant": false
+  },
+  {
+    "id": "word_537",
+    "kanji": "削除",
+    "reading": "さくじょ",
+    "pos": "名詞 / (～する)",
+    "meaning": "刪除、刪減",
+    "isImportant": true
+  },
+  {
+    "id": "word_538",
+    "kanji": "宅配",
+    "reading": "たくはい",
+    "pos": "名詞 / (～する)",
+    "meaning": "宅配、到府送貨",
+    "isImportant": true
+  },
+  {
+    "id": "word_539",
+    "kanji": "準備",
+    "reading": "じゅんび",
+    "pos": "名詞 / (～する)",
+    "meaning": "準備",
+    "isImportant": true
+  },
+  {
+    "id": "word_540",
+    "kanji": "予定",
+    "reading": "よてい",
+    "pos": "名詞 / (～する)",
+    "meaning": "預定、計畫",
+    "isImportant": true
+  },
+  {
+    "id": "word_541",
+    "kanji": "計画",
+    "reading": "けいかく",
+    "pos": "名詞 / (～する)",
+    "meaning": "計畫、規劃",
+    "isImportant": true
+  },
+  {
+    "id": "word_542",
+    "kanji": "期待",
+    "reading": "きたい",
+    "pos": "名詞 / (～する)",
+    "meaning": "期待、期望",
+    "isImportant": true
+  },
+  {
+    "id": "word_543",
+    "kanji": "確認",
+    "reading": "かくにん",
+    "pos": "名詞 / (～する)",
+    "meaning": "確認、核對",
+    "isImportant": true
+  },
+  {
+    "id": "word_544",
+    "kanji": "相談",
+    "reading": "そうだん",
+    "pos": "名詞 / (～する)",
+    "meaning": "商量、諮詢",
+    "isImportant": true
+  },
+  {
+    "id": "word_545",
+    "kanji": "化粧",
+    "reading": "けしょう",
+    "pos": "名詞 / (～する)",
+    "meaning": "化妝",
+    "isImportant": true
+  },
+  {
+    "id": "word_546",
+    "kanji": "費用",
+    "reading": "ひよう",
+    "pos": "名詞",
+    "meaning": "費用、花費",
+    "isImportant": true
+  },
+  {
+    "id": "word_547",
+    "kanji": "代金",
+    "reading": "だいきん",
+    "pos": "名詞",
+    "meaning": "貨款、代價",
+    "isImportant": true
+  },
+  {
+    "id": "word_548",
+    "kanji": "料金",
+    "reading": "りょうきん",
+    "pos": "名詞",
+    "meaning": "費用、規費、使用費",
+    "isImportant": true
+  },
+  {
+    "id": "word_549",
+    "kanji": "原因",
+    "reading": "げんいん",
+    "pos": "名詞",
+    "meaning": "原因",
+    "isImportant": true
+  },
+  {
+    "id": "word_550",
+    "kanji": "価値",
+    "reading": "かち",
+    "pos": "名詞",
+    "meaning": "價值",
+    "isImportant": true
+  },
+  {
+    "id": "word_551",
+    "kanji": "程度",
+    "reading": "ていど",
+    "pos": "名詞",
+    "meaning": "程度、水準",
+    "isImportant": true
+  },
+  {
+    "id": "word_552",
+    "kanji": "質",
+    "reading": "しつ",
+    "pos": "名詞",
+    "meaning": "品質、質量",
+    "isImportant": true
+  },
+  {
+    "id": "word_553",
+    "kanji": "規則",
+    "reading": "きそく",
+    "pos": "名詞",
+    "meaning": "規則、規定",
+    "isImportant": true
+  },
+  {
+    "id": "word_554",
+    "kanji": "栄養",
+    "reading": "えいよう",
+    "pos": "名詞",
+    "meaning": "營養",
+    "isImportant": true
+  },
+  {
+    "id": "word_555",
+    "kanji": "アイロン",
+    "reading": "",
+    "pos": "名詞",
+    "meaning": "熨斗 (iron)",
+    "isImportant": true
+  },
+  {
+    "id": "word_556",
+    "kanji": "ヒント",
+    "reading": "",
+    "pos": "名詞",
+    "meaning": "提示、線索 (hint)",
+    "isImportant": true
+  },
+  {
+    "id": "word_557",
+    "kanji": "ルール",
+    "reading": "",
+    "pos": "名詞",
+    "meaning": "規則、規矩 (rule)",
+    "isImportant": true
+  },
+  {
+    "id": "word_558",
+    "kanji": "ふり",
+    "reading": "",
+    "pos": "名詞",
+    "meaning": "佯裝、假裝",
+    "isImportant": false
+  },
+  {
+    "id": "word_559",
+    "kanji": "それで",
+    "reading": "",
+    "pos": "接續詞",
+    "meaning": "所以、因此",
+    "isImportant": false
+  },
+  {
+    "id": "word_560",
+    "kanji": "あと",
+    "reading": "＝そのほかに",
+    "pos": "接續詞",
+    "meaning": "另外、然後、還有",
+    "isImportant": false
+  },
+  {
+    "id": "word_561",
+    "kanji": "それと",
+    "reading": "＝それから",
+    "pos": "接續詞",
+    "meaning": "然後（口語用法）",
+    "isImportant": false
+  },
+  {
+    "id": "word_562",
+    "kanji": "それとも",
+    "reading": "",
+    "pos": "接續詞",
+    "meaning": "抑或、或是（＝あるいは，較生硬的用法）",
+    "isImportant": false
+  },
+  {
+    "id": "word_563",
+    "kanji": "それなら",
+    "reading": "",
+    "pos": "接續詞",
+    "meaning": "那樣的話、那麼（＝それでは／それじゃ）",
+    "isImportant": false
+  },
+  {
+    "id": "word_564",
+    "kanji": "それに",
+    "reading": "",
+    "pos": "接續詞",
+    "meaning": "而且、再加上（＝そのうえ／しかも）",
+    "isImportant": false
+  },
+  {
+    "id": "word_565",
+    "kanji": "そういえば",
+    "reading": "",
+    "pos": "接續詞",
+    "meaning": "這麼說來、經那麼一說（想到了～）",
+    "isImportant": false
+  },
+  {
+    "id": "word_566",
+    "kanji": "その上",
+    "reading": "そのうえ",
+    "pos": "接續詞",
+    "meaning": "而且、再加上（＝それに／しかも）",
+    "isImportant": false
+  },
+  {
+    "id": "word_567",
+    "kanji": "そのため",
+    "reading": "",
+    "pos": "接續詞",
+    "meaning": "因此（＝だから／それで／その結果）",
+    "isImportant": false
+  },
+  {
+    "id": "word_568",
+    "kanji": "それなのに",
+    "reading": "",
+    "pos": "接續詞",
+    "meaning": "儘管如此（＝けれど（も））",
+    "isImportant": false
+  },
+  {
+    "id": "word_569",
+    "kanji": "それでも",
+    "reading": "",
+    "pos": "接續詞",
+    "meaning": "即使、即便（＝それにもかかわらず）",
+    "isImportant": false
+  },
+  {
+    "id": "word_570",
+    "kanji": "ところが",
+    "reading": "",
+    "pos": "接續詞",
+    "meaning": "然而、但是（＝しかし）",
+    "isImportant": false
+  },
+  {
+    "id": "word_571",
+    "kanji": "ですから",
+    "reading": "",
+    "pos": "接續詞",
+    "meaning": "因此（比だから有禮貌，＝だから）",
+    "isImportant": false
+  },
+  {
+    "id": "word_572",
+    "kanji": "ところで",
+    "reading": "",
+    "pos": "接續詞",
+    "meaning": "對了（變換話題）",
+    "isImportant": false
+  },
+  {
+    "id": "word_573",
+    "kanji": "嘘をつく",
+    "reading": "うそをつく",
+    "pos": "慣用語",
+    "meaning": "說謊、撒謊",
+    "isImportant": true
   },
   {
     "id": "word_386",
@@ -3348,7 +4332,7 @@ const initialDeck = [
     "kanji": "役に立つ",
     "reading": "やくにたつ",
     "pos": "慣用語",
-    "meaning": "有用、派上用場",
+    "meaning": "有用、派上用場、有幫助",
     "isImportant": true
   },
   {
@@ -3373,6 +4357,46 @@ const initialDeck = [
     "reading": "",
     "pos": "慣用語",
     "meaning": "嘮叨、囉唆個不停",
+    "isImportant": false
+  },
+  {
+    "id": "word_574",
+    "kanji": "手に入る",
+    "reading": "てにはいる",
+    "pos": "慣用語",
+    "meaning": "到手、得到、獲得",
+    "isImportant": true
+  },
+  {
+    "id": "word_575",
+    "kanji": "世話をする",
+    "reading": "せわをする",
+    "pos": "慣用語",
+    "meaning": "照顧、照料",
+    "isImportant": false
+  },
+  {
+    "id": "word_576",
+    "kanji": "世話になる",
+    "reading": "せわになる",
+    "pos": "慣用語",
+    "meaning": "受（別人）關照",
+    "isImportant": false
+  },
+  {
+    "id": "word_577",
+    "kanji": "礼儀正しい",
+    "reading": "れいぎただしい",
+    "pos": "慣用語",
+    "meaning": "懂禮貌、守禮節、彬彬有禮的（整個人格特質）",
+    "isImportant": false
+  },
+  {
+    "id": "word_578",
+    "kanji": "行儀（ぎょうぎ）がいい",
+    "reading": "",
+    "pos": "慣用語",
+    "meaning": "有禮貌、舉止端正（表現出來的行為）",
     "isImportant": false
   }
 ];
