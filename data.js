@@ -932,7 +932,7 @@ const initialDeck = [
     "kanji": "閉まる",
     "reading": "しまる",
     "pos": "第一類動詞 (五段/自)",
-    "meaning": "（門、店）關閉（自動詞）",
+    "meaning": "（門、店）關閉",
     "isImportant": true
   },
   {
@@ -1060,7 +1060,7 @@ const initialDeck = [
     "kanji": "開ける",
     "reading": "あける",
     "pos": "第二類動詞 (下一段/他)",
-    "meaning": "打開（他動詞）",
+    "meaning": "打開",
     "isImportant": true
   },
   {
@@ -1068,7 +1068,7 @@ const initialDeck = [
     "kanji": "閉める",
     "reading": "しめる",
     "pos": "第二類動詞 (下一段/他)",
-    "meaning": "關閉（他動詞）",
+    "meaning": "關閉",
     "isImportant": true
   },
   {
@@ -2036,7 +2036,7 @@ const initialDeck = [
     "kanji": "退ける",
     "reading": "どける",
     "pos": "第二類動詞 (下一段/他)",
-    "meaning": "移開、挪開（他動詞）",
+    "meaning": "移開、挪開",
     "isImportant": true
   },
   {
@@ -2044,7 +2044,7 @@ const initialDeck = [
     "kanji": "退く",
     "reading": "どく",
     "pos": "第一類動詞 (五段/自)",
-    "meaning": "躲開、讓開（自動詞）",
+    "meaning": "躲開、讓開",
     "isImportant": true
   },
   {
@@ -2300,7 +2300,7 @@ const initialDeck = [
     "kanji": "溶ける",
     "reading": "とける",
     "pos": "第二類動詞 (下一段/自)",
-    "meaning": "融化、溶解（自動詞）",
+    "meaning": "融化、溶解",
     "isImportant": false
   },
   {
