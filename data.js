@@ -2328,14 +2328,6 @@ const initialDeck = [
     "isImportant": false
   },
   {
-    "id": "word_461",
-    "kanji": "貯まる",
-    "reading": "たまる",
-    "pos": "第一類動詞 (五段/自)",
-    "meaning": "積存、累積、儲存（常用於金錢或資產）",
-    "isImportant": false
-  },
-  {
     "id": "word_462",
     "kanji": "数える",
     "reading": "かぞえる",

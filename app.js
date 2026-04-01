@@ -52,6 +52,33 @@ function loadData() {
         deck = JSON.parse(stored);
 
         let isUpdated = false;
+
+        // --- 處理舊版重複單字 (word_461 -> word_430) 資料繼承 ---
+        const idx461 = deck.findIndex(c => c.id === 'word_461');
+        const idx430 = deck.findIndex(c => c.id === 'word_430');
+        if (idx461 !== -1) {
+            const card461 = deck[idx461];
+            if (idx430 !== -1) {
+                const card430 = deck[idx430];
+                // 以練習次數較高者為準，覆蓋學習進度
+                if ((card461.playCount || 0) > (card430.playCount || 0)) {
+                    card430.playCount = card461.playCount;
+                    card430.easyCount = card461.easyCount;
+                    card430.interval = card461.interval;
+                    card430.lapses = card461.lapses;
+                    card430.status = card461.status;
+                    card430.nextReviewDate = card461.nextReviewDate;
+                }
+            } else {
+                // 若 430 不存在，直接把 461 更改為 430
+                card461.id = 'word_430';
+            }
+            // 從陣列中徹底清除 461，強制觸發存檔
+            deck = deck.filter(c => c.id !== 'word_461');
+            isUpdated = true;
+        }
+        // -----------------------------------------------------------
+
         initialDeck.forEach(word => {
             const existingIdx = deck.findIndex(c => c.id === word.id);
             if (existingIdx === -1) {
