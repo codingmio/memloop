@@ -181,7 +181,7 @@ const initialDeck = [
     "reading": "たんき",
     "pos": "名詞 / な形容詞",
     "meaning": "急躁、性急",
-    "isImportant": false
+    "isImportant": true
   },
   {
     "id": "word_24",
@@ -205,7 +205,7 @@ const initialDeck = [
     "reading": "せいふく",
     "pos": "名詞",
     "meaning": "制服",
-    "isImportant": false
+    "isImportant": true
   },
   {
     "id": "word_27",
@@ -357,7 +357,7 @@ const initialDeck = [
     "reading": "こうこく",
     "pos": "名詞 / (～する)",
     "meaning": "廣告",
-    "isImportant": false
+    "isImportant": true
   },
   {
     "id": "word_46",
@@ -557,7 +557,7 @@ const initialDeck = [
     "reading": "ほうこう",
     "pos": "名詞",
     "meaning": "方向",
-    "isImportant": false
+    "isImportant": true
   },
   {
     "id": "word_71",
@@ -877,7 +877,7 @@ const initialDeck = [
     "reading": "しぜん",
     "pos": "名詞",
     "meaning": "自然",
-    "isImportant": false
+    "isImportant": true
   },
   {
     "id": "word_427",
@@ -901,6 +901,78 @@ const initialDeck = [
     "reading": "しゅうかん",
     "pos": "名詞",
     "meaning": "週刊雜誌",
+    "isImportant": false
+  },
+  {
+    "id": "word_579",
+    "kanji": "裏返し",
+    "reading": "うらがえし",
+    "pos": "名詞",
+    "meaning": "翻面、反面／內幕",
+    "isImportant": false
+  },
+  {
+    "id": "word_580",
+    "kanji": "調味料",
+    "reading": "ちょうみりょう",
+    "pos": "名詞",
+    "meaning": "調味料",
+    "isImportant": false
+  },
+  {
+    "id": "word_581",
+    "kanji": "居間",
+    "reading": "いま",
+    "pos": "名詞",
+    "meaning": "起居室（客廳）",
+    "isImportant": false
+  },
+  {
+    "id": "word_582",
+    "kanji": "日当たり",
+    "reading": "ひあたり",
+    "pos": "名詞",
+    "meaning": "採光、日照、向陽／日曬情況",
+    "isImportant": false
+  },
+  {
+    "id": "word_583",
+    "kanji": "湯飲み",
+    "reading": "ゆのみ",
+    "pos": "名詞",
+    "meaning": "茶杯",
+    "isImportant": false
+  },
+  {
+    "id": "word_584",
+    "kanji": "毛布",
+    "reading": "もうふ",
+    "pos": "名詞",
+    "meaning": "毛毯",
+    "isImportant": false
+  },
+  {
+    "id": "word_585",
+    "kanji": "大きめ",
+    "reading": "おおきめ",
+    "pos": "名詞 / な形容詞",
+    "meaning": "偏大、稍大",
+    "isImportant": false
+  },
+  {
+    "id": "word_586",
+    "kanji": "負んぶ",
+    "reading": "おんぶ",
+    "pos": "名詞 / (～する)",
+    "meaning": "背在背上、揹、背負",
+    "isImportant": false
+  },
+  {
+    "id": "word_587",
+    "kanji": "抱っこ",
+    "reading": "だっこ",
+    "pos": "名詞 / (～する)",
+    "meaning": "抱抱、擁抱",
     "isImportant": false
   },
   {
@@ -932,7 +1004,7 @@ const initialDeck = [
     "kanji": "閉まる",
     "reading": "しまる",
     "pos": "第一類動詞 (五段/自)",
-    "meaning": "（門、店）關閉",
+    "meaning": "（門、店）關閉（自動詞）",
     "isImportant": true
   },
   {
@@ -997,7 +1069,7 @@ const initialDeck = [
     "reading": "まける",
     "pos": "第二類動詞 (下一段/自)",
     "meaning": "輸、落敗",
-    "isImportant": false
+    "isImportant": true
   },
   {
     "id": "word_119",
@@ -1060,7 +1132,7 @@ const initialDeck = [
     "kanji": "開ける",
     "reading": "あける",
     "pos": "第二類動詞 (下一段/他)",
-    "meaning": "打開",
+    "meaning": "打開（他動詞）",
     "isImportant": true
   },
   {
@@ -1068,7 +1140,7 @@ const initialDeck = [
     "kanji": "閉める",
     "reading": "しめる",
     "pos": "第二類動詞 (下一段/他)",
-    "meaning": "關閉",
+    "meaning": "關閉（他動詞）",
     "isImportant": true
   },
   {
@@ -1141,7 +1213,7 @@ const initialDeck = [
     "reading": "くばる",
     "pos": "第一類動詞 (五段/他)",
     "meaning": "分發、分配",
-    "isImportant": false
+    "isImportant": true
   },
   {
     "id": "word_137",
@@ -1237,7 +1309,7 @@ const initialDeck = [
     "reading": "のこる",
     "pos": "第一類動詞 (五段/自)",
     "meaning": "剩餘、殘留",
-    "isImportant": false
+    "isImportant": true
   },
   {
     "id": "word_149",
@@ -1325,7 +1397,7 @@ const initialDeck = [
     "reading": "剥く",
     "pos": "第一類動詞 (五段/他)",
     "meaning": "剝皮、削皮",
-    "isImportant": false
+    "isImportant": true
   },
   {
     "id": "word_160",
@@ -1580,7 +1652,7 @@ const initialDeck = [
     "kanji": "冷める",
     "reading": "さめる",
     "pos": "第二類動詞 (下一段/自)",
-    "meaning": "變涼（熱的食物等）",
+    "meaning": "涼掉、冷掉（常用於食物變涼：冷めないうちに）",
     "isImportant": true
   },
   {
@@ -1597,7 +1669,7 @@ const initialDeck = [
     "reading": "かさねる",
     "pos": "第二類動詞 (下一段/他)",
     "meaning": "堆疊、重複累積",
-    "isImportant": false
+    "isImportant": true
   },
   {
     "id": "word_194",
@@ -1725,7 +1797,7 @@ const initialDeck = [
     "reading": "かれる",
     "pos": "第二類動詞 (下一段/自)",
     "meaning": "枯萎",
-    "isImportant": false
+    "isImportant": true
   },
   {
     "id": "word_210",
@@ -1733,7 +1805,7 @@ const initialDeck = [
     "reading": "つめる",
     "pos": "第二類動詞 (下一段/他)",
     "meaning": "塞、裝、填滿；縮短（距離）",
-    "isImportant": false
+    "isImportant": true
   },
   {
     "id": "word_211",
@@ -1741,7 +1813,7 @@ const initialDeck = [
     "reading": "つつむ",
     "pos": "第一類動詞 (五段/他)",
     "meaning": "包裹、包住",
-    "isImportant": false
+    "isImportant": true
   },
   {
     "id": "word_212",
@@ -1909,7 +1981,7 @@ const initialDeck = [
     "reading": "なめる",
     "pos": "第二類動詞 (下一段/他)",
     "meaning": "舔",
-    "isImportant": false
+    "isImportant": true
   },
   {
     "id": "word_233",
@@ -2036,7 +2108,7 @@ const initialDeck = [
     "kanji": "退ける",
     "reading": "どける",
     "pos": "第二類動詞 (下一段/他)",
-    "meaning": "移開、挪開",
+    "meaning": "移開、挪開（他動詞）",
     "isImportant": true
   },
   {
@@ -2044,7 +2116,7 @@ const initialDeck = [
     "kanji": "退く",
     "reading": "どく",
     "pos": "第一類動詞 (五段/自)",
-    "meaning": "躲開、讓開",
+    "meaning": "躲開、讓開（自動詞）",
     "isImportant": true
   },
   {
@@ -2181,7 +2253,7 @@ const initialDeck = [
     "reading": "かわく",
     "pos": "第一類動詞 (五段/自)",
     "meaning": "乾涸、口乾、乾燥、變乾",
-    "isImportant": false
+    "isImportant": true
   },
   {
     "id": "word_443",
@@ -2189,14 +2261,6 @@ const initialDeck = [
     "reading": "なまける",
     "pos": "第二類動詞 (下一段/自)",
     "meaning": "懶惰、偷懶、懈怠、怠惰",
-    "isImportant": false
-  },
-  {
-    "id": "word_444",
-    "kanji": "サボる",
-    "reading": "",
-    "pos": "第一類動詞 (五段/自)",
-    "meaning": "怠工、曠工、翹班、偷懶",
     "isImportant": false
   },
   {
@@ -2269,7 +2333,7 @@ const initialDeck = [
     "reading": "ほす",
     "pos": "第一類動詞 (五段/他)",
     "meaning": "晾、曬",
-    "isImportant": false
+    "isImportant": true
   },
   {
     "id": "word_454",
@@ -2300,7 +2364,7 @@ const initialDeck = [
     "kanji": "溶ける",
     "reading": "とける",
     "pos": "第二類動詞 (下一段/自)",
-    "meaning": "融化、溶解",
+    "meaning": "融化、溶解（自動詞）",
     "isImportant": false
   },
   {
@@ -2456,6 +2520,30 @@ const initialDeck = [
     "isImportant": true
   },
   {
+    "id": "word_588",
+    "kanji": "敷く",
+    "reading": "しく",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "鋪設、鋪墊（棉被或墊子）",
+    "isImportant": false
+  },
+  {
+    "id": "word_589",
+    "kanji": "磨く",
+    "reading": "みがく",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "磨、刷（牙）",
+    "isImportant": false
+  },
+  {
+    "id": "word_590",
+    "kanji": "こぼす",
+    "reading": "",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "灑落、流落",
+    "isImportant": false
+  },
+  {
     "id": "word_478",
     "kanji": "恋しい",
     "reading": "こいしい",
@@ -2605,7 +2693,7 @@ const initialDeck = [
     "reading": "ほそい",
     "pos": "い形容詞",
     "meaning": "細的、纖細的",
-    "isImportant": false
+    "isImportant": true
   },
   {
     "id": "word_481",
@@ -2725,7 +2813,7 @@ const initialDeck = [
     "reading": "ふかい",
     "pos": "い形容詞",
     "meaning": "深的",
-    "isImportant": false
+    "isImportant": true
   },
   {
     "id": "word_286",
@@ -3005,7 +3093,7 @@ const initialDeck = [
     "reading": "",
     "pos": "な形容詞",
     "meaning": "的確、確實的",
-    "isImportant": false
+    "isImportant": true
   },
   {
     "id": "word_509",
@@ -3013,7 +3101,7 @@ const initialDeck = [
     "reading": "",
     "pos": "な形容詞",
     "meaning": "不安的、擔心的",
-    "isImportant": false
+    "isImportant": true
   },
   {
     "id": "word_510",
@@ -3405,7 +3493,7 @@ const initialDeck = [
     "reading": "",
     "pos": "副詞 / (～する)",
     "meaning": "徘徊、不知所措地到處走",
-    "isImportant": false
+    "isImportant": true
   },
   {
     "id": "word_362",
@@ -3576,6 +3664,46 @@ const initialDeck = [
     "isImportant": false
   },
   {
+    "id": "word_591",
+    "kanji": "一遍に",
+    "reading": "いっぺんに",
+    "pos": "副詞",
+    "meaning": "一下子、一次、同時（＝一度に）",
+    "isImportant": false
+  },
+  {
+    "id": "word_592",
+    "kanji": "不図",
+    "reading": "ふと",
+    "pos": "副詞",
+    "meaning": "突然、忽然、不經意地",
+    "isImportant": false
+  },
+  {
+    "id": "word_593",
+    "kanji": "そっくり",
+    "reading": "",
+    "pos": "副詞",
+    "meaning": "完全一樣、一模一樣",
+    "isImportant": false
+  },
+  {
+    "id": "word_594",
+    "kanji": "ものすごく",
+    "reading": "",
+    "pos": "副詞",
+    "meaning": "非常、十分地（凄く/すごく的強調說法）",
+    "isImportant": false
+  },
+  {
+    "id": "word_595",
+    "kanji": "みたいな",
+    "reading": "",
+    "pos": "副詞",
+    "meaning": "像是、好像",
+    "isImportant": false
+  },
+  {
     "id": "word_365",
     "kanji": "アルバイト",
     "reading": "",
@@ -3605,7 +3733,7 @@ const initialDeck = [
     "reading": "",
     "pos": "名詞 / な形容詞",
     "meaning": "超過、過度；大衣 (over)",
-    "isImportant": false
+    "isImportant": true
   },
   {
     "id": "word_369",
@@ -3701,7 +3829,7 @@ const initialDeck = [
     "reading": "",
     "pos": "名詞",
     "meaning": "主題 (Thema)",
-    "isImportant": false
+    "isImportant": true
   },
   {
     "id": "word_381",
@@ -3740,8 +3868,8 @@ const initialDeck = [
     "kanji": "サボる",
     "reading": "",
     "pos": "第一類動詞 (五段/自)",
-    "meaning": "怠工、曠工、翹班、偷懶（外來語動詞）",
-    "isImportant": false
+    "meaning": "怠工、曠工、翹班、偷懶（外來語：sabotage）",
+    "isImportant": true
   },
   {
     "id": "word_535",
