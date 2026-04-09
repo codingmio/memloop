@@ -636,7 +636,7 @@ const initialDeck = [
     "kanji": "行き",
     "reading": "ゆき",
     "pos": "名詞",
-    "meaning": "往～方向、前往",
+    "meaning": "往～方向、前往(行く的書面用語)",
     "isImportant": false
   },
   {
@@ -974,6 +974,198 @@ const initialDeck = [
     "pos": "名詞 / (～する)",
     "meaning": "抱抱、擁抱",
     "isImportant": false
+  },
+  {
+    "id": "word_596",
+    "kanji": "速達",
+    "reading": "そくたつ",
+    "pos": "名詞",
+    "meaning": "快遞、限時專送",
+    "isImportant": true
+  },
+  {
+    "id": "word_597",
+    "kanji": "窓口",
+    "reading": "まどぐち",
+    "pos": "名詞",
+    "meaning": "窗口",
+    "isImportant": true
+  },
+  {
+    "id": "word_598",
+    "kanji": "通帳",
+    "reading": "つうちょう",
+    "pos": "名詞",
+    "meaning": "存摺",
+    "isImportant": true
+  },
+  {
+    "id": "word_599",
+    "kanji": "駐車",
+    "reading": "ちゅうしゃ",
+    "pos": "名詞 / (～する)",
+    "meaning": "停車、泊車",
+    "isImportant": true
+  },
+  {
+    "id": "word_600",
+    "kanji": "免許証",
+    "reading": "めんきょしょう",
+    "pos": "名詞",
+    "meaning": "執照、駕照",
+    "isImportant": true
+  },
+  {
+    "id": "word_601",
+    "kanji": "先日",
+    "reading": "せんじつ",
+    "pos": "名詞",
+    "meaning": "前幾天",
+    "isImportant": true
+  },
+  {
+    "id": "word_602",
+    "kanji": "精算・清算",
+    "reading": "せいさん",
+    "pos": "名詞 / (～する)",
+    "meaning": "「精」確計算、結算（補票、報帳）；「清」理計算、結算（分手、還債、公司倒閉）",
+    "isImportant": true
+  },
+  {
+    "id": "word_603",
+    "kanji": "宿泊",
+    "reading": "しゅくはく",
+    "pos": "名詞 / (～する)",
+    "meaning": "住宿、投宿",
+    "isImportant": true
+  },
+  {
+    "id": "word_604",
+    "kanji": "上り",
+    "reading": "のぼり",
+    "pos": "名詞",
+    "meaning": "上升、前往「首都、城市」的方向（反意：下り（くだり））",
+    "isImportant": true
+  },
+  {
+    "id": "word_605",
+    "kanji": "改札口",
+    "reading": "かいさつぐち",
+    "pos": "名詞",
+    "meaning": "剪票口",
+    "isImportant": true
+  },
+  {
+    "id": "word_606",
+    "kanji": "乗り換え",
+    "reading": "のりかえ",
+    "pos": "名詞 / (～する)",
+    "meaning": "轉乘、換車、換乘；更換、替換",
+    "isImportant": true
+  },
+  {
+    "id": "word_607",
+    "kanji": "停留所",
+    "reading": "ていりゅうじょ",
+    "pos": "名詞",
+    "meaning": "停靠站",
+    "isImportant": true
+  },
+  {
+    "id": "word_608",
+    "kanji": "仕送り",
+    "reading": "しおくり",
+    "pos": "名詞",
+    "meaning": "匯款、寄錢；資助、供養",
+    "isImportant": true
+  },
+  {
+    "id": "word_609",
+    "kanji": "振り込み",
+    "reading": "ふりこみ",
+    "pos": "名詞",
+    "meaning": "匯款、轉帳、劃撥",
+    "isImportant": true
+  },
+  {
+    "id": "word_610",
+    "kanji": "交際",
+    "reading": "こうさい",
+    "pos": "名詞 / (～する)",
+    "meaning": "交際、交往、社交",
+    "isImportant": true
+  },
+  {
+    "id": "word_611",
+    "kanji": "仲直り",
+    "reading": "なかなおり",
+    "pos": "名詞 / (～する)",
+    "meaning": "和好、和解、重修舊好",
+    "isImportant": true
+  },
+  {
+    "id": "word_612",
+    "kanji": "眉毛",
+    "reading": "まゆげ",
+    "pos": "名詞",
+    "meaning": "眉毛",
+    "isImportant": false
+  },
+  {
+    "id": "word_613",
+    "kanji": "ドライヤー",
+    "reading": "",
+    "pos": "名詞",
+    "meaning": "吹風機 (dryer)",
+    "isImportant": false
+  },
+  {
+    "id": "word_614",
+    "kanji": "行列",
+    "reading": "ぎょうれつ",
+    "pos": "名詞",
+    "meaning": "隊伍、行列；矩陣",
+    "isImportant": true
+  },
+  {
+    "id": "word_615",
+    "kanji": "お代わり",
+    "reading": "おかわり",
+    "pos": "名詞",
+    "meaning": "再來一份、續杯；代替、替換",
+    "isImportant": true
+  },
+  {
+    "id": "word_616",
+    "kanji": "水割り",
+    "reading": "みずわり",
+    "pos": "名詞",
+    "meaning": "用水稀釋酒精飲料的飲品（通常使用蒸餾酒，如威士忌、燒酎）",
+    "isImportant": false
+  },
+  {
+    "id": "word_617",
+    "kanji": "お摘み",
+    "reading": "おつまみ",
+    "pos": "名詞",
+    "meaning": "下酒菜、小菜",
+    "isImportant": false
+  },
+  {
+    "id": "word_618",
+    "kanji": "お勘定",
+    "reading": "おかんじょう",
+    "pos": "名詞",
+    "meaning": "帳單、結帳",
+    "isImportant": true
+  },
+  {
+    "id": "word_619",
+    "kanji": "熱中",
+    "reading": "ねっちゅう",
+    "pos": "名詞 / (～する)",
+    "meaning": "熱衷",
+    "isImportant": true
   },
   {
     "id": "word_107",
@@ -1488,7 +1680,7 @@ const initialDeck = [
     "isImportant": true
   },
   {
-    "id": "word_171",
+    "id": "word_620",
     "kanji": "あきらめる",
     "reading": "諦める",
     "pos": "第二類動詞 (下一段/他)",
@@ -1497,14 +1689,14 @@ const initialDeck = [
   },
   {
     "id": "word_172",
-    "kanji": "あきれる",
-    "reading": "呆れる",
+    "kanji": "呆れる",
+    "reading": "あきれる",
     "pos": "第二類動詞 (下一段/自)",
     "meaning": "吃驚、傻眼、無言、愕然、目瞪口呆",
     "isImportant": false
   },
   {
-    "id": "word_173",
+    "id": "word_621",
     "kanji": "あきる",
     "reading": "飽きる",
     "pos": "第二類動詞 (上一段/自)",
@@ -1680,7 +1872,7 @@ const initialDeck = [
     "isImportant": false
   },
   {
-    "id": "word_195",
+    "id": "word_622",
     "kanji": "たたむ",
     "reading": "畳む",
     "pos": "第一類動詞 (五段/他)",
@@ -2544,6 +2736,54 @@ const initialDeck = [
     "isImportant": false
   },
   {
+    "id": "word_623",
+    "kanji": "下ろす",
+    "reading": "おろす",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "卸下、放下；提取（金錢）",
+    "isImportant": true
+  },
+  {
+    "id": "word_624",
+    "kanji": "切れる",
+    "reading": "きれる",
+    "pos": "第二類動詞 (下一段/自)",
+    "meaning": "（資源）用盡、耗盡；斷掉、過期、售罄；鋒利",
+    "isImportant": true
+  },
+  {
+    "id": "word_625",
+    "kanji": "込む",
+    "reading": "こむ",
+    "pos": "第一類動詞 (五段/自)",
+    "meaning": "進入、插進；擁擠（人車多）",
+    "isImportant": true
+  },
+  {
+    "id": "word_626",
+    "kanji": "憧れる",
+    "reading": "あこがれる",
+    "pos": "第二類動詞 (下一段/自)",
+    "meaning": "憧憬、嚮往",
+    "isImportant": true
+  },
+  {
+    "id": "word_627",
+    "kanji": "嵌める",
+    "reading": "はめる",
+    "pos": "第二類動詞 (下一段/他)",
+    "meaning": "嵌入、鑲嵌（放入凹處）；戴上（指戒指、手套等）；陷害、誘騙",
+    "isImportant": true
+  },
+  {
+    "id": "word_628",
+    "kanji": "似合う",
+    "reading": "にあう",
+    "pos": "第一類動詞 (五段/自)",
+    "meaning": "適合、相稱",
+    "isImportant": true
+  },
+  {
     "id": "word_478",
     "kanji": "恋しい",
     "reading": "こいしい",
@@ -2836,7 +3076,7 @@ const initialDeck = [
     "kanji": "さわがしい",
     "reading": "騒がしい",
     "pos": "い形容詞",
-    "meaning": "吵鬧的、喧鬧的",
+    "meaning": "吵鬧的、喧鬧的(口語、一般用)",
     "isImportant": false
   },
   {
@@ -2854,6 +3094,14 @@ const initialDeck = [
     "pos": "い形容詞",
     "meaning": "光線昏暗、陰暗",
     "isImportant": false
+  },
+  {
+    "id": "word_629",
+    "kanji": "騒々しい",
+    "reading": "そうぞうしい",
+    "pos": "い形容詞",
+    "meaning": "吵鬧、喧囂、嘈雜(較強調、誇張語氣)",
+    "isImportant": true
   },
   {
     "id": "word_483",

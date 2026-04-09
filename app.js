@@ -5,7 +5,7 @@ const views = {
     done: document.getElementById('view-done')
 };
 const els = {
-    dTotal: document.getElementById('d-total'),
+    dNewVal: document.getElementById('d-new-val'),
     dDue: document.getElementById('d-due'),
     startBtn: document.getElementById('start-btn'),
     resetBtn: document.getElementById('reset-btn'),
@@ -257,17 +257,17 @@ function switchView(viewName) {
 
 function renderDashboard() {
     els.dCompleted = document.getElementById('d-completed');
-    els.dNew = document.getElementById('footer-new-count');
+    els.dTotalFooter = document.getElementById('footer-total-count');
 
     let totalCards = deck.length;
     let completedCount = deck.filter(c => c.status === 'Completed').length;
 
-    els.dTotal.textContent = totalCards;
+    if (els.dNewVal) els.dNewVal.textContent = Math.max(0, totalCards - completedCount);
     els.dDue.textContent = todayQueue.length;
     
     if (els.dCompleted) els.dCompleted.textContent = completedCount;
-    if (els.dNew) els.dNew.textContent = `未練習數量: ${Math.max(0, totalCards - completedCount)}`;
-    
+    if (els.dTotalFooter) els.dTotalFooter.textContent = `單字總數量: ${totalCards}`;
+
     els.reviewCount.textContent = todayQueue.length;
 
     if (todayQueue.length === 0) {
