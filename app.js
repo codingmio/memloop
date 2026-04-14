@@ -56,7 +56,8 @@ function loadData() {
         // --- 處理舊版重複單字資料批次繼承 ---
         const migrations = [
             { from: 'word_461', to: 'word_430' },
-            { from: 'word_444', to: 'word_534' }
+            { from: 'word_444', to: 'word_534' },
+            { from: 'word_234', to: 'word_233' }
         ];
 
         migrations.forEach(mig => {

@@ -2040,7 +2040,7 @@ const initialDeck = [
     "isImportant": true
   },
   {
-    "id": "word_216",
+    "id": "word_630",
     "kanji": "つながる",
     "reading": "繋がる",
     "pos": "第一類動詞 (五段/自)",
@@ -2056,7 +2056,7 @@ const initialDeck = [
     "isImportant": true
   },
   {
-    "id": "word_218",
+    "id": "word_631",
     "kanji": "そろう",
     "reading": "揃う",
     "pos": "第一類動詞 (五段/自)",
@@ -2073,8 +2073,8 @@ const initialDeck = [
   },
   {
     "id": "word_220",
-    "kanji": "くり返す",
-    "reading": "繰り返す",
+    "kanji": "繰り返す",
+    "reading": "くりかえす",
     "pos": "第一類動詞 (五段/他)",
     "meaning": "反覆、重複",
     "isImportant": true
@@ -2128,7 +2128,7 @@ const initialDeck = [
     "isImportant": false
   },
   {
-    "id": "word_227",
+    "id": "word_632",
     "kanji": "もうかる",
     "reading": "儲かる",
     "pos": "第一類動詞 (五段/自)",
@@ -2137,8 +2137,8 @@ const initialDeck = [
   },
   {
     "id": "word_228",
-    "kanji": "おごる",
-    "reading": "奢る",
+    "kanji": "奢る",
+    "reading": "おごる",
     "pos": "第一類動詞 (五段/他)",
     "meaning": "請客",
     "isImportant": false
@@ -2172,23 +2172,15 @@ const initialDeck = [
     "kanji": "舐める",
     "reading": "なめる",
     "pos": "第二類動詞 (下一段/他)",
-    "meaning": "舔",
+    "meaning": "舔；輕視、小看",
     "isImportant": true
   },
   {
     "id": "word_233",
-    "kanji": "鳴く",
+    "kanji": "鳴く・泣く",
     "reading": "なく",
     "pos": "第一類動詞 (五段/自)",
-    "meaning": "鳴叫（動物、鳥類）",
-    "isImportant": true
-  },
-  {
-    "id": "word_234",
-    "kanji": "泣く",
-    "reading": "なく",
-    "pos": "第一類動詞 (五段/自)",
-    "meaning": "哭泣（人類）",
+    "meaning": "鳴叫（動物、鳥類 / 鳴く）；哭泣（人類 / 泣く）",
     "isImportant": true
   },
   {
@@ -2217,16 +2209,16 @@ const initialDeck = [
   },
   {
     "id": "word_238",
-    "kanji": "モテる",
+    "kanji": "持てる",
     "reading": "もてる",
     "pos": "第二類動詞 (下一段/自)",
-    "meaning": "受（異性）歡迎",
+    "meaning": "受（異性）歡迎；能拿、能持有",
     "isImportant": false
   },
   {
     "id": "word_239",
-    "kanji": "ふる",
-    "reading": "振る",
+    "kanji": "振る",
+    "reading": "ふる",
     "pos": "第一類動詞 (五段/他)",
     "meaning": "甩掉（感情）、拒絕（告白）",
     "isImportant": true
