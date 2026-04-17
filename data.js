@@ -4040,6 +4040,14 @@ const initialDeck = [
     "isImportant": false
   },
   {
+    "id": "word_656",
+    "kanji": "一遍に",
+    "reading": "いっぺんに",
+    "pos": "副詞",
+    "meaning": "一下子、一次、同時（＝一度に）",
+    "isImportant": false
+  },
+  {
     "id": "word_592",
     "kanji": "不図",
     "reading": "ふと",
