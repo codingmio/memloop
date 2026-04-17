@@ -57,7 +57,9 @@ function loadData() {
         const migrations = [
             { from: 'word_461', to: 'word_430' },
             { from: 'word_444', to: 'word_534' },
-            { from: 'word_234', to: 'word_233' }
+            { from: 'word_234', to: 'word_233' },
+            { from: 'word_240', to: 'word_633' }, // 済む → 済む・住む（合併）
+            { from: 'word_242', to: 'word_633' }  // 住む → 済む・住む（合併）
         ];
 
         migrations.forEach(mig => {

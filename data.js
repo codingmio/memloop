@@ -1168,6 +1168,142 @@ const initialDeck = [
     "isImportant": true
   },
   {
+    "id": "word_636",
+    "kanji": "出席",
+    "reading": "しゅっせき",
+    "pos": "名詞 / (～する)",
+    "meaning": "出席",
+    "isImportant": true
+  },
+  {
+    "id": "word_637",
+    "kanji": "定規",
+    "reading": "じょうぎ",
+    "pos": "名詞",
+    "meaning": "尺",
+    "isImportant": false
+  },
+  {
+    "id": "word_638",
+    "kanji": "提出",
+    "reading": "ていしゅつ",
+    "pos": "名詞 / (～する)",
+    "meaning": "提出、遞交",
+    "isImportant": true
+  },
+  {
+    "id": "word_639",
+    "kanji": "初心者",
+    "reading": "しょしんしゃ",
+    "pos": "名詞",
+    "meaning": "初學者、新手、初心者",
+    "isImportant": false
+  },
+  {
+    "id": "word_640",
+    "kanji": "居眠り",
+    "reading": "いねむり",
+    "pos": "名詞 / (～する)",
+    "meaning": "打瞌睡、打盹",
+    "isImportant": true
+  },
+  {
+    "id": "word_641",
+    "kanji": "単位",
+    "reading": "たんい",
+    "pos": "名詞",
+    "meaning": "單位（単位を落とす：沒拿到學分（被當掉））",
+    "isImportant": true
+  },
+  {
+    "id": "word_642",
+    "kanji": "記入",
+    "reading": "きにゅう",
+    "pos": "名詞 / (～する)",
+    "meaning": "記入、填寫、登記",
+    "isImportant": true
+  },
+  {
+    "id": "word_643",
+    "kanji": "下書き",
+    "reading": "したがき",
+    "pos": "名詞 / (～する)",
+    "meaning": "草稿、底稿、打草稿",
+    "isImportant": false
+  },
+  {
+    "id": "word_644",
+    "kanji": "チェック",
+    "reading": "",
+    "pos": "名詞 / (～する)",
+    "meaning": "檢查、確認 (check)",
+    "isImportant": true
+  },
+  {
+    "id": "word_645",
+    "kanji": "添付",
+    "reading": "てんぷ",
+    "pos": "名詞 / (～する)",
+    "meaning": "附加、附上、附件",
+    "isImportant": true
+  },
+  {
+    "id": "word_646",
+    "kanji": "入力",
+    "reading": "にゅうりょく",
+    "pos": "名詞 / (～する)",
+    "meaning": "輸入",
+    "isImportant": true
+  },
+  {
+    "id": "word_647",
+    "kanji": "やり取り",
+    "reading": "やりとり",
+    "pos": "名詞 / (～する)",
+    "meaning": "往來、互動（メールのやり取り（郵件往來））",
+    "isImportant": true
+  },
+  {
+    "id": "word_648",
+    "kanji": "調査",
+    "reading": "ちょうさ",
+    "pos": "名詞 / (～する)",
+    "meaning": "調查",
+    "isImportant": true
+  },
+  {
+    "id": "word_649",
+    "kanji": "高級",
+    "reading": "こうきゅう",
+    "pos": "名詞 / な形容詞",
+    "meaning": "高級、高檔",
+    "isImportant": true
+  },
+  {
+    "id": "word_650",
+    "kanji": "遠慮",
+    "reading": "えんりょ",
+    "pos": "名詞 / (～する)",
+    "meaning": "客氣、顧慮；節制、自制；婉拒、謝絕（肯定拒絕；否定盡情做）",
+    "isImportant": true
+  },
+  {
+    "id": "word_651",
+    "kanji": "ゲップ",
+    "reading": "",
+    "pos": "名詞",
+    "meaning": "打嗝 (belch / げっぷ)",
+    "isImportant": false
+  },
+  {
+    "id": "word_652",
+    "kanji": "ストレス",
+    "reading": "",
+    "pos": "名詞",
+    "meaning": "壓力 (stress)",
+    "isImportant": true
+  },
+  {
     "id": "word_107",
     "kanji": "受ける",
     "reading": "うける",
@@ -1585,8 +1721,8 @@ const initialDeck = [
   },
   {
     "id": "word_159",
-    "kanji": "むく",
-    "reading": "剥く",
+    "kanji": "剥く",
+    "reading": "むく",
     "pos": "第一類動詞 (五段/他)",
     "meaning": "剝皮、削皮",
     "isImportant": true
@@ -1748,7 +1884,7 @@ const initialDeck = [
     "kanji": "襲う",
     "reading": "おそう",
     "pos": "第一類動詞 (五段/他)",
-    "meaning": "襲擊、侵襲",
+    "meaning": "襲擊、侵襲；繼承、承襲",
     "isImportant": false
   },
   {
@@ -1854,6 +1990,14 @@ const initialDeck = [
     "pos": "第一類動詞 (五段/自)",
     "meaning": "凍結、結冰",
     "isImportant": false
+  },
+  {
+    "id": "word_653",
+    "kanji": "晴れる",
+    "reading": "はれる",
+    "pos": "第二類動詞 (下一段/自)",
+    "meaning": "放晴",
+    "isImportant": true
   },
   {
     "id": "word_193",
@@ -2020,7 +2164,7 @@ const initialDeck = [
     "kanji": "嫌う",
     "reading": "きらう",
     "pos": "第一類動詞 (五段/他)",
-    "meaning": "討厭、厭惡",
+    "meaning": "討厭、厭惡、嫌棄",
     "isImportant": false
   },
   {
@@ -2129,8 +2273,8 @@ const initialDeck = [
   },
   {
     "id": "word_632",
-    "kanji": "もうかる",
-    "reading": "儲かる",
+    "kanji": "儲かる",
+    "reading": "もうかる",
     "pos": "第一類動詞 (五段/自)",
     "meaning": "賺錢、獲利",
     "isImportant": false
@@ -2224,11 +2368,11 @@ const initialDeck = [
     "isImportant": true
   },
   {
-    "id": "word_240",
-    "kanji": "済む",
+    "id": "word_633",
+    "kanji": "済む・住む",
     "reading": "すむ",
     "pos": "第一類動詞 (五段/自)",
-    "meaning": "完結、結束；（用～で）只需～即可",
+    "meaning": "完結、結束（済む）；居住（住む）",
     "isImportant": true
   },
   {
@@ -2237,14 +2381,6 @@ const initialDeck = [
     "reading": "すませる",
     "pos": "第二類動詞 (下一段/他)",
     "meaning": "做完、完成（雜事）",
-    "isImportant": true
-  },
-  {
-    "id": "word_242",
-    "kanji": "住む",
-    "reading": "すむ",
-    "pos": "第一類動詞 (五段/自)",
-    "meaning": "居住",
     "isImportant": true
   },
   {
@@ -2308,7 +2444,7 @@ const initialDeck = [
     "kanji": "外す",
     "reading": "はずす",
     "pos": "第一類動詞 (五段/他)",
-    "meaning": "取下、解開；避開；錯過",
+    "meaning": "取下、解開；避開；錯過；離席",
     "isImportant": true
   },
   {
@@ -2916,7 +3052,7 @@ const initialDeck = [
     "kanji": "細かい",
     "reading": "こまかい",
     "pos": "い形容詞",
-    "meaning": "細小的、零碎的；小額的；細心",
+    "meaning": "細小的、零碎的；小額的；細心(看細節、程度上)",
     "isImportant": true
   },
   {
@@ -2924,7 +3060,7 @@ const initialDeck = [
     "kanji": "細い",
     "reading": "ほそい",
     "pos": "い形容詞",
-    "meaning": "細的、纖細的",
+    "meaning": "細的、纖細的(看外形、物理上)",
     "isImportant": true
   },
   {
@@ -2953,16 +3089,16 @@ const initialDeck = [
   },
   {
     "id": "word_274",
-    "kanji": "みにくい",
-    "reading": "醜い",
+    "kanji": "醜い",
+    "reading": "みにくい",
     "pos": "い形容詞",
     "meaning": "難看的、醜陋的",
     "isImportant": false
   },
   {
     "id": "word_275",
-    "kanji": "つらい",
-    "reading": "辛い",
+    "kanji": "辛い",
+    "reading": "つらい",
     "pos": "い形容詞",
     "meaning": "痛苦的、難受的；辛苦的",
     "isImportant": true
@@ -2977,8 +3113,8 @@ const initialDeck = [
   },
   {
     "id": "word_277",
-    "kanji": "もったいない",
-    "reading": "勿体ない",
+    "kanji": "勿体ない",
+    "reading": "もったいない",
     "pos": "い形容詞",
     "meaning": "浪費的、可惜的",
     "isImportant": true
@@ -3052,7 +3188,7 @@ const initialDeck = [
     "kanji": "惜しい",
     "reading": "おしい",
     "pos": "い形容詞",
-    "meaning": "可惜的、遺憾的；差一點就～",
+    "meaning": "可惜的、遺憾的；差一點就～；吝嗇、小氣",
     "isImportant": true
   },
   {
@@ -3064,7 +3200,7 @@ const initialDeck = [
     "isImportant": true
   },
   {
-    "id": "word_288",
+    "id": "word_634",
     "kanji": "さわがしい",
     "reading": "騒がしい",
     "pos": "い形容詞",
@@ -3152,8 +3288,8 @@ const initialDeck = [
     "isImportant": true
   },
   {
-    "id": "word_490",
-    "kanji": "ほがらか（朗らか）な",
+    "id": "word_635",
+    "kanji": "朗らか（ほがらか）な",
     "reading": "",
     "pos": "な形容詞",
     "meaning": "爽朗的、開朗的",
@@ -3544,11 +3680,11 @@ const initialDeck = [
     "isImportant": false
   },
   {
-    "id": "word_338",
-    "kanji": "ぴかぴか",
+    "id": "word_654",
+    "kanji": "ピカピカ(ぴかぴか)",
     "reading": "",
     "pos": "副詞 / (～する)",
-    "meaning": "閃閃發亮、光亮如新",
+    "meaning": "閃閃發光、亮晶晶；嶄新、光亮",
     "isImportant": false
   },
   {
@@ -3904,14 +4040,6 @@ const initialDeck = [
     "isImportant": false
   },
   {
-    "id": "word_591",
-    "kanji": "一遍に",
-    "reading": "いっぺんに",
-    "pos": "副詞",
-    "meaning": "一下子、一次、同時（＝一度に）",
-    "isImportant": false
-  },
-  {
     "id": "word_592",
     "kanji": "不図",
     "reading": "ふと",
@@ -4108,7 +4236,7 @@ const initialDeck = [
     "kanji": "サボる",
     "reading": "",
     "pos": "第一類動詞 (五段/自)",
-    "meaning": "怠工、曠工、翹班、偷懶（外來語：sabotage）",
+    "meaning": "怠工、曠工、翹班、偷懶（外來語：sabotage / さぼって）",
     "isImportant": true
   },
   {
@@ -4757,6 +4885,14 @@ const initialDeck = [
     "reading": "",
     "pos": "慣用語",
     "meaning": "有禮貌、舉止端正（表現出來的行為）",
+    "isImportant": false
+  },
+  {
+    "id": "word_655",
+    "kanji": "鼾をかく",
+    "reading": "いびきをかく",
+    "pos": "慣用語",
+    "meaning": "打鼾、打呼",
     "isImportant": false
   }
 ];
