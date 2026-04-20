@@ -2300,7 +2300,7 @@ const initialDeck = [
     "kanji": "揺れる",
     "reading": "ゆれる",
     "pos": "第二類動詞 (下一段/自)",
-    "meaning": "擺動、搖動",
+    "meaning": "擺動、搖動；猶豫",
     "isImportant": false
   },
   {
@@ -3201,8 +3201,8 @@ const initialDeck = [
   },
   {
     "id": "word_634",
-    "kanji": "さわがしい",
-    "reading": "騒がしい",
+    "kanji": "騒がしい",
+    "reading": "さわがしい",
     "pos": "い形容詞",
     "meaning": "吵鬧的、喧鬧的(口語、一般用)",
     "isImportant": false
