@@ -3233,72 +3233,72 @@ const initialDeck = [
   },
   {
     "id": "word_483",
-    "kanji": "簡単（かんたん）な",
-    "reading": "",
+    "kanji": "簡単な",
+    "reading": "かんたんな",
     "pos": "な形容詞",
     "meaning": "簡單",
     "isImportant": true
   },
   {
     "id": "word_484",
-    "kanji": "安全（あんぜん）な",
-    "reading": "",
+    "kanji": "安全な",
+    "reading": "あんぜんな",
     "pos": "名詞 / な形容詞",
     "meaning": "安全",
     "isImportant": true
   },
   {
     "id": "word_485",
-    "kanji": "危険（きけん）な",
-    "reading": "",
+    "kanji": "危険な",
+    "reading": "きけんな",
     "pos": "名詞 / な形容詞",
     "meaning": "危險",
     "isImportant": true
   },
   {
     "id": "word_486",
-    "kanji": "新鮮（しんせん）な",
-    "reading": "",
+    "kanji": "新鮮な",
+    "reading": "しんせんな",
     "pos": "な形容詞",
     "meaning": "新鮮",
     "isImportant": false
   },
   {
     "id": "word_487",
-    "kanji": "豊か（ゆたか）な",
-    "reading": "",
+    "kanji": "豊かな",
+    "reading": "ゆたかな",
     "pos": "な形容詞",
     "meaning": "豐富、富裕",
     "isImportant": false
   },
   {
     "id": "word_488",
-    "kanji": "得意（とくい）な",
-    "reading": "",
+    "kanji": "得意な",
+    "reading": "とくいな",
     "pos": "な形容詞",
     "meaning": "擅長、拿手；得意",
     "isImportant": true
   },
   {
     "id": "word_489",
-    "kanji": "上手（じょうず）な",
-    "reading": "",
+    "kanji": "上手な",
+    "reading": "じょうずな",
     "pos": "な形容詞",
     "meaning": "高明的、擅長的",
     "isImportant": true
   },
   {
     "id": "word_635",
-    "kanji": "朗らか（ほがらか）な",
-    "reading": "",
+    "kanji": "朗らかな",
+    "reading": "ほがらかな",
     "pos": "な形容詞",
     "meaning": "爽朗的、開朗的",
     "isImportant": false
   },
   {
     "id": "word_491",
-    "kanji": "平気（へいき）な",
-    "reading": "",
+    "kanji": "平気な",
+    "reading": "へいきな",
     "pos": "な形容詞",
     "meaning": "不在乎的、沒事的",
     "isImportant": true
@@ -3313,104 +3313,104 @@ const initialDeck = [
   },
   {
     "id": "word_492",
-    "kanji": "贅沢（ぜいたく）な",
-    "reading": "",
+    "kanji": "贅沢な",
+    "reading": "ぜいたくな",
     "pos": "な形容詞",
     "meaning": "奢侈的、豪華的",
     "isImportant": false
   },
   {
     "id": "word_493",
-    "kanji": "貧乏（びんぼう）な",
-    "reading": "",
+    "kanji": "貧乏な",
+    "reading": "びんぼうな",
     "pos": "な形容詞",
     "meaning": "貧窮的",
     "isImportant": false
   },
   {
     "id": "word_494",
-    "kanji": "生意気（なまいき）な",
-    "reading": "",
+    "kanji": "生意気な",
+    "reading": "なまいきな",
     "pos": "な形容詞",
     "meaning": "傲慢的、自以為是的、厚臉皮",
     "isImportant": false
   },
   {
     "id": "word_495",
-    "kanji": "意地悪（いじわる）な",
-    "reading": "",
+    "kanji": "意地悪な",
+    "reading": "いじわるな",
     "pos": "な形容詞 / 名詞",
     "meaning": "壞心腸、故意刁難人",
     "isImportant": true
   },
   {
     "id": "word_496",
-    "kanji": "下品（げひん）な",
-    "reading": "",
+    "kanji": "下品な",
+    "reading": "げひんな",
     "pos": "な形容詞",
     "meaning": "粗俗、低俗",
     "isImportant": false
   },
   {
     "id": "word_497",
-    "kanji": "呑気（のんき）な",
-    "reading": "",
+    "kanji": "呑気な",
+    "reading": "のんきな",
     "pos": "な形容詞",
     "meaning": "無憂無慮、悠哉",
     "isImportant": false
   },
   {
     "id": "word_498",
-    "kanji": "我儘（わがまま）な",
-    "reading": "",
+    "kanji": "我儘な",
+    "reading": "わがままな",
     "pos": "な形容詞 / 名詞",
     "meaning": "任性、自私、為所欲為",
     "isImportant": true
   },
   {
     "id": "word_499",
-    "kanji": "不平（ふへい）な",
-    "reading": "",
+    "kanji": "不平な",
+    "reading": "ふへいな",
     "pos": "な形容詞 / 名詞",
     "meaning": "不平、不滿、牢騷",
     "isImportant": false
   },
   {
     "id": "word_500",
-    "kanji": "当たり前（あたりまえ）な",
-    "reading": "",
+    "kanji": "当たり前な",
+    "reading": "あたりまえな",
     "pos": "な形容詞",
     "meaning": "理所當然",
     "isImportant": true
   },
   {
     "id": "word_501",
-    "kanji": "真っ暗（まっくら）な",
-    "reading": "",
+    "kanji": "真っ暗な",
+    "reading": "まっくらな",
     "pos": "な形容詞",
     "meaning": "黑漆漆的",
     "isImportant": false
   },
   {
     "id": "word_502",
-    "kanji": "真っ黒（まっくろ）な",
-    "reading": "",
+    "kanji": "真っ黒な",
+    "reading": "まっくろな",
     "pos": "な形容詞",
     "meaning": "黝黑的",
     "isImportant": false
   },
   {
     "id": "word_503",
-    "kanji": "真っ青（まっさお）な",
-    "reading": "",
+    "kanji": "真っ青な",
+    "reading": "まっさおな",
     "pos": "な形容詞",
     "meaning": "深藍的；（臉色）鐵青",
     "isImportant": true
   },
   {
     "id": "word_504",
-    "kanji": "真っ赤（まっか）な",
-    "reading": "",
+    "kanji": "真っ赤な",
+    "reading": "まっかな",
     "pos": "な形容詞",
     "meaning": "鮮紅的；（完全的）謊言（真っ赤な嘘）",
     "isImportant": true
@@ -3441,40 +3441,40 @@ const initialDeck = [
   },
   {
     "id": "word_505",
-    "kanji": "楽（らく）な",
-    "reading": "",
+    "kanji": "楽な",
+    "reading": "らくな",
     "pos": "な形容詞",
     "meaning": "輕鬆的、安樂的",
     "isImportant": true
   },
   {
     "id": "word_506",
-    "kanji": "曖昧（あいまい）な",
-    "reading": "",
+    "kanji": "曖昧な",
+    "reading": "あいまいな",
     "pos": "な形容詞",
     "meaning": "曖昧、含糊、模糊、不明確、模稜兩可",
     "isImportant": false
   },
   {
     "id": "word_507",
-    "kanji": "出鱈目",
-    "reading": "でたらめ",
+    "kanji": "出鱈目な",
+    "reading": "でたらめな",
     "pos": "な形容詞 / 名詞",
     "meaning": "胡說八道、隨便亂說、胡亂、馬虎、隨便",
     "isImportant": false
   },
   {
     "id": "word_508",
-    "kanji": "確か（たしか）な",
-    "reading": "",
+    "kanji": "確かな",
+    "reading": "たしかな",
     "pos": "な形容詞",
     "meaning": "的確、確實的",
     "isImportant": true
   },
   {
     "id": "word_509",
-    "kanji": "不安（ふあん）な",
-    "reading": "",
+    "kanji": "不安な",
+    "reading": "ふあんな",
     "pos": "な形容詞",
     "meaning": "不安的、擔心的",
     "isImportant": true
