@@ -908,7 +908,7 @@ const initialDeck = [
     "kanji": "裏返し",
     "reading": "うらがえし",
     "pos": "名詞",
-    "meaning": "翻面、反面／內幕",
+    "meaning": "翻面、反面；內幕",
     "isImportant": false
   },
   {
@@ -932,7 +932,7 @@ const initialDeck = [
     "kanji": "日当たり",
     "reading": "ひあたり",
     "pos": "名詞",
-    "meaning": "採光、日照、向陽／日曬情況",
+    "meaning": "採光、日照、向陽；日曬情況",
     "isImportant": false
   },
   {
@@ -3200,9 +3200,9 @@ const initialDeck = [
     "isImportant": true
   },
   {
-    "id": "word_634",
-    "kanji": "騒がしい",
-    "reading": "さわがしい",
+    "id": "word_657",
+    "kanji": "さわがしい",
+    "reading": "騒がしい",
     "pos": "い形容詞",
     "meaning": "吵鬧的、喧鬧的(口語、一般用)",
     "isImportant": false
@@ -3372,7 +3372,7 @@ const initialDeck = [
     "kanji": "不平な",
     "reading": "ふへいな",
     "pos": "な形容詞 / 名詞",
-    "meaning": "不平、不滿、牢騷",
+    "meaning": "不公平、不滿、牢騷",
     "isImportant": false
   },
   {
@@ -3456,9 +3456,9 @@ const initialDeck = [
     "isImportant": false
   },
   {
-    "id": "word_507",
+    "id": "word_658",
     "kanji": "出鱈目な",
-    "reading": "でたらめな",
+    "reading": "でたらめ",
     "pos": "な形容詞 / 名詞",
     "meaning": "胡說八道、隨便亂說、胡亂、馬虎、隨便",
     "isImportant": false
@@ -3500,7 +3500,7 @@ const initialDeck = [
     "kanji": "素直な",
     "reading": "すなおな",
     "pos": "な形容詞",
-    "meaning": "坦率的、不扭捏、直率的／順從的、聽話的",
+    "meaning": "坦率的、不扭捏、直率的；順從的、聽話的",
     "isImportant": true
   },
   {
@@ -3980,7 +3980,7 @@ const initialDeck = [
     "kanji": "もう",
     "reading": "",
     "pos": "副詞",
-    "meaning": "已經／再（多用於數量）",
+    "meaning": "已經；再（多用於數量）",
     "isImportant": false
   },
   {
@@ -4476,7 +4476,7 @@ const initialDeck = [
     "kanji": "それなら",
     "reading": "",
     "pos": "接續詞",
-    "meaning": "那樣的話、那麼（＝それでは／それじゃ）",
+    "meaning": "那樣的話、那麼（＝それでは；それじゃ）",
     "isImportant": false
   },
   {
@@ -4484,7 +4484,7 @@ const initialDeck = [
     "kanji": "それに",
     "reading": "",
     "pos": "接續詞",
-    "meaning": "而且、再加上（＝そのうえ／しかも）",
+    "meaning": "而且、再加上（＝そのうえ；しかも）",
     "isImportant": false
   },
   {
@@ -4500,7 +4500,7 @@ const initialDeck = [
     "kanji": "その上",
     "reading": "そのうえ",
     "pos": "接續詞",
-    "meaning": "而且、再加上（＝それに／しかも）",
+    "meaning": "而且、再加上（＝それに；しかも）",
     "isImportant": false
   },
   {
@@ -4508,7 +4508,7 @@ const initialDeck = [
     "kanji": "そのため",
     "reading": "",
     "pos": "接續詞",
-    "meaning": "因此（＝だから／それで／その結果）",
+    "meaning": "因此（＝だから；それで；その結果）",
     "isImportant": false
   },
   {
@@ -4549,6 +4549,54 @@ const initialDeck = [
     "reading": "",
     "pos": "接續詞",
     "meaning": "對了（變換話題）",
+    "isImportant": false
+  },
+  {
+    "id": "word_659",
+    "kanji": "組む",
+    "reading": "くむ",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "組合、搭配；交叉（手臂、腳）；合作、聯手",
+    "isImportant": true
+  },
+  {
+    "id": "word_660",
+    "kanji": "ゼミ",
+    "reading": "",
+    "pos": "名詞",
+    "meaning": "研討課、研討會、專題討論 (seminar)",
+    "isImportant": false
+  },
+  {
+    "id": "word_661",
+    "kanji": "インストール",
+    "reading": "",
+    "pos": "名詞 / (～する)",
+    "meaning": "安裝、安裝軟體 (install)",
+    "isImportant": true
+  },
+  {
+    "id": "word_662",
+    "kanji": "触る",
+    "reading": "さわる",
+    "pos": "第一類動詞 (五段/自)",
+    "meaning": "觸摸、碰觸",
+    "isImportant": true
+  },
+  {
+    "id": "word_663",
+    "kanji": "材料",
+    "reading": "ざいりょう",
+    "pos": "名詞",
+    "meaning": "材料、素材；題材",
+    "isImportant": true
+  },
+  {
+    "id": "word_664",
+    "kanji": "蛇口",
+    "reading": "じゃぐち",
+    "pos": "名詞",
+    "meaning": "水龍頭",
     "isImportant": false
   },
   {
