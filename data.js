@@ -908,7 +908,7 @@ const initialDeck = [
     "kanji": "裏返し",
     "reading": "うらがえし",
     "pos": "名詞",
-    "meaning": "翻面、反面；內幕",
+    "meaning": "翻面、反面／內幕",
     "isImportant": false
   },
   {
@@ -932,7 +932,7 @@ const initialDeck = [
     "kanji": "日当たり",
     "reading": "ひあたり",
     "pos": "名詞",
-    "meaning": "採光、日照、向陽；日曬情況",
+    "meaning": "採光、日照、向陽／日曬情況",
     "isImportant": false
   },
   {
@@ -3500,7 +3500,7 @@ const initialDeck = [
     "kanji": "素直な",
     "reading": "すなおな",
     "pos": "な形容詞",
-    "meaning": "坦率的、不扭捏、直率的；順從的、聽話的",
+    "meaning": "坦率的、不扭捏、直率的／順從的、聽話的",
     "isImportant": true
   },
   {
@@ -3664,7 +3664,7 @@ const initialDeck = [
     "isImportant": true
   },
   {
-    "id": "word_336",
+    "id": "word_665",
     "kanji": "ぺこぺこ",
     "reading": "",
     "pos": "な形容詞 / 副詞",
@@ -3680,7 +3680,7 @@ const initialDeck = [
     "isImportant": false
   },
   {
-    "id": "word_654",
+    "id": "word_666",
     "kanji": "ピカピカ(ぴかぴか)",
     "reading": "",
     "pos": "副詞 / (～する)",
@@ -3688,7 +3688,7 @@ const initialDeck = [
     "isImportant": false
   },
   {
-    "id": "word_339",
+    "id": "word_667",
     "kanji": "ぺらぺら",
     "reading": "",
     "pos": "副詞 / な形容詞",
@@ -3980,7 +3980,7 @@ const initialDeck = [
     "kanji": "もう",
     "reading": "",
     "pos": "副詞",
-    "meaning": "已經；再（多用於數量）",
+    "meaning": "已經／再（多用於數量）",
     "isImportant": false
   },
   {
@@ -4476,7 +4476,7 @@ const initialDeck = [
     "kanji": "それなら",
     "reading": "",
     "pos": "接續詞",
-    "meaning": "那樣的話、那麼（＝それでは；それじゃ）",
+    "meaning": "那樣的話、那麼（＝それでは／それじゃ）",
     "isImportant": false
   },
   {
@@ -4484,7 +4484,7 @@ const initialDeck = [
     "kanji": "それに",
     "reading": "",
     "pos": "接續詞",
-    "meaning": "而且、再加上（＝そのうえ；しかも）",
+    "meaning": "而且、再加上（＝そのうえ／しかも）",
     "isImportant": false
   },
   {
@@ -4500,7 +4500,7 @@ const initialDeck = [
     "kanji": "その上",
     "reading": "そのうえ",
     "pos": "接續詞",
-    "meaning": "而且、再加上（＝それに；しかも）",
+    "meaning": "而且、再加上（＝それに／しかも）",
     "isImportant": false
   },
   {
@@ -4508,7 +4508,7 @@ const initialDeck = [
     "kanji": "そのため",
     "reading": "",
     "pos": "接續詞",
-    "meaning": "因此（＝だから；それで；その結果）",
+    "meaning": "因此（＝だから／それで／その結果）",
     "isImportant": false
   },
   {
@@ -4598,6 +4598,46 @@ const initialDeck = [
     "pos": "名詞",
     "meaning": "水龍頭",
     "isImportant": false
+  },
+  {
+    "id": "word_668",
+    "kanji": "給料日",
+    "reading": "きゅうりょうび",
+    "pos": "名詞",
+    "meaning": "發薪日、薪水日",
+    "isImportant": true
+  },
+  {
+    "id": "word_669",
+    "kanji": "公共料金",
+    "reading": "こうきょうりょうきん",
+    "pos": "名詞",
+    "meaning": "公共費用（水電瓦斯費、電話費等公定收費）",
+    "isImportant": true
+  },
+  {
+    "id": "word_670",
+    "kanji": "通過",
+    "reading": "つうか",
+    "pos": "名詞 / (～する)",
+    "meaning": "通過、經過、穿過（交通工具不停靠直接開過去）",
+    "isImportant": true
+  },
+  {
+    "id": "word_671",
+    "kanji": "トランク",
+    "reading": "",
+    "pos": "名詞",
+    "meaning": "行李箱、後車廂 (trunk)",
+    "isImportant": false
+  },
+  {
+    "id": "word_672",
+    "kanji": "両替",
+    "reading": "りょうがえ",
+    "pos": "名詞 / (～する)",
+    "meaning": "換錢、兌幣",
+    "isImportant": true
   },
   {
     "id": "word_573",
