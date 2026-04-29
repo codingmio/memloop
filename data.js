@@ -3636,7 +3636,7 @@ const initialDeck = [
     "kanji": "ぶらぶら",
     "reading": "",
     "pos": "副詞 / (～する)",
-    "meaning": "閒逛、無所事事；搖晃",
+    "meaning": "閒逛、無所事事(悠閒地、沒有目的、有點廢)；搖晃",
     "isImportant": false
   },
   {
@@ -3676,21 +3676,21 @@ const initialDeck = [
     "kanji": "ふらふら",
     "reading": "",
     "pos": "副詞 / (～する)",
-    "meaning": "搖晃、頭暈；無所適從",
+    "meaning": "搖晃、頭暈(身體或狀態不穩)；無所適從",
     "isImportant": false
   },
   {
     "id": "word_666",
-    "kanji": "ピカピカ(ぴかぴか)",
-    "reading": "",
+    "kanji": "ピカピカ",
+    "reading": "ぴかぴか",
     "pos": "副詞 / (～する)",
     "meaning": "閃閃發光、亮晶晶；嶄新、光亮",
     "isImportant": false
   },
   {
     "id": "word_667",
-    "kanji": "ぺらぺら",
-    "reading": "",
+    "kanji": "ペラペラ",
+    "reading": "ぺらぺら",
     "pos": "副詞 / な形容詞",
     "meaning": "流利地；薄的；喋喋不休",
     "isImportant": true
@@ -3740,7 +3740,7 @@ const initialDeck = [
     "kanji": "うっかり",
     "reading": "",
     "pos": "副詞 / (～する)",
-    "meaning": "不留神、不小心、一不注意",
+    "meaning": "不留神、不小心、一不注意、粗心大意",
     "isImportant": true
   },
   {
@@ -3756,7 +3756,7 @@ const initialDeck = [
     "kanji": "すっかり",
     "reading": "",
     "pos": "副詞",
-    "meaning": "完全、全部（強調徹底）",
+    "meaning": "完全、全部（強調徹底、結果已經完全改變）",
     "isImportant": true
   },
   {
@@ -3796,7 +3796,7 @@ const initialDeck = [
     "kanji": "そっと",
     "reading": "",
     "pos": "副詞 / (～する)",
-    "meaning": "輕輕地、悄悄地",
+    "meaning": "輕輕地、悄悄地(不想打擾，被看到沒關係)",
     "isImportant": true
   },
   {
@@ -3804,7 +3804,7 @@ const initialDeck = [
     "kanji": "さっぱり",
     "reading": "",
     "pos": "副詞",
-    "meaning": "完全（後接否定）；清爽、爽快",
+    "meaning": "完全（後接否定：完全不懂、完全沒有）；清爽、爽快",
     "isImportant": true
   },
   {
@@ -3820,7 +3820,7 @@ const initialDeck = [
     "kanji": "こっそり",
     "reading": "",
     "pos": "副詞",
-    "meaning": "悄悄地、偷偷地",
+    "meaning": "悄悄地、偷偷地(偷偷地的行動，怕被人發現)",
     "isImportant": false
   },
   {
