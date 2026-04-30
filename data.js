@@ -1124,7 +1124,7 @@ const initialDeck = [
     "kanji": "行列",
     "reading": "ぎょうれつ",
     "pos": "名詞",
-    "meaning": "隊伍、行列；矩陣",
+    "meaning": "隊伍、行列；矩陣(慣用：行列ができる，大排長龍之意)",
     "isImportant": true
   },
   {
@@ -3388,7 +3388,7 @@ const initialDeck = [
     "kanji": "真っ暗な",
     "reading": "まっくらな",
     "pos": "な形容詞",
-    "meaning": "黑漆漆的",
+    "meaning": "黑漆漆的(環境很暗、伸手不見五指)",
     "isImportant": false
   },
   {
@@ -3396,7 +3396,7 @@ const initialDeck = [
     "kanji": "真っ黒な",
     "reading": "まっくろな",
     "pos": "な形容詞",
-    "meaning": "黝黑的",
+    "meaning": "黝黑的、烏黑的(物體)",
     "isImportant": false
   },
   {
@@ -3680,17 +3680,17 @@ const initialDeck = [
     "isImportant": false
   },
   {
-    "id": "word_666",
-    "kanji": "ピカピカ",
-    "reading": "ぴかぴか",
+    "id": "word_673",
+    "kanji": "ピカピカ(ぴかぴか)",
+    "reading": "",
     "pos": "副詞 / (～する)",
     "meaning": "閃閃發光、亮晶晶；嶄新、光亮",
     "isImportant": false
   },
   {
-    "id": "word_667",
-    "kanji": "ペラペラ",
-    "reading": "ぺらぺら",
+    "id": "word_674",
+    "kanji": "ぺらぺら",
+    "reading": "",
     "pos": "副詞 / な形容詞",
     "meaning": "流利地；薄的；喋喋不休",
     "isImportant": true
@@ -3740,7 +3740,7 @@ const initialDeck = [
     "kanji": "うっかり",
     "reading": "",
     "pos": "副詞 / (～する)",
-    "meaning": "不留神、不小心、一不注意、粗心大意",
+    "meaning": "不留神、不小心、一不注意",
     "isImportant": true
   },
   {
@@ -3756,7 +3756,7 @@ const initialDeck = [
     "kanji": "すっかり",
     "reading": "",
     "pos": "副詞",
-    "meaning": "完全、全部（強調徹底、結果已經完全改變）",
+    "meaning": "完全、全部（強調徹底）",
     "isImportant": true
   },
   {
@@ -3796,7 +3796,7 @@ const initialDeck = [
     "kanji": "そっと",
     "reading": "",
     "pos": "副詞 / (～する)",
-    "meaning": "輕輕地、悄悄地(不想打擾，被看到沒關係)",
+    "meaning": "輕輕地、悄悄地",
     "isImportant": true
   },
   {
@@ -3804,7 +3804,7 @@ const initialDeck = [
     "kanji": "さっぱり",
     "reading": "",
     "pos": "副詞",
-    "meaning": "完全（後接否定：完全不懂、完全沒有）；清爽、爽快",
+    "meaning": "完全（後接否定）；清爽、爽快",
     "isImportant": true
   },
   {
@@ -3820,7 +3820,7 @@ const initialDeck = [
     "kanji": "こっそり",
     "reading": "",
     "pos": "副詞",
-    "meaning": "悄悄地、偷偷地(偷偷地的行動，怕被人發現)",
+    "meaning": "悄悄地、偷偷地",
     "isImportant": false
   },
   {
@@ -3836,7 +3836,7 @@ const initialDeck = [
     "kanji": "遂に",
     "reading": "ついに",
     "pos": "副詞",
-    "meaning": "終於、最終",
+    "meaning": "終於、最終、竟然",
     "isImportant": true
   },
   {
@@ -4637,6 +4637,46 @@ const initialDeck = [
     "reading": "りょうがえ",
     "pos": "名詞 / (～する)",
     "meaning": "換錢、兌幣",
+    "isImportant": true
+  },
+  {
+    "id": "word_675",
+    "kanji": "相手",
+    "reading": "あいて",
+    "pos": "名詞",
+    "meaning": "對方、對象、共事夥伴、對手",
+    "isImportant": true
+  },
+  {
+    "id": "word_676",
+    "kanji": "申し込み",
+    "reading": "もうしこみ",
+    "pos": "名詞 / (～する)",
+    "meaning": "申請、報名",
+    "isImportant": true
+  },
+  {
+    "id": "word_677",
+    "kanji": "特売品",
+    "reading": "とくばいひん",
+    "pos": "名詞",
+    "meaning": "特價品、特賣品",
+    "isImportant": false
+  },
+  {
+    "id": "word_678",
+    "kanji": "派手",
+    "reading": "はで",
+    "pos": "な形容詞",
+    "meaning": "華麗、花俏、引人注目",
+    "isImportant": true
+  },
+  {
+    "id": "word_679",
+    "kanji": "只",
+    "reading": "ただ",
+    "pos": "副詞 / な形容詞",
+    "meaning": "只是；普通的；免費（口語，同無料）",
     "isImportant": true
   },
   {
