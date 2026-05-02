@@ -3868,7 +3868,7 @@ const initialDeck = [
     "kanji": "うろうろ",
     "reading": "",
     "pos": "副詞 / (～する)",
-    "meaning": "徘徊、不知所措地到處走",
+    "meaning": "徘徊、不知所措地到處走(事情進展不順、內心焦躁，偶爾帶有「鬼鬼祟祟」的負面印象)",
     "isImportant": true
   },
   {
