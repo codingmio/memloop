@@ -3681,8 +3681,8 @@ const initialDeck = [
   },
   {
     "id": "word_673",
-    "kanji": "ピカピカ(ぴかぴか)",
-    "reading": "",
+    "kanji": "ピカピカ",
+    "reading": "ぴかぴか",
     "pos": "副詞 / (～する)",
     "meaning": "閃閃發光、亮晶晶；嶄新、光亮",
     "isImportant": false
@@ -3796,7 +3796,7 @@ const initialDeck = [
     "kanji": "そっと",
     "reading": "",
     "pos": "副詞 / (～する)",
-    "meaning": "輕輕地、悄悄地",
+    "meaning": "輕輕地、悄悄地(動作輕柔、不造成打擾)",
     "isImportant": true
   },
   {
@@ -3820,7 +3820,7 @@ const initialDeck = [
     "kanji": "こっそり",
     "reading": "",
     "pos": "副詞",
-    "meaning": "悄悄地、偷偷地",
+    "meaning": "悄悄地、偷偷地(怕被別人看到或知道)",
     "isImportant": false
   },
   {
@@ -3858,7 +3858,7 @@ const initialDeck = [
   {
     "id": "word_360",
     "kanji": "がらがら",
-    "reading": "",
+    "reading": "ガラガラ",
     "pos": "副詞 / な形容詞",
     "meaning": "空蕩蕩的（人少、空位多）",
     "isImportant": true
@@ -4700,7 +4700,7 @@ const initialDeck = [
     "kanji": "いいかげんな",
     "reading": "",
     "pos": "慣用語",
-    "meaning": "敷衍的、馬馬虎虎的；不認真的",
+    "meaning": "敷衍的、馬馬虎虎的；不認真的(做事的方式、人的性格)",
     "isImportant": true
   },
   {
@@ -4708,7 +4708,7 @@ const initialDeck = [
     "kanji": "大したことがない",
     "reading": "たいしたことがない",
     "pos": "慣用語",
-    "meaning": "沒什麼大礙、算不了什麼",
+    "meaning": "沒什麼大礙、算不了什麼(事情的嚴重性)",
     "isImportant": true
   },
   {
@@ -4716,7 +4716,7 @@ const initialDeck = [
     "kanji": "気の毒",
     "reading": "きのどく",
     "pos": "慣用語",
-    "meaning": "可憐的、令人同情的",
+    "meaning": "可憐的、令人同情的；不好意思、過意不去(お気の毒に：深表同情)",
     "isImportant": true
   },
   {
@@ -4740,7 +4740,7 @@ const initialDeck = [
     "kanji": "口を利く",
     "reading": "くちをきく",
     "pos": "慣用語",
-    "meaning": "說話、開口說",
+    "meaning": "說話、開口說：斡旋、說情",
     "isImportant": false
   },
   {
@@ -4780,7 +4780,7 @@ const initialDeck = [
     "kanji": "気にする",
     "reading": "きにする",
     "pos": "慣用語",
-    "meaning": "介意、擔心",
+    "meaning": "介意、擔心(自己主動刻意的掛念，帶有耿耿於懷、在乎或、想太多的負面色彩)",
     "isImportant": true
   },
   {
@@ -4788,7 +4788,7 @@ const initialDeck = [
     "kanji": "気になる",
     "reading": "きになる",
     "pos": "慣用語",
-    "meaning": "掛念、在意、引起興趣",
+    "meaning": "掛念、在意、引起興趣(自己的意志無法控制，不由自主地去想)",
     "isImportant": true
   },
   {
@@ -4796,7 +4796,7 @@ const initialDeck = [
     "kanji": "気にかける",
     "reading": "きにかける",
     "pos": "慣用語",
-    "meaning": "關心、掛心",
+    "meaning": "關心、掛心、放在心上",
     "isImportant": true
   },
   {
