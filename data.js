@@ -3740,7 +3740,7 @@ const initialDeck = [
     "kanji": "うっかり",
     "reading": "",
     "pos": "副詞 / (～する)",
-    "meaning": "不留神、不小心、一不注意",
+    "meaning": "不留神、不小心、一不注意、一時疏忽、粗心大意",
     "isImportant": true
   },
   {
@@ -4748,7 +4748,7 @@ const initialDeck = [
     "kanji": "口にする",
     "reading": "くちにする",
     "pos": "慣用語",
-    "meaning": "吃進嘴裡；說到、提及",
+    "meaning": "吃進嘴裡；說到、提及(沒有 口になる)",
     "isImportant": true
   },
   {
@@ -4844,7 +4844,7 @@ const initialDeck = [
     "kanji": "焦った",
     "reading": "あせった",
     "pos": "慣用語",
-    "meaning": "焦急、慌張",
+    "meaning": "焦急、慌張；焦る（あせる）：焦急、著急、心急 變化而來",
     "isImportant": false
   },
   {
@@ -4892,7 +4892,7 @@ const initialDeck = [
     "kanji": "得をする",
     "reading": "とくをする",
     "pos": "慣用語",
-    "meaning": "得到、獲利、佔到便宜",
+    "meaning": "得到、獲利、佔到便宜(主體（人）的體驗)；得になる強調事情演變成的狀態，對(人)有好處",
     "isImportant": false
   },
   {
@@ -4900,7 +4900,7 @@ const initialDeck = [
     "kanji": "損をする",
     "reading": "そんをする",
     "pos": "慣用語",
-    "meaning": "虧損、受損、吃虧",
+    "meaning": "虧損、受損、吃虧(某人經歷了損失，通常主語是「人」)",
     "isImportant": true
   },
   {
@@ -4908,7 +4908,7 @@ const initialDeck = [
     "kanji": "損になる",
     "reading": "そんになる",
     "pos": "慣用語",
-    "meaning": "受損、吃虧",
+    "meaning": "受損、吃虧(某件事演變成損失的狀態)",
     "isImportant": false
   },
   {
