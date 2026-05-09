@@ -1290,9 +1290,9 @@ const initialDeck = [
   {
     "id": "word_651",
     "kanji": "ゲップ",
-    "reading": "",
+    "reading": "げっぷ",
     "pos": "名詞",
-    "meaning": "打嗝 (belch / げっぷ)",
+    "meaning": "打嗝 (belch)",
     "isImportant": false
   },
   {
@@ -1628,7 +1628,7 @@ const initialDeck = [
     "kanji": "空く",
     "reading": "あく",
     "pos": "第一類動詞 (五段/自)",
-    "meaning": "空出、騰出；（肚子）餓",
+    "meaning": "空出、騰出(空出來、沒人用-空間）；（肚子）餓",
     "isImportant": true
   },
   {
@@ -1644,7 +1644,7 @@ const initialDeck = [
     "kanji": "透く",
     "reading": "すく",
     "pos": "第一類動詞 (五段/自)",
-    "meaning": "稀疏、人少",
+    "meaning": "稀疏、人少(變稀疏、變不擁擠-密度)",
     "isImportant": false
   },
   {
@@ -3572,7 +3572,7 @@ const initialDeck = [
     "kanji": "所々",
     "reading": "ところどころ",
     "pos": "副詞 / 名詞",
-    "meaning": "處處、到處有些地方",
+    "meaning": "處處、到處、有些地方",
     "isImportant": false
   },
   {
@@ -5029,6 +5029,38 @@ const initialDeck = [
     "reading": "いびきをかく",
     "pos": "慣用語",
     "meaning": "打鼾、打呼",
+    "isImportant": false
+  },
+  {
+    "id": "word_680",
+    "kanji": "可能な",
+    "reading": "かのうな",
+    "pos": "な形容詞",
+    "meaning": "可能、可行",
+    "isImportant": true
+  },
+  {
+    "id": "word_681",
+    "kanji": "長男",
+    "reading": "ちょうなん",
+    "pos": "名詞",
+    "meaning": "長男",
+    "isImportant": false
+  },
+  {
+    "id": "word_682",
+    "kanji": "積極的な",
+    "reading": "せっきょくてきな",
+    "pos": "な形容詞",
+    "meaning": "積極",
+    "isImportant": true
+  },
+  {
+    "id": "word_683",
+    "kanji": "嚏",
+    "reading": "くしゃみ",
+    "pos": "名詞",
+    "meaning": "打噴嚏",
     "isImportant": false
   }
 ];
