@@ -2146,7 +2146,7 @@ const initialDeck = [
   {
     "id": "word_211",
     "kanji": "包む",
-    "reading": "つつむ",
+    "reading": "つつむ/くるむ",
     "pos": "第一類動詞 (五段/他)",
     "meaning": "包裹、包住",
     "isImportant": true
@@ -2553,8 +2553,8 @@ const initialDeck = [
   },
   {
     "id": "word_440",
-    "kanji": "ぬれる",
-    "reading": "",
+    "kanji": "濡れる",
+    "reading": "ぬれる",
     "pos": "第二類動詞 (下一段/自)",
     "meaning": "淋濕",
     "isImportant": false
@@ -2857,8 +2857,8 @@ const initialDeck = [
   },
   {
     "id": "word_590",
-    "kanji": "こぼす",
-    "reading": "",
+    "kanji": "零す",
+    "reading": "こぼす",
     "pos": "第一類動詞 (五段/他)",
     "meaning": "灑落、流落",
     "isImportant": false
@@ -5061,6 +5061,14 @@ const initialDeck = [
     "reading": "くしゃみ",
     "pos": "名詞",
     "meaning": "打噴嚏",
+    "isImportant": false
+  },
+  {
+    "id": "word_684",
+    "kanji": "包丁",
+    "reading": "ほうちょう",
+    "pos": "名詞",
+    "meaning": "菜刀",
     "isImportant": false
   }
 ];
