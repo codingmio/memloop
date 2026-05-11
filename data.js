@@ -1844,7 +1844,7 @@ const initialDeck = [
     "kanji": "苦しむ",
     "reading": "くるしむ",
     "pos": "第一類動詞 (五段/自)",
-    "meaning": "受苦、痛苦、煩惱",
+    "meaning": "受苦、痛苦、煩惱(受苦的行為或過程)",
     "isImportant": false
   },
   {
@@ -3100,7 +3100,7 @@ const initialDeck = [
     "kanji": "辛い",
     "reading": "つらい",
     "pos": "い形容詞",
-    "meaning": "痛苦的、難受的；辛苦的",
+    "meaning": "痛苦的、難受的；辛苦的(內心的感受或生理上的「難受、難熬」)",
     "isImportant": true
   },
   {
@@ -5070,5 +5070,29 @@ const initialDeck = [
     "pos": "名詞",
     "meaning": "菜刀",
     "isImportant": false
+  },
+  {
+    "id": "word_685",
+    "kanji": "恐ろしい",
+    "reading": "おそろしい",
+    "pos": "い形容詞",
+    "meaning": "可怕的、恐怖的、駭人的",
+    "isImportant": true
+  },
+  {
+    "id": "word_686",
+    "kanji": "奪う",
+    "reading": "うばう",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "奪取、搶奪、剝奪",
+    "isImportant": true
+  },
+  {
+    "id": "word_687",
+    "kanji": "補う",
+    "reading": "おぎなう",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "補充、填補、彌補",
+    "isImportant": true
   }
 ];
