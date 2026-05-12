@@ -5094,5 +5094,53 @@ const initialDeck = [
     "pos": "第一類動詞 (五段/他)",
     "meaning": "補充、填補、彌補",
     "isImportant": true
+  },
+  {
+    "id": "word_688",
+    "kanji": "ほっと",
+    "reading": "",
+    "pos": "副詞・自動詞",
+    "meaning": "鬆口氣、輕嘆",
+    "isImportant": true
+  },
+  {
+    "id": "word_689",
+    "kanji": "颯と",
+    "reading": "さっと",
+    "pos": "副詞",
+    "meaning": "迅速地、快速地",
+    "isImportant": true
+  },
+  {
+    "id": "word_690",
+    "kanji": "移す",
+    "reading": "うつす",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "移動、轉移、搬移",
+    "isImportant": true
+  },
+  {
+    "id": "word_691",
+    "kanji": "治す・直す",
+    "reading": "なおす",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "治療、醫治（治す）；修改、修理、重做（直す）",
+    "isImportant": true
+  },
+  {
+    "id": "word_692",
+    "kanji": "羽",
+    "reading": "はね",
+    "pos": "名詞",
+    "meaning": "羽毛、羽翼、翅膀",
+    "isImportant": false
+  },
+  {
+    "id": "word_693",
+    "kanji": "筆者",
+    "reading": "ひっしゃ",
+    "pos": "名詞",
+    "meaning": "筆者、作者、撰稿人",
+    "isImportant": false
   }
 ];
