@@ -244,7 +244,7 @@ const initialDeck = [
     "kanji": "理由",
     "reading": "りゆう",
     "pos": "名詞",
-    "meaning": "理由",
+    "meaning": "理由(做出一項選擇、決定或行為背後的「動機或藉口」)",
     "isImportant": true
   },
   {
@@ -1364,7 +1364,7 @@ const initialDeck = [
     "kanji": "迷う",
     "reading": "まよう",
     "pos": "第一類動詞 (五段/自)",
-    "meaning": "迷路、迷失；猶豫不決",
+    "meaning": "迷路、迷失(空間上)；猶豫不決",
     "isImportant": true
   },
   {
@@ -2372,7 +2372,7 @@ const initialDeck = [
     "kanji": "済む・住む",
     "reading": "すむ",
     "pos": "第一類動詞 (五段/自)",
-    "meaning": "完結、結束（済む）；居住（住む）",
+    "meaning": "完結、結束（済む）、搭配 「仕事が」；居住（住む）",
     "isImportant": true
   },
   {
@@ -2380,7 +2380,7 @@ const initialDeck = [
     "kanji": "済ませる",
     "reading": "すませる",
     "pos": "第二類動詞 (下一段/他)",
-    "meaning": "做完、完成（雜事）",
+    "meaning": "做完、完成（雜事）、搭配 「仕事を」",
     "isImportant": true
   },
   {
@@ -2722,18 +2722,10 @@ const initialDeck = [
   {
     "id": "word_463",
     "kanji": "捲る",
-    "reading": "めくる",
+    "reading": "めくる・まくる",
     "pos": "第一類動詞 (五段/他)",
-    "meaning": "掀起、翻轉（頁、月曆、牌）",
+    "meaning": "掀起、翻轉（頁、月曆、牌；めくる）・向上捲起、收摺（袖子等；まくる）",
     "isImportant": true
-  },
-  {
-    "id": "word_464",
-    "kanji": "捲る",
-    "reading": "まくる",
-    "pos": "第一類動詞 (五段/他)",
-    "meaning": "向上捲起、收摺（袖子等）",
-    "isImportant": false
   },
   {
     "id": "word_465",
@@ -4364,7 +4356,7 @@ const initialDeck = [
     "kanji": "原因",
     "reading": "げんいん",
     "pos": "名詞",
-    "meaning": "原因",
+    "meaning": "原因(用於解釋「不好、負面結果」產生的導火線)",
     "isImportant": true
   },
   {
@@ -5142,5 +5134,21 @@ const initialDeck = [
     "pos": "名詞",
     "meaning": "筆者、作者、撰稿人",
     "isImportant": false
+  },
+  {
+    "id": "word_694",
+    "kanji": "生演奏",
+    "reading": "なまえんそう",
+    "pos": "名詞",
+    "meaning": "現場演奏、實況演奏",
+    "isImportant": false
+  },
+  {
+    "id": "word_695",
+    "kanji": "伸びる",
+    "reading": "のびる",
+    "pos": "第二類動詞 (上一段/自)",
+    "meaning": "伸長、增長、留長、長進",
+    "isImportant": true
   }
 ];
