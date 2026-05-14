@@ -35,7 +35,7 @@ let deck = []; // 所有單字卡
 let todayQueue = []; // 今日要複習的清單
 let currentCardIndex = 0;
 let isFlipped = false;
-const MAX_DAILY_CARDS = 30;
+const MAX_DAILY_CARDS = 35;
 
 // === 初始化 ===
 function init() {
@@ -60,7 +60,8 @@ function loadData() {
             { from: 'word_234', to: 'word_233' },
             { from: 'word_240', to: 'word_633' }, // 済む → 済む・住む（合併）
             { from: 'word_242', to: 'word_633' }, // 住む → 済む・住む（合併）
-            { from: 'word_464', to: 'word_463' }  // 捲る(まくる) → 捲る(めくる・まくる)（合併）
+            { from: 'word_464', to: 'word_463' }, // 捲る(まくる) → 捲る(めくる・まくる)（合併）
+            { from: 'word_429', to: 'word_428' }  // 週刊 → 習慣・週刊（合併）
         ];
 
         migrations.forEach(mig => {
@@ -163,7 +164,7 @@ function generateTodayQueue() {
         } else {
             // 第一天使用
             diffDays = 0;
-            pendingQuota = 30;
+            pendingQuota = 35;
         }
         if (diffDays > 0) {
             // 找出今天必須複習的「前一次標為 Hard」的單字數量
@@ -177,7 +178,7 @@ function generateTodayQueue() {
             let penalty = 0;
             if (diffDays > 1) penalty = 15;
 
-            let theoreticalQuota = 30 + hardDueCount + penalty;
+            let theoreticalQuota = 35 + hardDueCount + penalty;
 
             if (theoreticalQuota > 60) {
                 let overflow = theoreticalQuota - 60;

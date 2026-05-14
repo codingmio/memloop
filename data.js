@@ -889,18 +889,10 @@ const initialDeck = [
   },
   {
     "id": "word_428",
-    "kanji": "習慣",
+    "kanji": "習慣・週刊",
     "reading": "しゅうかん",
     "pos": "名詞",
-    "meaning": "習慣",
-    "isImportant": false
-  },
-  {
-    "id": "word_429",
-    "kanji": "週刊",
-    "reading": "しゅうかん",
-    "pos": "名詞",
-    "meaning": "週刊雜誌",
+    "meaning": "習慣；週刊雜誌",
     "isImportant": false
   },
   {
@@ -2620,7 +2612,7 @@ const initialDeck = [
     "kanji": "溢れる",
     "reading": "あふれる",
     "pos": "第二類動詞 (下一段/自)",
-    "meaning": "溢出、滿溢、氾濫",
+    "meaning": "溢出、滿溢、氾濫；充滿、洋溢【液體滿過容器邊緣，或是抽象的感情、活力「滿溢」出來；側重「量多到裝不下」的狀態】",
     "isImportant": false
   },
   {
@@ -2628,7 +2620,7 @@ const initialDeck = [
     "kanji": "零れる",
     "reading": "こぼれる",
     "pos": "第二類動詞 (下一段/自)",
-    "meaning": "液體灑出、流出、灑落",
+    "meaning": "液(固)體灑出、流出、灑落【液體或固體（如米、沙子）不小心從容器中掉出來；側重「流失、掉落」的動作】",
     "isImportant": false
   },
   {
