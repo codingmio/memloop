@@ -1076,7 +1076,7 @@ const initialDeck = [
     "kanji": "振り込み",
     "reading": "ふりこみ",
     "pos": "名詞",
-    "meaning": "匯款、轉帳、劃撥",
+    "meaning": "(銀行)匯款、轉帳、劃撥",
     "isImportant": true
   },
   {
@@ -1572,7 +1572,7 @@ const initialDeck = [
     "kanji": "着替える",
     "reading": "きがえる",
     "pos": "第二類動詞 (下一段/自)",
-    "meaning": "換衣服、更衣",
+    "meaning": "換衣服、更衣；着替え（きがえ）：為名詞，表換洗衣物",
     "isImportant": false
   },
   {
@@ -2500,7 +2500,7 @@ const initialDeck = [
     "kanji": "甘える",
     "reading": "あまえる",
     "pos": "第二類動詞 (下一段/自)",
-    "meaning": "撒嬌",
+    "meaning": "撒嬌、依賴；甘於、滿足於",
     "isImportant": false
   },
   {
@@ -4649,8 +4649,8 @@ const initialDeck = [
   },
   {
     "id": "word_678",
-    "kanji": "派手",
-    "reading": "はで",
+    "kanji": "派手な",
+    "reading": "はでな",
     "pos": "な形容詞",
     "meaning": "華麗、花俏、引人注目",
     "isImportant": true
@@ -5142,5 +5142,69 @@ const initialDeck = [
     "pos": "第二類動詞 (上一段/自)",
     "meaning": "伸長、增長、留長、長進",
     "isImportant": true
+  },
+  {
+    "id": "word_696",
+    "kanji": "泊める",
+    "reading": "とめる",
+    "pos": "第二類動詞 (下一段/他)",
+    "meaning": "讓～住宿、留宿、收留",
+    "isImportant": true
+  },
+  {
+    "id": "word_697",
+    "kanji": "振り掛け",
+    "reading": "ふりかけ",
+    "pos": "名詞",
+    "meaning": "撒在飯上的調味料、香鬆、拌飯料",
+    "isImportant": false
+  },
+  {
+    "id": "word_698",
+    "kanji": "割り込み",
+    "reading": "わりこみ",
+    "pos": "名詞 / (~する)",
+    "meaning": "插入、插隊；中斷",
+    "isImportant": true
+  },
+  {
+    "id": "word_699",
+    "kanji": "張り込み",
+    "reading": "はりこみ",
+    "pos": "名詞 / (~する)",
+    "meaning": "監視、埋伏；蹲點、守候",
+    "isImportant": false
+  },
+  {
+    "id": "word_700",
+    "kanji": "表す",
+    "reading": "あらわす",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "表示、表現、代表",
+    "isImportant": true
+  },
+  {
+    "id": "word_701",
+    "kanji": "入荷",
+    "reading": "にゅうか",
+    "pos": "名詞 / (~する)",
+    "meaning": "進貨、入貨",
+    "isImportant": false
+  },
+  {
+    "id": "word_702",
+    "kanji": "まぶた",
+    "reading": "まぶた",
+    "pos": "名詞",
+    "meaning": "眼瞼、眼皮",
+    "isImportant": false
+  },
+  {
+    "id": "word_703",
+    "kanji": "まつ毛",
+    "reading": "まつげ",
+    "pos": "名詞",
+    "meaning": "睫毛",
+    "isImportant": false
   }
 ];
