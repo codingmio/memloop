@@ -1572,7 +1572,7 @@ const initialDeck = [
     "kanji": "着替える",
     "reading": "きがえる",
     "pos": "第二類動詞 (下一段/自)",
-    "meaning": "換衣服、更衣；着替え（きがえ）：為名詞，表換洗衣物",
+    "meaning": "換衣服、更衣；着替え（きがえ）：為名詞，表換洗衣物(同種類物品的替換)；着換え：用於「不同性質東西的對調」。",
     "isImportant": false
   },
   {
@@ -3484,7 +3484,7 @@ const initialDeck = [
     "kanji": "素直な",
     "reading": "すなおな",
     "pos": "な形容詞",
-    "meaning": "坦率的、不扭捏、直率的／順從的、聽話的",
+    "meaning": "坦率的、不扭捏、直率的；順從的、聽話的",
     "isImportant": true
   },
   {
@@ -3569,8 +3569,8 @@ const initialDeck = [
   },
   {
     "id": "word_515",
-    "kanji": "次々（つぎつぎ）に",
-    "reading": "",
+    "kanji": "次々に",
+    "reading": "つぎつぎに",
     "pos": "副詞",
     "meaning": "接連不斷地、相繼",
     "isImportant": false
@@ -3921,10 +3921,10 @@ const initialDeck = [
   },
   {
     "id": "word_521",
-    "kanji": "とたんに",
-    "reading": "",
+    "kanji": "途端に",
+    "reading": "とたんに",
     "pos": "副詞",
-    "meaning": "正當～時，突然（＝急に）",
+    "meaning": "正當～時、就在那時、一～就～",
     "isImportant": false
   },
   {
@@ -5206,5 +5206,21 @@ const initialDeck = [
     "pos": "名詞",
     "meaning": "睫毛",
     "isImportant": false
+  },
+  {
+    "id": "word_704",
+    "kanji": "てっきり",
+    "reading": "てっきり",
+    "pos": "副詞",
+    "meaning": "肯定、一定、必定（原本深信不疑、一直以為，後常接表示與事實相反的否定句）",
+    "isImportant": true
+  },
+  {
+    "id": "word_705",
+    "kanji": "きっぱり",
+    "reading": "きっぱり",
+    "pos": "副詞 / (~する)",
+    "meaning": "斷然、果斷地、乾脆地（拒絕或決定）",
+    "isImportant": true
   }
 ];
