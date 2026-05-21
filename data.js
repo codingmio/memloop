@@ -3953,8 +3953,8 @@ const initialDeck = [
   },
   {
     "id": "word_525",
-    "kanji": "ますます",
-    "reading": "",
+    "kanji": "益々",
+    "reading": "ますます",
     "pos": "副詞",
     "meaning": "更加、益發、越來越～",
     "isImportant": false
@@ -3969,10 +3969,10 @@ const initialDeck = [
   },
   {
     "id": "word_527",
-    "kanji": "さらに",
-    "reading": "",
+    "kanji": "更に",
+    "reading": "さらに",
     "pos": "副詞",
-    "meaning": "更進一步（偏書面）",
+    "meaning": "更加、更進一步（偏書面）；而且、並且",
     "isImportant": false
   },
   {
@@ -3980,7 +3980,7 @@ const initialDeck = [
     "kanji": "全く",
     "reading": "まったく",
     "pos": "副詞",
-    "meaning": "完全、全然（全く～ない：一點也不～）",
+    "meaning": "完全、全然（全く～ない：一點也不～）、簡直；實在、真的",
     "isImportant": false
   },
   {
