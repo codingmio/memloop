@@ -2524,7 +2524,7 @@ const initialDeck = [
     "kanji": "湿らせる",
     "reading": "しめらせる",
     "pos": "第二類動詞 (下一段/他)",
-    "meaning": "使潮濕、弄濕",
+    "meaning": "使潮濕、弄濕(含有適度的水分)",
     "isImportant": false
   },
   {
@@ -2540,7 +2540,7 @@ const initialDeck = [
     "kanji": "濡らす",
     "reading": "ぬらす",
     "pos": "第一類動詞 (五段/他)",
-    "meaning": "弄濕、浸濕、沾濕",
+    "meaning": "弄濕、浸濕、沾濕(將乾的東西直接變成「濕透」的狀態)",
     "isImportant": false
   },
   {
@@ -3060,7 +3060,7 @@ const initialDeck = [
     "kanji": "大人しい",
     "reading": "おとなしい",
     "pos": "い形容詞",
-    "meaning": "老實的、溫順的、穩重的、溫順的、文靜的、老實的",
+    "meaning": "老實的、溫順的、穩重的、文靜的",
     "isImportant": true
   },
   {
@@ -3788,7 +3788,7 @@ const initialDeck = [
     "kanji": "さっぱり",
     "reading": "",
     "pos": "副詞",
-    "meaning": "完全（後接否定）；清爽、爽快",
+    "meaning": "完全（後接否定）；清爽、爽快(體感、味覺解膩) ",
     "isImportant": true
   },
   {
@@ -3796,7 +3796,7 @@ const initialDeck = [
     "kanji": "あっさり",
     "reading": "",
     "pos": "副詞",
-    "meaning": "清淡、簡單；個性乾脆、爽快",
+    "meaning": "(味覺)清淡、簡單；個性乾脆、爽快",
     "isImportant": true
   },
   {
@@ -3892,7 +3892,7 @@ const initialDeck = [
     "kanji": "すっきり",
     "reading": "",
     "pos": "副詞 / (～する)",
-    "meaning": "清爽、舒暢、神清氣爽",
+    "meaning": "清爽、舒暢、神清氣爽(精神、思想；視覺、空間)",
     "isImportant": true
   },
   {
@@ -4460,7 +4460,7 @@ const initialDeck = [
     "kanji": "それなら",
     "reading": "",
     "pos": "接續詞",
-    "meaning": "那樣的話、那麼（＝それでは／それじゃ）",
+    "meaning": "那樣的話、那麼（＝それでは；それじゃ）",
     "isImportant": false
   },
   {
@@ -4468,7 +4468,7 @@ const initialDeck = [
     "kanji": "それに",
     "reading": "",
     "pos": "接續詞",
-    "meaning": "而且、再加上（＝そのうえ／しかも）",
+    "meaning": "而且、還有（＝そのうえ；しかも）(平淡、客觀，單純累加)",
     "isImportant": false
   },
   {
@@ -4484,7 +4484,7 @@ const initialDeck = [
     "kanji": "その上",
     "reading": "そのうえ",
     "pos": "接續詞",
-    "meaning": "而且、再加上（＝それに／しかも）",
+    "meaning": "而且、再加上、甚至（＝それに；しかも）(驚訝、強烈認同、抱怨)",
     "isImportant": false
   },
   {
@@ -4513,10 +4513,10 @@ const initialDeck = [
   },
   {
     "id": "word_570",
-    "kanji": "ところが",
-    "reading": "",
+    "kanji": "所が",
+    "reading": "ところが",
     "pos": "接續詞",
-    "meaning": "然而、但是（＝しかし）",
+    "meaning": "然而、可是、但是（＝しかし）",
     "isImportant": false
   },
   {
@@ -4524,7 +4524,7 @@ const initialDeck = [
     "kanji": "ですから",
     "reading": "",
     "pos": "接續詞",
-    "meaning": "因此（比だから有禮貌，＝だから）",
+    "meaning": "因此（＝だから，比だから有禮貌）",
     "isImportant": false
   },
   {
@@ -5001,8 +5001,8 @@ const initialDeck = [
   },
   {
     "id": "word_578",
-    "kanji": "行儀（ぎょうぎ）がいい",
-    "reading": "",
+    "kanji": "行儀がいい",
+    "reading": "ぎょうぎがいい",
     "pos": "慣用語",
     "meaning": "有禮貌、舉止端正（表現出來的行為）",
     "isImportant": false
@@ -5221,6 +5221,22 @@ const initialDeck = [
     "reading": "きっぱり",
     "pos": "副詞 / (~する)",
     "meaning": "斷然、果斷地、乾脆地（拒絕或決定）",
+    "isImportant": true
+  },
+  {
+    "id": "word_706",
+    "kanji": "お近くにお越しのときは",
+    "reading": "おちかくにおこしのときは",
+    "pos": "慣用語",
+    "meaning": "如果你來附近（謙讓語、慣用表達）",
+    "isImportant": true
+  },
+  {
+    "id": "word_707",
+    "kanji": "立ち寄り",
+    "reading": "たちより",
+    "pos": "名詞 / (~する)",
+    "meaning": "順道、順便",
     "isImportant": true
   }
 ];
