@@ -5238,5 +5238,61 @@ const initialDeck = [
     "pos": "名詞 / (~する)",
     "meaning": "順道、順便",
     "isImportant": true
+  },
+  {
+    "id": "word_708",
+    "kanji": "足す",
+    "reading": "たす",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "加（數學加法）、添加",
+    "isImportant": true
+  },
+  {
+    "id": "word_709",
+    "kanji": "引く",
+    "reading": "ひく",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "減（數學減法）；往自己方向拉、吸引（注意）；抽（抽籤、抽獎）",
+    "isImportant": true
+  },
+  {
+    "id": "word_710",
+    "kanji": "割る",
+    "reading": "わる",
+    "pos": "第一類動詞 (五段/他)",
+    "meaning": "除（數學除法）；打破",
+    "isImportant": true
+  },
+  {
+    "id": "word_711",
+    "kanji": "手術",
+    "reading": "しゅじゅつ",
+    "pos": "名詞 / (~する)",
+    "meaning": "手術",
+    "isImportant": true
+  },
+  {
+    "id": "word_712",
+    "kanji": "頭痛",
+    "reading": "ずつう",
+    "pos": "名詞",
+    "meaning": "頭痛",
+    "isImportant": true
+  },
+  {
+    "id": "word_713",
+    "kanji": "腐る",
+    "reading": "くさる",
+    "pos": "第一類動詞 (五段/自)",
+    "meaning": "腐敗、腐爛",
+    "isImportant": true
+  },
+  {
+    "id": "word_714",
+    "kanji": "様々",
+    "reading": "さまざま",
+    "pos": "な形容詞 / 副詞",
+    "meaning": "各式各樣、形形色色",
+    "isImportant": true
   }
 ];
