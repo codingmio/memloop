@@ -1809,8 +1809,8 @@ const initialDeck = [
   },
   {
     "id": "word_620",
-    "kanji": "あきらめる",
-    "reading": "諦める",
+    "kanji": "諦める",
+    "reading": "あきらめる",
     "pos": "第二類動詞 (下一段/他)",
     "meaning": "死心、放棄",
     "isImportant": true
@@ -2009,8 +2009,8 @@ const initialDeck = [
   },
   {
     "id": "word_622",
-    "kanji": "たたむ",
-    "reading": "畳む",
+    "kanji": "畳む",
+    "reading": "たたむ",
     "pos": "第一類動詞 (五段/他)",
     "meaning": "折疊、疊好",
     "isImportant": false
@@ -4049,10 +4049,10 @@ const initialDeck = [
   },
   {
     "id": "word_594",
-    "kanji": "ものすごく",
-    "reading": "",
-    "pos": "副詞",
-    "meaning": "非常、十分地（凄く/すごく的強調說法）",
+    "kanji": "物凄い",
+    "reading": "ものすごい",
+    "pos": "形容詞",
+    "meaning": "非常、極其、十分地（物凄く：強調說法，副詞）",
     "isImportant": false
   },
   {
