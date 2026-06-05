@@ -900,7 +900,7 @@ const initialDeck = [
     "kanji": "裏返し",
     "reading": "うらがえし",
     "pos": "名詞",
-    "meaning": "翻面、反面／內幕",
+    "meaning": "翻面、反面；內幕",
     "isImportant": false
   },
   {
@@ -1825,8 +1825,8 @@ const initialDeck = [
   },
   {
     "id": "word_621",
-    "kanji": "あきる",
-    "reading": "飽きる",
+    "kanji": "飽きる",
+    "reading": "あきる",
     "pos": "第二類動詞 (上一段/自)",
     "meaning": "厭煩、膩了",
     "isImportant": true
@@ -2177,8 +2177,8 @@ const initialDeck = [
   },
   {
     "id": "word_630",
-    "kanji": "つながる",
-    "reading": "繋がる",
+    "kanji": "繋がる",
+    "reading": "つながる",
     "pos": "第一類動詞 (五段/自)",
     "meaning": "電話接通；連接上",
     "isImportant": true
@@ -2193,8 +2193,8 @@ const initialDeck = [
   },
   {
     "id": "word_631",
-    "kanji": "そろう",
-    "reading": "揃う",
+    "kanji": "揃う",
+    "reading": "そろう",
     "pos": "第一類動詞 (五段/自)",
     "meaning": "齊全、聚齊",
     "isImportant": false
@@ -4428,13 +4428,13 @@ const initialDeck = [
     "kanji": "それで",
     "reading": "",
     "pos": "接續詞",
-    "meaning": "所以、因此",
+    "meaning": "所以、因此、然後",
     "isImportant": false
   },
   {
     "id": "word_560",
     "kanji": "あと",
-    "reading": "＝そのほかに",
+    "reading": "＝そのほかに(課本用法)；＝ほかに(口語)",
     "pos": "接續詞",
     "meaning": "另外、然後、還有",
     "isImportant": false
@@ -4444,7 +4444,7 @@ const initialDeck = [
     "kanji": "それと",
     "reading": "＝それから",
     "pos": "接續詞",
-    "meaning": "然後（口語用法）",
+    "meaning": "還有、另外（口語用法，「物品的追加」或「同時存在的另一件事」）；然後、接下來(それから：時間的先後順序)",
     "isImportant": false
   },
   {
@@ -4473,10 +4473,10 @@ const initialDeck = [
   },
   {
     "id": "word_565",
-    "kanji": "そういえば",
-    "reading": "",
+    "kanji": "そう言えば",
+    "reading": "そういえば",
     "pos": "接續詞",
-    "meaning": "這麼說來、經那麼一說（想到了～）",
+    "meaning": "這麼說來、經那麼一說（想到了～）、說到這個、話說回來",
     "isImportant": false
   },
   {
@@ -4500,7 +4500,7 @@ const initialDeck = [
     "kanji": "それなのに",
     "reading": "",
     "pos": "接續詞",
-    "meaning": "儘管如此（＝けれど（も））",
+    "meaning": "儘管如此、然而，明明前面那樣，後面竟然變成這樣的「抱怨/驚訝」",
     "isImportant": false
   },
   {
@@ -4508,7 +4508,7 @@ const initialDeck = [
     "kanji": "それでも",
     "reading": "",
     "pos": "接續詞",
-    "meaning": "即使、即便（＝それにもかかわらず）",
+    "meaning": "即使如此、即便如此、儘管這樣，不畏前面困難，還是要做的「意志」（N2書面用語：それにもかかわらず）",
     "isImportant": false
   },
   {
