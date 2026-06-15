@@ -3185,8 +3185,8 @@ const initialDeck = [
   },
   {
     "id": "word_657",
-    "kanji": "さわがしい",
-    "reading": "騒がしい",
+    "kanji": "騒がしい",
+    "reading": "さわがしい",
     "pos": "い形容詞",
     "meaning": "吵鬧的、喧鬧的(口語、一般用)",
     "isImportant": false
@@ -3650,7 +3650,7 @@ const initialDeck = [
   {
     "id": "word_665",
     "kanji": "ぺこぺこ",
-    "reading": "",
+    "reading": "ペコペコ",
     "pos": "な形容詞 / 副詞",
     "meaning": "肚子餓；（對人）點頭哈腰",
     "isImportant": false
@@ -3673,8 +3673,8 @@ const initialDeck = [
   },
   {
     "id": "word_674",
-    "kanji": "ぺらぺら",
-    "reading": "",
+    "kanji": "ペラペラ",
+    "reading": "ぺらぺら",
     "pos": "副詞 / な形容詞",
     "meaning": "流利地；薄的；喋喋不休",
     "isImportant": true
@@ -3788,7 +3788,7 @@ const initialDeck = [
     "kanji": "さっぱり",
     "reading": "",
     "pos": "副詞",
-    "meaning": "完全（後接否定）；清爽、爽快(體感、味覺解膩) ",
+    "meaning": "完全（後接否定）；清爽、爽快(身體體感、味覺解膩) ",
     "isImportant": true
   },
   {
@@ -3892,7 +3892,7 @@ const initialDeck = [
     "kanji": "すっきり",
     "reading": "",
     "pos": "副詞 / (～する)",
-    "meaning": "清爽、舒暢、神清氣爽(精神、思想；視覺、空間)",
+    "meaning": "清爽、舒暢、(大腦)神清氣爽(精神、思想；視覺、空間)",
     "isImportant": true
   },
   {
@@ -4508,7 +4508,7 @@ const initialDeck = [
     "kanji": "それでも",
     "reading": "",
     "pos": "接續詞",
-    "meaning": "即使如此、即便如此、儘管這樣，不畏前面困難，還是要做的「意志」（N2書面用語：それにもかかわらず）",
+    "meaning": "即使如此、即便如此、儘管這樣(不畏前面困難，還是要做的「意志」)（N2書面用語：それにもかかわらず）",
     "isImportant": false
   },
   {
