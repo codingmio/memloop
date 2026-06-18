@@ -4529,10 +4529,10 @@ const initialDeck = [
   },
   {
     "id": "word_572",
-    "kanji": "ところで",
-    "reading": "",
+    "kanji": "所で",
+    "reading": "ところで",
     "pos": "接續詞",
-    "meaning": "對了（變換話題）",
+    "meaning": "對了、話說回來、順便一提（變換話題）",
     "isImportant": false
   },
   {
